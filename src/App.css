@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+html,
+body {
+  background-color: #fff;
+  overflow-x: hidden!important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  font-family: syne-reg;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: syne-reg;
+  src: url("./syne.regular.otf");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: syne-bold;
+  src: url("./syne.bold.otf");
+}
+
+a {
+  text-decoration: none!important;
+}
+
+@media (max-width: 767.98px){
+  .desktop {
+    display: none!important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (min-width: 992px){
+  .mobile {
+    display: none!important;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 992px){
+  .header .nav-link {
+    margin-left: 40px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn-main {
+  background: #228B22;
+  border: #228B22;
+}
+
+.header .nav-link {
+  color: #0E390E;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+@media (min-width: 992px){
+  .globe {
+    margin-top: 15px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.herobg {
+  background-image: url(./assets/herobg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.herobg p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.mt-9 {
+  margin-top: 100px!important;
+}
+
+.whychoose {
+  padding: 100px 20px;
+}
+
+.whychoose h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #000;
+  font-family: syne-bold;
+}
+
+.whychoose h6:hover {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #23A323;
+}
+
+.whychoose h6 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #999;
+  cursor: pointer;
+}
+
+.bg-tape {
+  background-color: #F9F9F9;
+  padding: 50px 30px;
+}
+
+.bg-tape h3 {
+  color: #9CA3AF;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
