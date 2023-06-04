@@ -7,8 +7,8 @@ import power from "../assets/empower.svg";
 
 export default function WhyChoose () {
   return (
-    <section className='whychoose'>
-      <div className='container'>
+    <section className=''>
+      <div className='container whychoose'>
         <div className="row">
           <div className="col-sm-6">
             <h2>Why Choose<br/><span style={{color: "#23A323"}}>Hargon?</span></h2>
@@ -36,7 +36,7 @@ export default function WhyChoose () {
           </div>
         </div>
       </div>
-      <div className="mt-9 bg-tape">
+      <div className="bg-tape">
         <div className="container-fluid mx-0">
           <div className="row">
             <div className="col text-center">
