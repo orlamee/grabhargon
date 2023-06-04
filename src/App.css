@@ -108,7 +108,7 @@ a {
 
 .bg-tape {
   background-color: #F9F9F9;
-  padding: 50px 30px;
+  padding: 50px 0px;
 }
 
 .bg-tape h3 {
@@ -117,4 +117,16 @@ a {
   line-height: 19px;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.bringyour {
+  padding: 100px 20px;
+}
+
+.bringyour h3 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 66px;
+  color: #000;
+  font-family: syne-bold;
 }

@@ -3,6 +3,7 @@ import mp from "../assets/mp.svg";
 import card from "../assets/card.svg";
 import secure from "../assets/secure.svg";
 import power from "../assets/empower.svg";
+import scroll from "../assets/scroll.svg";
 
 
 export default function WhyChoose () {
@@ -37,10 +38,11 @@ export default function WhyChoose () {
         </div>
       </div>
       <div className="bg-tape">
-        <div className="container-fluid mx-0">
+        <div className="container-fluid ps-5 pe-0">
           <div className="row">
             <div className="col text-center">
               <h3>We are just getting started</h3>
+              <img src={scroll} alt="scroll" className="img-fluid w-100 mt-4" />
             </div>
           </div>
         </div>
