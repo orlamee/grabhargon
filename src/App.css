@@ -196,3 +196,17 @@ a {
   background-size: cover;
   padding: 100px 20px;
 }
+
+.test-card {
+  background: #FFFFFF;
+  box-shadow: 0px 4.29658px 37.5951px rgba(123, 120, 120, 0.08);
+  border-radius: 9.23013px;
+  padding: 30px 20px 60px 20px;
+}
+
+.test-card h6 {
+  color: #9CA3AF;
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 500;
+}
