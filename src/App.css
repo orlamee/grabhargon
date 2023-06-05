@@ -43,9 +43,16 @@ a {
   }
 }
 
-.btn-main {
+.btn-main,
+.btn-main:hover {
   background: #228B22;
   border: #228B22;
+}
+
+.btn-footer,
+.btn-footer:hover{
+  background: transparent;
+  border: 1px solid #fff;
 }
 
 .header .nav-link {
@@ -198,7 +205,10 @@ a {
 }
 
 .test-card {
-  background: #FFFFFF;
+  background-image: url(./assets/text.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0px 4.29658px 37.5951px rgba(123, 120, 120, 0.08);
   border-radius: 9.23013px;
   padding: 30px 20px 60px 20px;
@@ -209,4 +219,175 @@ a {
   font-size: 21px;
   line-height: 27px;
   font-weight: 500;
+}
+
+.action {
+  cursor: pointer!important;
+}
+
+.paybill {
+  background-image: url(./assets/paybill.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.paybill h2 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 66px;
+  color: #000;
+  font-family: syne-bold;
+}
+
+.paybill h4 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+
+.paybill h6 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #000;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.investor {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.investor h6,
+.clients h6 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+
+.invest {
+  padding: 60px 20px;
+  background: #fff;
+  border-top-color: #FFC727;
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+
+.invest-2 {
+  border-top-color: #FF823B!important;
+}
+
+.invest-3 {
+  border-top-color: #005FEE!important;
+}
+
+.invest-4 {
+  border-top-color: #23A323!important;
+}
+
+.invest h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  font-family: syne-bold;
+}
+
+.clients {
+  padding: 90px 20px;
+}
+
+.clients h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #228B22;
+  font-family: syne-bold;
+}
+
+.join {
+  background-image: url(./assets/joinhargon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 30px;
+  margin-top: 100px;
+  margin-bottom: 120px;
+  border-radius: 20px;
+}
+
+.join h6 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.clients hr {
+  color: #F3F4F6;
+  opacity: 1;
+}
+
+.clients p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #4D4D4D;
+}
+
+.footer-bottom {
+  background: #228B22;
+  padding: 100px 20px 60px;
+}
+
+.navigation h5 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.navigation {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 60px;
+}
+
+.copyright {
+  padding: 25px 0;
+}
+
+.navigation p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.copyright h6 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+}
+
+.navigation a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.navigation a:hover {
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 32px;
 }

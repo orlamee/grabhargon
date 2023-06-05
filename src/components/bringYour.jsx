@@ -10,18 +10,18 @@ export default function BringYour() {
             <div style={{marginTop: "90px", marginBottom: "90px"}}>
               <div className="form-check form-check-inline">
                 <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                <label className="form-check-label" for="inlineRadio1">Self-employed</label>
+                <label className="form-check-label" htmlFor="inlineRadio1">Self-employed</label>
               </div>
               <div className="form-check form-check-inline">
                 <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-                <label className="form-check-label" for="inlineRadio2">Employed</label>
+                <label className="form-check-label" htmlFor="inlineRadio2">Employed</label>
               </div>
             </div>
             <h2 >What’s your monthly income?</h2>
             <div style={{marginTop: "50px", marginBottom: "50px"}}>
-              <label for="customRange1" class="form-label">₦50,000</label>
-              <input type="range" class="form-range" />
-              <label for="customRange1" class="form-label" style={{color: "#9CA3AF"}}>₦50,000</label>
+              <label htmlFor="customRange1" className="form-label">₦50,000</label>
+              <input type="range" className="form-range" />
+              <label htmlFor="customRange1" className="form-label" style={{color: "#9CA3AF"}}>₦20,000</label>
             </div>
             <h2 >Loanable amount</h2>
           </div>
