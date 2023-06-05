@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/har.svg";
+import facebook from "../assets/facebook.svg";
+import twitter from "../assets/twitter.svg";
+import linkedin from "../assets/instagram.svg";
+import instagram from "../assets/linkedin.svg";
 
 
 export default function Footer () {
@@ -57,6 +61,12 @@ export default function Footer () {
                   <ul className="list-unstyled links">
                     <li><Link>Support@hargon.africa</Link></li>
                   </ul>
+                  <div className="d-flex flex-row">
+                    <img src={twitter} alt="twitter" className="img-fluid me-3" />
+                    <img src={linkedin} alt="linkedin" className="img-fluid me-3" />
+                    <img src={instagram} alt="instagram" className="img-fluid me-3" />
+                    <img src={facebook} alt="facebook" className="img-fluid me-3" />
+                  </div>
                 </div>
               </div>
             </div>
