@@ -130,3 +130,58 @@ a {
   color: #000;
   font-family: syne-bold;
 }
+
+.bringyour .form-check-input:checked {
+  background-color: #228B22;
+  border-color: #228B22;
+}
+
+.bringyour .form-check-input {
+  height: 2em;
+  width: 2em;
+  margin-top: -5px;
+  margin-right: 8px;
+}
+
+.bringyour .form-check-label {
+  color: #9CA3AF;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bringyour h2 {
+  color: #9CA3AF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.bringyour .form-label {
+  font-size: 110px;
+  font-weight: 700;
+  line-height: 134px;
+  color: #000;
+}
+
+.features {
+  background: linear-gradient(142.12deg, #F7FDF7 8.27%, #FFFBF5 87.64%);
+  padding: 100px 20px;
+}
+
+.features h6 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.testimony {
+  background-image: url(./assets/testimony.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
