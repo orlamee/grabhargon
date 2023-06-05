@@ -20,7 +20,7 @@ function Header () {
             <Nav.Link href="/">Company</Nav.Link>
           </Nav>
           <Nav className="ms-auto">
-            <Nav.Link href="/pricing"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>
+            <Nav.Link href="/"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>
             <Nav.Link>
               <a
                 className="btn btn-primary btn-main rounded-pill px-5 py-3"
