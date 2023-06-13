@@ -511,10 +511,40 @@ a {
   padding: 100px 20px;
 }
 
-.marketplace h6 {
+.marketplace h6,
+.expandbusiness h6 {
   font-size: 12px;
   font-weight: 500;
   line-height: 14px;
   text-transform: uppercase;
   letter-spacing: 4px;
+}
+
+.expandbusiness {
+  background-image: url(./assets/credit.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.expandbusiness h2 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 78px;
+  color: #0E390E;
+  font-family: syne-bold;
+}
+
+.expandbusiness h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #0E390E;
+}
+
+@media (min-width: 992px){
+  .lef {
+    margin-left: 111px;
+  }
 }
