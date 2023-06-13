@@ -14,7 +14,8 @@ function Header () {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="/">Personal   |   Business</Nav.Link>
+            <Nav.Link href='/personal'>Personal</Nav.Link>
+            <Nav.Link href='/business'>Business</Nav.Link>
             <Nav.Link href="/">Shop</Nav.Link>
             <Nav.Link href="/">Invest</Nav.Link>
             <Nav.Link href="/">Company</Nav.Link>
