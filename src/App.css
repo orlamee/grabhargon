@@ -528,12 +528,23 @@ a {
   padding: 100px 20px;
 }
 
-.expandbusiness h2 {
-  font-size: 60px;
-  font-weight: 500;
-  line-height: 78px;
-  color: #0E390E;
-  font-family: syne-bold;
+@media (min-width: 992px){
+  .expandbusiness h2 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 78px;
+    color: #0E390E;
+    font-family: syne-bold;
+  }
+}
+
+@media (max-width: 767.98px){
+  .expandbusiness h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #0E390E;
+  }
 }
 
 .expandbusiness h5 {

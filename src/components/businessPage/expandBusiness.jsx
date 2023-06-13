@@ -7,7 +7,7 @@ export default function ExpandBusiness() {
     <section className="expandbusiness">
       <div className="container">
         <div className="row">
-          <div className="col-sm-6">
+          <div className="col-sm-6 mb-3">
             <h6>Expansion and growth</h6>
             <h2 className="w-75 mt-4">Expand your <span style={{color: "#FF823B"}}>business</span> with competitive credit.</h2>
           </div>
