@@ -7,6 +7,7 @@ import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Personal from './pages/personal';
+import Business from './pages/business';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/personal" element={<Personal/>}></Route>
+      <Route path="/business" element={<Business/>}></Route>
     </Routes>
   </BrowserRouter>
 );
