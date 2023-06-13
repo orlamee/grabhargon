@@ -26,6 +26,12 @@ export default function Footer () {
             <div className="col-sm-7">
               <div className="row">
                 <div className="col-sm mb-3">
+                  <h5>Developer</h5>
+                  <ul className="list-unstyled links">
+                    <li><Link to="">Integration</Link></li>
+                  </ul>
+                </div>
+                <div className="col-sm mb-3">
                   <h5>Features</h5>
                   <ul className="list-unstyled links">
                     <li><Link to="">Personal</Link></li>

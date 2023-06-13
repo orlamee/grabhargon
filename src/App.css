@@ -399,7 +399,10 @@ a {
 
 .personalbg p,
 .educational p,
-.allowance p {
+.allowance p,
+.mortgage p,
+.salary p,
+.salaryadvance p {
   color: #000;
   font-size: 14px;
   font-weight: 500;
@@ -435,4 +438,48 @@ a {
 .mortgage {
   padding: 150px 20px;
   background-color: #FFFDFA;
+}
+
+.salary {
+  background-image: url(./assets/bgsalary.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+  border-radius: 40px;
+}
+
+.salaryadvance {
+  padding: 90px 20px;
+  background: #fff;
+}
+
+.salaryadvance h2 {
+  color: #000;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 78px;
+  font-family: syne-bold;
+}
+
+.ally {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #207D11 4.78%, #FFC00B 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
+.loanrange {
+  background-image: url(./assets/backbg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 260px 20px;
+  margin-top: -90px;
+  background-color: #fff;
+}
+
+.loany {
+  background: #479f43;
+  border: 1px solid #228B22;
+  border-radius: 10px;
 }
