@@ -402,7 +402,8 @@ a {
 .allowance p,
 .mortgage p,
 .salary p,
-.salaryadvance p {
+.salaryadvance p,
+.businesscredit p {
   color: #000;
   font-size: 14px;
   font-weight: 500;
@@ -482,4 +483,12 @@ a {
   background: #479f43;
   border: 1px solid #228B22;
   border-radius: 10px;
+}
+
+.businesscredit {
+  background-image: url(./assets/acc.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
 }
