@@ -1,5 +1,5 @@
+import EduHeader from "../components/educationalLoan/eduHeader";
 import Footer from "../components/footer";
-import Header from "../components/navbar";
 import Allowance from "../components/personalPage/allowance";
 import Banner from "../components/personalPage/banner";
 import EducationalLoan from "../components/personalPage/educationLoan";
@@ -13,7 +13,7 @@ import SemiFooter from "../components/personalPage/semiFooter";
 function Personal () {
   return (
     <div>
-      <Header/>
+      <EduHeader/>
       <Banner/>
       <EducationalLoan/>
       <Allowance/>

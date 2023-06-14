@@ -699,9 +699,42 @@ a {
   padding: 200px 20px;
 }
 
+.emerge {
+  background-image: url(./assets/ebg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
 .pd-loan h6 {
   color: #6B7280;
   font-size: 20px;
   font-weight: 500;
   line-height: 35px;
+}
+
+.first-step {
+  background: linear-gradient(105.38deg, rgba(32, 125, 17, 0.1) 17.57%, rgba(255, 192, 11, 0.1) 75.58%);
+  padding: 100px 60px 200px 60px;
+}
+
+.second-step {
+  background: #228B22;
+  padding: 100px 60px;
+}
+
+.first-step h2 {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  font-family: syne-bold;
+}
+
+.first-step p {
+  color: #020518;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
 }
