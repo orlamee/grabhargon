@@ -405,11 +405,14 @@ a {
 .salaryadvance p,
 .businesscredit p,
 .paydayloan p,
-.marketplace p {
+.marketplace p,
+.edu-hero p,
+.focus p,
+.intfund p {
   color: #000;
   font-size: 14px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 24px;
 }
 
 .educational {
@@ -557,5 +560,106 @@ a {
 @media (min-width: 992px){
   .lef {
     margin-left: 111px;
+  }
+}
+
+@media (min-width: 992px){
+  .edu-hero {
+    padding: 0px 0px 100px 0px;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 767.98px){
+  .edu-hero {
+    padding: 0px 20px 100px 20px;
+    background-color: #fff;
+  }
+}
+
+.edul {
+  text-transform: uppercase;
+  padding: 14px 25px;
+  background: linear-gradient(106.62deg, rgba(32, 125, 17, 0.38) -22.4%, rgba(255, 192, 11, 0.4) 92.54%);
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.edu-hero h2 {
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65px;
+  color: #041004;
+  font-family: syne-bold;
+}
+
+.focus {
+  background-image: url(./assets/focus.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+.focus h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #fff;
+  font-family: syne-bold;
+}
+
+.intfund {
+  background-image: url(./assets/intbg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.intfund h2 {
+  color: #041004;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.schoolfees {
+  background-image: url(./assets/feebg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.pocket {
+  background-image: url(./assets/pocketmoeny.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.pocket h2 {
+  color: #041004;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 120px;
+  font-family: syne-bold;
+}
+
+.pocket p,
+.schoolfees p {
+  color: #041004;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+@media (min-width: 992px){
+  .sf {
+    margin-top: 150px;
   }
 }

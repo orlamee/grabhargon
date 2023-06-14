@@ -8,6 +8,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Personal from './pages/personal';
 import Business from './pages/business';
+import EducationalLoan from './pages/educationalLoan';
+import SalaryAdvance from './pages/salary';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +18,8 @@ root.render(
       <Route path="/" element={<App />}></Route>
       <Route path="/personal" element={<Personal/>}></Route>
       <Route path="/business" element={<Business/>}></Route>
+      <Route path="/educational-loan" element={<EducationalLoan/>}></Route>
+      <Route path="/salary-advance" element={<SalaryAdvance/>}></Route>
     </Routes>
   </BrowserRouter>
 );
