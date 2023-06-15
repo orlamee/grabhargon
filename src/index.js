@@ -10,6 +10,7 @@ import Personal from './pages/personal';
 import Business from './pages/business';
 import EducationalLoan from './pages/educationalLoan';
 import SalaryAdvance from './pages/salary';
+import MarketPlace from './pages/marketPlace';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
       <Route path="/business" element={<Business/>}></Route>
       <Route path="/educational-loan" element={<EducationalLoan/>}></Route>
       <Route path="/salary-advance" element={<SalaryAdvance/>}></Route>
+      <Route path="/market-place" element={<MarketPlace/>}></Route>
     </Routes>
   </BrowserRouter>
 );
