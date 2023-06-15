@@ -758,3 +758,54 @@ a {
   background: #fff;
   padding: 60px 20px 100px 20px;
 }
+
+.vendor {
+  background-image: url(./assets/back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+}
+
+.ven {
+  color: #228B22;
+  font-size: 16px;
+  background: #F3FCF3;
+  padding: 15px 44px;
+  border-radius: 100px;
+}
+
+.inv {
+  background-image: url(./assets/moneybg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.inv p {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hc {
+  background-color: #F4FCF2;
+  padding: 100px 20px;
+}
+
+.hc p {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.hc h2 {
+  color: #000000;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 78px;
+  font-family: syne-bold;
+}
