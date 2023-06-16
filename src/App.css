@@ -809,3 +809,72 @@ a {
   line-height: 78px;
   font-family: syne-bold;
 }
+
+.mo-hero {
+  background-color: #092A09;
+  padding: 150px 20px;
+}
+
+.mo-hero h2,
+.renting h2 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  font-family: syne-bold;
+}
+
+.mo-hero p,
+.ownership p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #959595;
+}
+
+.ownership {
+  background-image: url(./assets/home.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+.ownership h6,
+.renting h6,
+.realestate h6 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #020518;
+}
+
+.renting {
+  background-image: url(./assets/renting.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.renting p,
+.realestate p {
+  color: #041004;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.realestate {
+  background-image: url(./assets/house.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.realestate h2 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 70px;
+}

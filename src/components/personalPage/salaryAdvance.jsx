@@ -15,7 +15,7 @@ export default function SalaryAdvance() {
           <div className="row justify-content-center">
             <div className="col-sm-8 text-center">
               <img src={salary} alt="salary" className="img-fluid mb-4" />
-              <img src={stay} alt="salary" className="img-fluid mb-4" />
+              <img src={stay} alt="Always stay funded as a salary earner." className="img-fluid mb-4" />
               <p className="text-white">Things happen, and salary may not get here in time. Our salary advance<br/>helps you stay funded against unexpected emergencies.</p>
               <img src={pixes} alt="salary" className="img-fluid mt-5" />
             </div>

@@ -15,11 +15,11 @@ export default function MarketPlace () {
             <img src={market} alt="market" className="img-fluid" />
           </div>
           <div className="col-sm-5 mt-5">
-            <img src={icon} alt="icon" className="img-fluid" />
+            <img src={icon} alt="Expanding your business reach" className="img-fluid" />
             <h6 className="text-white my-4">Hargon’s Marketplace</h6>
-            <img src={expand} alt="icon" className="img-fluid mb-4" />
+            <img src={expand} alt="Expanding your business reach" className="img-fluid mb-4" />
             <p className="text-white w-75">Reach and serve more customers by selling your product on Hargon’s marketplace, where customers shop every day using our credit, and you get paid in full immediately.</p>
-            <img src={sell} alt="icon" className="img-fluid" />
+            <img src={sell} alt="Expanding your business reach" className="img-fluid" />
           </div>
         </div>
       </div>

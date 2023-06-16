@@ -1,4 +1,5 @@
 import money from "../../assets/money.svg";
+import pocket from "../../assets/Pocket.svg";
 import phone from "../../assets/pphone.svg";
 
 
@@ -9,7 +10,7 @@ export default function Pocket () {
       <div className="container">
         <div className="row">
           <div className="col-sm-4 mb-3">
-            <h2 className="mb-4">Pocket</h2>
+            <img src={pocket} alt="pocket" className="img-fluid mb-4" />
             <p>Change in your pocket, swag in your steps</p>
           </div>
           <div className="col-sm-4 mb-3">

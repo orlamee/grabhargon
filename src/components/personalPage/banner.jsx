@@ -11,7 +11,7 @@ export default function Banner () {
       <div className="container">
         <div className="row">
           <div className="col-sm-6 mb-3">
-            <img src={loan} alt="personal" className="img-fluid" />
+            <img src={loan} alt="Why stop when you can do so much?" className="img-fluid" />
             <img src={why} alt="title" className="img-fluid mt-4 mb-4" />
             <p className="w-75">Embrace the many opportunities Hargon's marketplace offers and experience the freedom of making impactful financial decisions.</p>
             <img src={users} alt="profile" className="img-fluid mt-4" />

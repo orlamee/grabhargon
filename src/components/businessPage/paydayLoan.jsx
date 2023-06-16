@@ -11,7 +11,7 @@ export default function PaydayLoan () {
         <div className="row justify-content-center">
           <div className="col-sm-6 text-center">
             <img src={loans} alt="loans" className="img-fluid" />
-            <img src={happy} alt="loans" className="img-fluid mt-5" />
+            <img src={happy} alt="Happy employees" className="img-fluid mt-5" />
           </div>
         </div>
         <div className="row justify-content-center mt-5">

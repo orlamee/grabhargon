@@ -9,11 +9,11 @@ export default function SalaryHero () {
       <div className='container'>
         <div className="row">
           <div className="col-sm-6 mb-3 mt-5">
-            <img src={cred} alt="cred" className="img-fluid mb-4" />
+            <img src={cred} alt="We have just the right solutions for you" className="img-fluid mb-4" />
             <p className="text-white">Get the cash you need when you need it. Our easy and streamlined loan against your salary offers immediate financial relief until the next paycheck arrives.</p>
           </div>
           <div className="col-sm-6">
-            <img src={right} alt="cred" className="img-fluid w-100" />
+            <img src={right} alt="Credible credit solutions" className="img-fluid w-100" />
           </div>
         </div>
       </div>

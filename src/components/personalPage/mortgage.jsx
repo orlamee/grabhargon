@@ -11,11 +11,11 @@ export default function Mortgage() {
       <div className="container">
         <div className="row">
           <div className="col-sm-6">
-            <img src={dream} alt="dream" className="img-fluid" />
+            <img src={dream} alt="Mortgage" className="img-fluid" />
           </div>
           <div className="col-sm-6 mt-5">
             <img src={mortgage} alt="mortgage" className="img-fluid" />
-            <img src={dreamy} alt="dream" className="img-fluid my-5" />
+            <img src={dreamy} alt="Mortgage" className="img-fluid my-5" />
             <p className="w-75">Experience the joys of owning a home and laying down roots through Hargon's mortgage, where you enjoy flexible and competitive rates.</p>
           </div>
         </div>

@@ -12,6 +12,7 @@ import EducationalLoan from './pages/educationalLoan';
 import SalaryAdvance from './pages/salary';
 import MarketPlace from './pages/marketPlace';
 import FixedDepo from './pages/fixedDeposit';
+import Mortgage from './pages/mortgage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
       <Route path="/salary-advance" element={<SalaryAdvance/>}></Route>
       <Route path="/market-place" element={<MarketPlace/>}></Route>
       <Route path="/fixed-deposit" element={<FixedDepo/>}></Route>
+      <Route path="/mortgage" element={<Mortgage/>}></Route>
     </Routes>
   </BrowserRouter>
 );

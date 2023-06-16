@@ -10,7 +10,7 @@ export default function BannerBusiness () {
       <div className="container">
         <div className="row">
           <div className="col-sm-6 mb-3">
-            <img src={loan} alt="personal" className="img-fluid" />
+            <img src={loan} alt="Fueling your business growth through credit" className="img-fluid" />
             <img src={why} alt="title" className="img-fluid mt-4 mb-4" />
             <p className="w-75">Use Hargon’s flexible and reliable lending solutions to power up your business for success. Our lending solutions offer many options for your business to get ahead in an increasingly competitive industry.</p>
             <button
