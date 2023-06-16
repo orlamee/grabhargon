@@ -67,6 +67,10 @@ a {
   font-weight: 500;
 }
 
+.header .nav-link:hover {
+  color: #228B22;
+}
+
 .pheader .nav-link {
   color: #fff;
   font-size: 14px;
@@ -890,7 +894,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 180px 20px;
+  padding: 100px 20px;
 }
 
 .tour-hero p {
@@ -954,4 +958,37 @@ a {
   font-weight: 700;
   line-height: 48px;
   font-family: syne-bold;
+}
+
+@media (min-width: 992px){
+  .solution-menu {
+    min-width: 470px!important;
+    border: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    padding: 30px 30px;
+  }
+}
+
+@media (min-width: 992px){
+  .company-menu {
+    min-width: 240px!important;
+    border: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    padding: 30px 30px;
+  }
+}
+
+.sol-menu h6 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.sol-menu h6:hover {
+  color: #228B22;
 }

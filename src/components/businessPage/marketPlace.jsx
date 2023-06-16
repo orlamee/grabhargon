@@ -1,5 +1,5 @@
 
-import market from "../../assets/mrk.svg";
+import market from "../../assets/mrk.png";
 import icon from "../../assets/icons.svg";
 import expand from "../../assets/expand.svg";
 import sell from "../../assets/sell.svg";

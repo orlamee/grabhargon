@@ -3,6 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../assets/logo.svg";
 import globe from "../assets/globe.svg";
+import { Link } from 'react-router-dom';
+import DropDownCompany from './dropdownCompany';
 
 
 
@@ -18,7 +20,12 @@ function Header () {
             <Nav.Link href='/business'>Business</Nav.Link>
             <Nav.Link href="/">Shop</Nav.Link>
             <Nav.Link href="/">Invest</Nav.Link>
-            <Nav.Link href="/">Company</Nav.Link>
+            <li className="nav-item dropdown">
+              <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </Link>
+              <DropDownCompany/>
+            </li>
           </Nav>
           <Nav className="ms-auto">
             <Nav.Link href="/"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>

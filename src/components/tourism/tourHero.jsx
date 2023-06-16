@@ -1,5 +1,5 @@
 import discover from "../../assets/discover.svg";
-import tour from "../../assets/tour.png";
+import tour from "../../assets/tourss.png";
 
 
 

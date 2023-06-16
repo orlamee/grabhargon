@@ -23,11 +23,11 @@ root.render(
       <Route path="/personal" element={<Personal/>}></Route>
       <Route path="/business" element={<Business/>}></Route>
       <Route path="/educational-loan" element={<EducationalLoan/>}></Route>
-      <Route path="/salary-advance" element={<SalaryAdvance/>}></Route>
-      <Route path="/market-place" element={<MarketPlace/>}></Route>
+      <Route path="/personal/salary-advance" element={<SalaryAdvance/>}></Route>
+      <Route path="/personal/market-place" element={<MarketPlace/>}></Route>
       <Route path="/fixed-deposit" element={<FixedDepo/>}></Route>
-      <Route path="/mortgage" element={<Mortgage/>}></Route>
-      <Route path="/tourism" element={<Tourism/>}></Route>
+      <Route path="/personal/mortgage" element={<Mortgage/>}></Route>
+      <Route path="/personal/tourism" element={<Tourism/>}></Route>
     </Routes>
   </BrowserRouter>
 );
