@@ -1,5 +1,5 @@
 
-import banner from "../../assets/personal.png";
+import banner from "../../assets/personals.svg";
 import loan from "../../assets/personalloan.svg";
 import why from "../../assets/whystop.svg";
 import users from "../../assets/profiles.svg";
