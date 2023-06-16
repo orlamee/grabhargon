@@ -1,4 +1,4 @@
-import loan from "../../assets/educational.svg";
+import loan from "../../assets/educational.png";
 import lower from "../../assets/lower.svg";
 
 

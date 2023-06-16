@@ -1,4 +1,4 @@
-import focus from "../../assets/finebabe.svg";
+import focus from "../../assets/finebabe.png";
 
 
 
