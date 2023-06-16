@@ -9,7 +9,7 @@ export default function Pocket () {
     <section className='pocket'>
       <div className="container">
         <div className="row">
-          <div className="col-sm-4 mb-3">
+          <div className="col-sm-4 mb-3" style={{marginTop: "33px"}}>
             <img src={pocket} alt="pocket" className="img-fluid mb-4" />
             <p>Change in your pocket, swag in your steps</p>
           </div>
