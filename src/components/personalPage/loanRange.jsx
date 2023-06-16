@@ -26,7 +26,7 @@ export default function LoanRange() {
                   <div style={{marginTop: "50px", marginBottom: "50px"}}>
                     <label htmlFor="customRange1" className="form-label text-white">₦50,000</label>
                     <input type="range" className="form-range" />
-                    <label htmlFor="customRange1" className="form-label text-white" style={{color: "#ffffff7a"}}>₦20,000</label>
+                    <label htmlFor="customRange1" className="form-label" style={{color: "#ffffff7a"}}>₦20,000</label>
                   </div>
                   <h2 className="text-white">Loanable amount</h2>
                 </div>
