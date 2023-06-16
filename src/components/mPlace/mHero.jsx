@@ -1,5 +1,5 @@
 import credit from "../../assets/cred.svg";
-import mp from "../../assets/mpr.svg";
+import mp from "../../assets/mpr.png";
 
 
 
