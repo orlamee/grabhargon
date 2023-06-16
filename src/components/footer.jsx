@@ -23,7 +23,7 @@ export default function Footer () {
                 Get Started
               </Link>
             </div>
-            <div className="col-sm-7">
+            <div className="col-sm-8">
               <div className="row">
                 <div className="col-sm mb-3">
                   <h5>Developer</h5>
