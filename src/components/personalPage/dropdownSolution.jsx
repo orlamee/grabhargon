@@ -35,7 +35,7 @@ function DropDownSolution() {
             <img src={gl} alt="Group loan" className="img-fluid me-3" />
             <h6 className="mt-2">Group Loan</h6>
           </Link>
-          <Link to="/" className="d-flex flex-row mb-4">
+          <Link to="/personal/educational-loan" className="d-flex flex-row mb-4">
             <img src={sl} alt="Student" className="img-fluid me-3" />
             <h6 className="mt-2">Student Loan</h6>
           </Link>
