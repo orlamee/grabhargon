@@ -14,7 +14,7 @@ export default function Footer () {
           <div className="row navigation justify-content-between">
             <div className="col-sm-4 mb-3">
               <img src={logo} alt="logo" className="img-fluid mb-4" />
-              <p className="text-white w-75">Get the hargon app to create account and start taking as much loans as you would need to help you from that financial situation you are in.</p>
+              <p className="text-white w-75">Fuel your dreams, sustain, and grow your business with reliable lending solutions.</p>
               <Link
                 to=""
                 className="btn btn-primary btn-footer rounded-pill px-5 py-2 mt-3"

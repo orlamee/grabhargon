@@ -480,6 +480,12 @@ a {
   font-family: syne-bold;
 }
 
+.t {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #fff 4.78%, #FFC727 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
 .ally {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(91.8deg, #207D11 4.78%, #FFC00B 97.92%)!important;
@@ -877,4 +883,75 @@ a {
   font-size: 70px;
   font-weight: 500;
   line-height: 70px;
+}
+
+.tour-hero {
+  background-image: url(./assets/tourbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 20px;
+}
+
+.tour-hero p {
+  color: #505151;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.tour-loan {
+  background-color: #fff;
+  padding: 70px 20px 100px 20px;
+}
+
+.dreamvac {
+  background-image: url(./assets/plane.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 149px 20px;
+  border-radius: 100px 100px 0px 0px;
+}
+
+.dreamvac h5 {
+  color: #B8BBB8;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.travel p {
+  color: #020518;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.dreamvac p {
+  color: #7C947C;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.dreamvac h2 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.travel {
+  background-image: url(./assets/travel.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.travel h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  font-family: syne-bold;
 }
