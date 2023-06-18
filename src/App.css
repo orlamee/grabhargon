@@ -1011,3 +1011,48 @@ a {
 .w-87 {
   width: 87%!important;
 }
+
+.digi {
+  background-image: url(./assets/db.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.digi h2 {
+  color: #228B22;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 74px;
+}
+
+.digi p {
+  color: #041004;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.lowerrisk h5 {
+  color: #FACC15;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.lowerrisk {
+  background-image: url(./assets/fixedd.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 230px 20px;
+}
+
+.lowerrisk p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+}
