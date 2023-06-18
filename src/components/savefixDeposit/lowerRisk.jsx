@@ -9,7 +9,7 @@ export default function LowerRisk () {
     <section className='lowerrisk px-0 pb-0'>
       <div className='container-fluid'>
         <div className="row">
-          <div className="col-sm-4" style={{paddingLeft: "150px"}}>
+          <div className="col-sm-4 rowwie">
             <img src={lr} alt="lower risk" className="img-fluid mb-4" />
             <div style={{marginLeft: "43px"}}>
               <h5 className="mb-4">Diversify your risks and invest securely</h5>

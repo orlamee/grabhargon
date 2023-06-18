@@ -1056,3 +1056,17 @@ a {
   font-weight: 500;
   line-height: 40px;
 }
+
+.save-hargon {
+  background-image: url(./assets/sh.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .rowwie {
+    padding-left: 150px;
+  }
+}
