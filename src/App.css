@@ -1175,3 +1175,98 @@ a {
   line-height: 24px;
   font-weight: 400;
 }
+
+.comhero {
+  background: linear-gradient(282.34deg, #179942 0.71%, #0A2A0A 112.18%);
+  padding: 100px 20px;
+}
+
+.comhero h2 {
+  color: #fff;
+  font-size: 55px;
+  line-height: 65px;
+  font-weight: 500;
+}
+
+.comhero p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.b-bridge {
+  background-image: url(./assets/build.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.b-bridge h2 {
+  color: #000000;
+  font-size: 65px;
+  line-height: 85px;
+  font-weight: 500;
+}
+
+.b-bridge p {
+  color: #949494;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.b-bridge h6 {
+  color: #328A28;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.bb {
+  background: linear-gradient(123.44deg, #228B22 5.38%, #FFBD00 68.08%);
+  border-radius: 2px;
+  padding: 3px 30px;
+  color: #fff;
+  margin-left: -22px;
+}
+
+.cluster {
+  background-image: url(./assets/easyy.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.paymentterms {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.paymentterms h2 {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #228B22 4.78%, #F2994A 97.92%)!important;
+  -webkit-background-clip: text!important;
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 500;
+  font-family: syne-bold;
+}
+
+.source-card {
+  background-image: url(./assets/singlebg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.source-card p {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}

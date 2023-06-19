@@ -15,6 +15,8 @@ import FixedDepo from './pages/fixedDeposit';
 import Mortgage from './pages/mortgage';
 import Tourism from './pages/tourism';
 import Pawn from './pages/pawn';
+import ComLoan from './pages/comLoan';
+import AutoLoans from './pages/autoLoan';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,6 +32,8 @@ root.render(
       <Route path="/personal/mortgage" element={<Mortgage/>}></Route>
       <Route path="/personal/tourism" element={<Tourism/>}></Route>
       <Route path="/personal/pawn" element={<Pawn/>}></Route>
+      <Route path="/personal/community-loans" element={<ComLoan/>}></Route>
+      <Route path="/personal/auto-loan" element={<AutoLoans/>}></Route>
     </Routes>
   </BrowserRouter>
 );
