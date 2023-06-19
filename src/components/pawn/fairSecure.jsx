@@ -14,7 +14,7 @@ export default function FairSecure () {
         </div>
         <div className="row justify-content-center mt-4">
           <div className="col-sm-9 text-center">
-            <img src={max} alt="Fair and Secure" className="img-fluid" />
+            <img src={max} alt="Fair and Secure" className="img-fluid w-100" />
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ export default function PawnHero () {
             <button className="btn btn-primary btn-main rounded-pill px-5 py-3 mt-4">Pawn my asset</button>
           </div>
           <div className="col-sm-6 mt-5">
-            <img src={pawn} alt="pawn shop" className="img-fluid" />
+            <img src={pawn} alt="pawn shop" className="img-fluid w-100" />
           </div>
         </div>
       </div>

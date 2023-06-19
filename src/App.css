@@ -1127,3 +1127,51 @@ a {
   line-height: 20px;
   font-weight: 500;
 }
+
+.pawncredit {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.pawncredit h2 {
+  font-size: 70px;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: syne-bold;
+}
+
+.pawncredit h6 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #020518;
+}
+
+.pawncredit p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #787878;
+}
+
+.pawns {
+  background-image: url(./assets/pwn.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+.pawns h2 {
+  color: #F2C94C;
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 500;
+}
+
+.pawns p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
