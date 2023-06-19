@@ -14,6 +14,7 @@ import MarketPlace from './pages/marketPlace';
 import FixedDepo from './pages/fixedDeposit';
 import Mortgage from './pages/mortgage';
 import Tourism from './pages/tourism';
+import Pawn from './pages/pawn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +29,7 @@ root.render(
       <Route path="/personal/fixed-deposit" element={<FixedDepo/>}></Route>
       <Route path="/personal/mortgage" element={<Mortgage/>}></Route>
       <Route path="/personal/tourism" element={<Tourism/>}></Route>
+      <Route path="/personal/pawn" element={<Pawn/>}></Route>
     </Routes>
   </BrowserRouter>
 );

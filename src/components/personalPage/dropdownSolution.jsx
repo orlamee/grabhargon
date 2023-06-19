@@ -39,7 +39,7 @@ function DropDownSolution() {
             <img src={sl} alt="Student" className="img-fluid me-3" />
             <h6 className="mt-2">Student Loan</h6>
           </Link>
-          <Link to="/" className="d-flex flex-row mb-4">
+          <Link to="/personal/pawn" className="d-flex flex-row mb-4">
             <img src={p} alt="Pawn" className="img-fluid me-3" />
             <h6 className="mt-2">Pawn</h6>
           </Link>
