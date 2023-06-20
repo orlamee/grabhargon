@@ -1277,9 +1277,15 @@ a {
 }
 
 .agency-hero p,
+.bi-sec p,
 .access-sec p,
 .p-sec p,
-.i-rate p {
+.i-rate p,
+.capital-hero p,
+.cap p,
+.vc-sec p,
+.be-sec p,
+.dreams-sec p {
   color: #333333;
   font-size: 14px;
   line-height: 20px;
@@ -1322,4 +1328,107 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 20px;
+}
+
+.capital-hero {
+  background-image: url(./assets/capitalbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .capital-hero h2 {
+    font-size: 70px;
+    line-height: 84px;
+    font-weight: 700;
+    font-family: syne-bold;
+  }
+}
+
+@media (max-width: 767.98px){
+  .capital-hero h2 {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+    font-family: syne-bold;
+  }
+}
+
+.cap {
+  background-image: url(./assets/cap.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .cap h2 {
+    font-size: 95px;
+    line-height: 114px;
+    font-weight: 700;
+    font-family: syne-bold;
+    color: #23A323;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 767.98px){
+  .cap h2 {
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: 700;
+    font-family: syne-bold;
+    color: #23A323;
+    text-transform: uppercase;
+  }
+}
+
+.vc-sec {
+  background-image: url(./assets/vc.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.bi-sec {
+  background-image: url(./assets/bi.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px 20px;
+}
+
+.be-sec {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+@media (min-width: 992px){
+  .be-sec h2 {
+    font-size: 100px;
+    line-height: 120px;
+    font-weight: 700;
+    font-family: syne-bold;
+  }
+}
+
+@media (max-width: 767.98px){
+  .be-sec h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: syne-bold;
+  }
+}
+
+.dreams-sec {
+  background-image: url(./assets/capbg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
 }
