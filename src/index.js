@@ -17,6 +17,8 @@ import Tourism from './pages/tourism';
 import Pawn from './pages/pawn';
 import ComLoan from './pages/comLoan';
 import AutoLoans from './pages/autoLoan';
+import LoanAgency from './pages/loanAgency';
+import BusinessLoan from './pages/businessLoan';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +27,8 @@ root.render(
       <Route path="/" element={<App />}></Route>
       <Route path="/personal" element={<Personal/>}></Route>
       <Route path="/business" element={<Business/>}></Route>
+      <Route path="/business/loan-agency" element={<LoanAgency/>}></Route>
+      <Route path="/business/business-loan" element={<BusinessLoan/>}></Route>
       <Route path="/personal/educational-loan" element={<EducationalLoan/>}></Route>
       <Route path="/personal/salary-advance" element={<SalaryAdvance/>}></Route>
       <Route path="/personal/market-place" element={<MarketPlace/>}></Route>

@@ -1270,3 +1270,56 @@ a {
   line-height: 20px;
   font-weight: 400;
 }
+
+.agency-hero {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.agency-hero p,
+.access-sec p,
+.p-sec p,
+.i-rate p {
+  color: #333333;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.access-sec {
+  background-image: url(./assets/access.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 350px 20px;
+}
+
+.access-sec h2 {
+  color: #FFBD00;
+  font-size: 65px;
+  line-height: 78px;
+  font-weight: 600;
+  font-family: syne-bold;
+}
+
+.p-sec {
+  background: linear-gradient(105.38deg, rgba(32, 125, 17, 0.1) 17.57%, rgba(255, 192, 11, 0.1) 75.58%);
+  padding: 100px 20px;
+}
+
+.p-sec h2 {
+  color: #23A323;
+  font-size: 65px;
+  line-height: 78px;
+  font-weight: 600;
+  font-family: syne-bold;
+}
+
+
+.i-rate {
+  background-image: url(./assets/tbg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
