@@ -1,6 +1,6 @@
 import lower from "../../assets/lowerint.png";
 import single from "../../assets/single-source.svg";
-import ssr from "../../assets/ssr.svg";
+import ssr from "../../assets/ssr.png";
 
 
 

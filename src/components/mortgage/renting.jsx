@@ -1,4 +1,4 @@
-import home from "../../assets/reliable.svg";
+import home from "../../assets/reliable.png";
 
 
 

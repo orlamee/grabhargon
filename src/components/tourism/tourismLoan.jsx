@@ -1,4 +1,4 @@
-import places from "../../assets/tours.svg";
+import places from "../../assets/tours.png";
 
 
 
