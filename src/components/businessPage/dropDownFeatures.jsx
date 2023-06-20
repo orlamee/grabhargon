@@ -23,9 +23,9 @@ function DropDownFeatures() {
             <img src={al} alt="Auto loan" className="img-fluid me-3" />
             <h6 className="mt-2">Loan Agency</h6>
           </Link>
-          <Link to="/personal/salary-advance" className="d-flex flex-row mb-4">
+          <Link to="/business/salary-loan" className="d-flex flex-row mb-4">
             <img src={sa} alt="Salary Advance" className="img-fluid me-3" />
-            <h6 className="mt-2">Salary Advance</h6>
+            <h6 className="mt-2">Salary Loan</h6>
           </Link>
           <Link to="/business/business-loan" className="d-flex flex-row mb-4">
             <img src={gl} alt="Group loan" className="img-fluid me-3" />
