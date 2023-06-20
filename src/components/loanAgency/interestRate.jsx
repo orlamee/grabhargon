@@ -13,7 +13,7 @@ export default function InterestRate () {
           </div>
           <div className="col-sm-5" style={{marginTop: "110px"}}>
             <img src={thrive} alt="Thrive with Hargon" className="img-fluid mb-4" />
-            <p className="w-75 ms-5">Enjoy the flex of low-interest credit and attractive payment terms on our platform, empowering you to serve more customers and stand out</p>
+            <p className="w-75 ms-5">Set and achieve your business goals using our credit options as an agency. With Hargon, you can enjoy financial flexibility and backing for all your business objectives.</p>
           </div>
         </div>
       </div>
