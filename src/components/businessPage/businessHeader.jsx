@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/hargon000.svg";
 import globe from "../../assets/globe.svg";
 import { Link } from 'react-router-dom';
 import DropDownFeatures from './dropDownFeatures';
@@ -38,7 +38,7 @@ function BusinessHeader () {
             <Nav.Link href="/"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>
             <Nav.Link>
               <a
-                className="btn btn-primary btn-main rounded-pill px-5 py-3"
+                className="btn btn-primary btn-main bg-black text-white rounded-pill px-5 py-3"
                 href="#!"
               >
                 Get Started

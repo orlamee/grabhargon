@@ -1432,3 +1432,56 @@ a {
   background-size: cover;
   padding: 150px 20px;
 }
+
+.sl-hero {
+  background-image: url(./assets/slbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.sl-hero p,
+.emp p,
+.pay-roll p {
+  color: #4D4D4D;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.sl-hero h2 {
+  color: #000000;
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: syne-bold;
+}
+
+.loan-sl {
+  background-image: url(./assets/gra.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px; 
+}
+
+@media (min-width: 992px){
+  .pay-roll {
+    background-image: url(./assets/payroll.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px 20px; 
+  }
+}
+
+@media (max-width: 767.98px){
+  .pay-roll {
+    background-image: url(./assets/payroll.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px; 
+  }
+}
