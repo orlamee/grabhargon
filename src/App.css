@@ -1285,7 +1285,9 @@ a {
 .cap p,
 .vc-sec p,
 .be-sec p,
-.dreams-sec p {
+.dreams-sec p,
+.ml-hero p,
+.payback p {
   color: #333333;
   font-size: 14px;
   line-height: 20px;
@@ -1443,7 +1445,9 @@ a {
 
 .sl-hero p,
 .emp p,
-.pay-roll p {
+.pay-roll p,
+.empower p,
+.coll-card p {
   color: #4D4D4D;
   font-size: 14px;
   line-height: 20px;
@@ -1484,4 +1488,119 @@ a {
     background-size: cover;
     padding: 100px 20px; 
   }
+}
+
+.ml-hero {
+  padding: 100px 20px;
+  background: #fff;
+}
+
+.ml-hero h2 {
+  font-size: 56px;
+  line-height: 79px;
+  font-weight: 600;
+  color: #041004;
+  font-family: syne-bold;
+}
+
+.fife {
+  color: #23A323;
+  background: #F2FCF2;
+  padding: 0px 30px;
+  border-radius: 50px;
+  margin-left: -26px;
+}
+
+.empower {
+  background-image: url(./assets/ep.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+
+.payback {
+  background-image: url(./assets/payback.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+
+.payback h6 {
+  color: #FFBD00;
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.no-c {
+  background-image: url(./assets/no-c.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.coll-card {
+  background-image: url(./assets/coll-card.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 92px 20px;
+}
+
+@media (min-width: 992px){
+  .coll-card h2 {
+    color: #fff;
+    font-size: 84px;
+    line-height: 101px;
+    font-weight: 600;
+    font-family: syne-bold;
+  }
+
+  .payback h2 {
+    color: #23A323;
+    font-size: 80px;
+    line-height: 84px;
+    font-weight: 600;
+    font-family: syne-bold;
+  }
+
+  .empower h2 {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 600;
+    color: #fff;
+    font-family: syne-bold;
+  }
+}
+
+@media (max-width: 767.98px){
+  .coll-card h2 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    font-family: syne-bold;
+  }
+
+  .payback h2 {
+    color: #23A323;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    font-family: syne-bold;
+  }
+
+  .empower h2 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #fff;
+    font-family: syne-bold;
+  }
+
 }

@@ -20,6 +20,7 @@ import AutoLoans from './pages/autoLoan';
 import LoanAgency from './pages/loanAgency';
 import BusinessLoan from './pages/businessLoan';
 import SalaryLoan from './pages/salaryLoan';
+import MicroLending from './pages/microLending';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,6 +32,7 @@ root.render(
       <Route path="/business/loan-agency" element={<LoanAgency/>}></Route>
       <Route path="/business/business-loan" element={<BusinessLoan/>}></Route>
       <Route path="/business/salary-loan" element={<SalaryLoan/>}></Route>
+      <Route path="/business/micro-lending" element={<MicroLending/>}></Route>
       <Route path="/personal/educational-loan" element={<EducationalLoan/>}></Route>
       <Route path="/personal/salary-advance" element={<SalaryAdvance/>}></Route>
       <Route path="/personal/market-place" element={<MarketPlace/>}></Route>
