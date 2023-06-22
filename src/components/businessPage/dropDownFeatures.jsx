@@ -15,7 +15,7 @@ function DropDownFeatures() {
     <div className="dropdown-menu solution-menu sol-menu">
       <div className="row">
         <div className="col-sm-6">
-          <Link to="/" className="d-flex flex-row mb-4">
+          <Link to="/business/credit-card" className="d-flex flex-row mb-4">
             <img src={cc} alt="Credit" className="img-fluid me-3" />
             <h6 className="mt-2">Credit card</h6>
           </Link>

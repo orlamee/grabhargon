@@ -1604,3 +1604,39 @@ a {
   }
 
 }
+
+.cc-hero {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.cc-hero p,
+.dp p {
+  color: #6B7280;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.dp {
+  background-image: url(./assets/google.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.dp h2 {
+  color: #FFA65B;
+  font-size: 85px;
+  line-height: 102px;
+  font-weight: 700;
+  font-family: syne-bold;
+}
+
+.dp h6 {
+  font-size: 55px;
+  line-height: 66px;
+  font-weight: 700;
+  font-family: syne-bold;
+}
