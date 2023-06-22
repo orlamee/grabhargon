@@ -22,6 +22,7 @@ import BusinessLoan from './pages/businessLoan';
 import SalaryLoan from './pages/salaryLoan';
 import MicroLending from './pages/microLending';
 import CreditCard from './pages/creditCard';
+import PersonalCC from './pages/personalCC';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -44,6 +45,7 @@ root.render(
       <Route path="/personal/pawn" element={<Pawn/>}></Route>
       <Route path="/personal/community-loans" element={<ComLoan/>}></Route>
       <Route path="/personal/auto-loan" element={<AutoLoans/>}></Route>
+      <Route path="/personal/credit-card" element={<PersonalCC/>}></Route>
     </Routes>
   </BrowserRouter>
 );

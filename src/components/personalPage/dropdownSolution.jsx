@@ -65,7 +65,7 @@ function DropDownSolution() {
             <img src={t} alt="Tourism" className="img-fluid me-3" />
             <h6 className="mt-2">Tourism</h6>
           </Link>
-          <Link to="/" className="d-flex flex-row mb-4">
+          <Link to="/personal/credit-card" className="d-flex flex-row mb-4">
             <img src={cc} alt="Credit" className="img-fluid me-3" />
             <h6 className="mt-2">Credit card</h6>
           </Link>

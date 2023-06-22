@@ -484,6 +484,12 @@ a {
   font-family: syne-bold;
 }
 
+.po {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.8deg, #FF823B 4.78%, #169323 97.92%)!important;
+  -webkit-background-clip: text!important;
+}
+
 .t {
   -webkit-text-fill-color: transparent;
   background: linear-gradient(91.8deg, #fff 4.78%, #FFC727 97.92%)!important;
@@ -1287,7 +1293,8 @@ a {
 .be-sec p,
 .dreams-sec p,
 .ml-hero p,
-.payback p {
+.payback p,
+.pcc p {
   color: #333333;
   font-size: 14px;
   line-height: 20px;
@@ -1676,5 +1683,18 @@ a {
   font-size: 60px;
   line-height: 72px;
   font-weight: 700;
+  font-family: syne-bold;
+}
+
+.pcc {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.pcc h2 {
+  color: #041004;
+  font-size: 52px;
+  line-height: 69px;
+  font-weight: 600;
   font-family: syne-bold;
 }
