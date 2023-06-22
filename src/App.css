@@ -1611,7 +1611,8 @@ a {
 }
 
 .cc-hero p,
-.dp p {
+.dp p,
+.zero p {
   color: #6B7280;
   font-size: 14px;
   line-height: 20px;
@@ -1647,4 +1648,33 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 20px;
+}
+
+.card-cc {
+  background-image: url(./assets/bg-cc.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 60px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+@media (min-width: 992px){
+  .cards- {
+    margin-top: -374px;
+  }
+}
+
+.zero {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.zero h2 {
+  color: #000;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 700;
+  font-family: syne-bold;
 }
