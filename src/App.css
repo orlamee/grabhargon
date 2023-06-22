@@ -1698,3 +1698,26 @@ a {
   font-weight: 600;
   font-family: syne-bold;
 }
+
+.hargon-cred {
+  background-image: url(./assets/life.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 20px;
+}
+
+.hargon-cred h2 {
+  color: #000;
+  font-size: 45px;
+  line-height: 61px;
+  font-weight: 700;
+  font-family: syne-bold;
+}
+
+.hargon-cred p {
+  color: #333333;
+  font-size: 16px;
+  line-height: 33px;
+  font-weight: 500;
+}
