@@ -1640,3 +1640,11 @@ a {
   font-weight: 700;
   font-family: syne-bold;
 }
+
+.pickcard {
+  background-image: url(./assets/pickcard.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
