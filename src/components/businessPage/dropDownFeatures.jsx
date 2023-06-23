@@ -33,7 +33,7 @@ function DropDownFeatures() {
           </Link>
         </div>
         <div className="col-sm-6">
-          <Link to="/" className="d-flex flex-row mb-4">
+          <Link to="/business/merchant" className="d-flex flex-row mb-4">
             <img src={fd} alt="Fixed" className="img-fluid me-3" />
             <h6 className="mt-2">Merchant store</h6>
           </Link>

@@ -1621,7 +1621,9 @@ a {
 .cc-hero p,
 .dp p,
 .zero p,
-.shop-travel p {
+.shop-travel p,
+.how-it p,
+.reg p {
   color: #6B7280;
   font-size: 14px;
   line-height: 20px;
@@ -1690,7 +1692,8 @@ a {
 
 .pcc,
 .flex-cc,
-.pcrd {
+.pcrd,
+.merchant-hero {
   background-color: #fff;
   padding: 100px 20px;
 }
@@ -1823,4 +1826,59 @@ a {
     font-weight: 600;
     font-family: syne-bold;
   }
+}
+
+.merchant-hero h2,
+.hargonp h2,
+.reg h2 {
+  color: #041004;
+  font-size: 45px;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: syne-bold;
+}
+
+.hargonp {
+  background-image: url(./assets/wph.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .how-it {
+    background-image: url(./assets/123.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 562px 20px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .how-it {
+   background-color: #fff;
+   padding: 100px 20px;
+  }
+}
+
+.how-it h2 {
+  color: #FF823B;
+  font-size: 65px;
+  line-height: 78px;
+  font-weight: 700;
+  font-family: syne-bold;
+}
+
+@media (min-width: 992px){
+  .how-it-img {
+    margin-top: -306px;
+  }
+}
+
+.reg {
+  background-color: #F3FCF3;
+  padding: 100px 20px;
+  margin-top: 40px;
 }
