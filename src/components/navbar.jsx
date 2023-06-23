@@ -15,11 +15,21 @@ function Header () {
         <Navbar.Brand href="/"><img src={logo} alt="stackivy" className='img-fluid' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto p-b">
+            <li className="nav-item">
+              <a className='nav-link' href='/personal'>
+                Personal
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className='nav-link ms-0' href='/business'>
+                Business
+              </a>
+            </li>
+          </Nav>
           <Nav className="mx-auto">
-            <Nav.Link href='/personal'>Personal</Nav.Link>
-            <Nav.Link href='/business'>Business</Nav.Link>
             <Nav.Link href="/">Shop</Nav.Link>
-            <Nav.Link href="/">Partnership <span className='p-cs'>Coming Soon</span></Nav.Link>
+            <Nav.Link href="/" className='pe-none'>Partnership <span className='p-cs'>Coming Soon</span></Nav.Link>
             <Nav.Link href="/">Auction</Nav.Link>
             <li className="nav-item dropdown">
               <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

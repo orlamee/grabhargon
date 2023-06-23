@@ -12,7 +12,7 @@ export default function Footer () {
       <footer className="footer-bottom">
         <div className="container">
           <div className="row navigation justify-content-between">
-            <div className="col-sm-4 mb-3">
+            <div className="col-sm-3 mb-3">
               <img src={logo} alt="logo" className="img-fluid mb-4" />
               <p className="text-white w-75">Fuel your dreams, sustain, and grow your business with reliable lending solutions.</p>
               <Link
@@ -23,7 +23,7 @@ export default function Footer () {
                 Get Started
               </Link>
             </div>
-            <div className="col-sm-8">
+            <div className="col-sm-9">
               <div className="row">
                 <div className="col-sm mb-3">
                   <h5>Developer</h5>
@@ -36,7 +36,7 @@ export default function Footer () {
                   <ul className="list-unstyled links">
                     <li><Link to="">Personal</Link></li>
                     <li><Link to="">Business</Link></li>
-                    <li><Link to="">Invest</Link></li>
+                    <li><Link to="">Partnership <span className="f-cs">Coming Soon</span></Link></li>
                     <li><Link to="">Wallet</Link></li>
                   </ul>
                 </div>
@@ -66,6 +66,7 @@ export default function Footer () {
                   <h5>Contact</h5>
                   <ul className="list-unstyled links">
                     <li><Link>Support@hargon.africa</Link></li>
+                    <li><Link>+234  813  029  2726</Link></li>
                   </ul>
                   <div className="d-flex flex-row">
                     <img src={twitter} alt="twitter" className="img-fluid me-3" />
