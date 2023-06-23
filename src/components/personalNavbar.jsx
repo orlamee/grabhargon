@@ -25,7 +25,7 @@ function PersonalHeader () {
               </Link>
               <DropDownSolution/>
             </li>
-            <Nav.Link href="/">Invest</Nav.Link>
+            <Nav.Link href="/">Partnership <span className='p-cs'>Coming Soon</span></Nav.Link>
             <Nav.Link href="/">Auction</Nav.Link>
             <li className="nav-item dropdown">
               <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

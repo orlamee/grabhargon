@@ -4,7 +4,7 @@ import al from "../../assets/la.svg";
 import gl from "../../assets/bl.svg";
 import fd from "../../assets/ms.svg";
 import ma from "../../assets/ml.svg";
-import m from "../../assets/i.svg";
+import saving from "../../assets/s.svg";
 import cc from "../../assets/cc.svg";
 import s from "../../assets/lpo.svg";
 
@@ -41,13 +41,13 @@ function DropDownFeatures() {
             <img src={s} alt="LPO Financing" className="img-fluid me-3" />
             <h6 className="mt-2">LPO Financing</h6>
           </Link>
-          <Link to="" className="d-flex flex-row mb-4">
-            <img src={m} alt="Invest" className="img-fluid me-3" />
-            <h6 className="mt-2">Invest</h6>
-          </Link>
           <Link to="/business/micro-lending" className="d-flex flex-row mb-4">
             <img src={ma} alt="Microlending" className="img-fluid me-3" />
             <h6 className="mt-2">Microlending</h6>
+          </Link>
+          <Link to="" className="d-flex flex-row mb-4">
+            <img src={saving} alt="Savings" className="img-fluid me-3" />
+            <h6 className="mt-2">Savings</h6>
           </Link>
         </div>
       </div>

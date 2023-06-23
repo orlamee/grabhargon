@@ -13,7 +13,7 @@ export default function TourHero () {
             <p className="mt-5">Travel and tourism just got easier with Hargon. Unleash your wanderlust as you unlock the thrills of unforgettable experiences through the cultures of the world</p>
           </div>
           <div className="col-sm-6">
-            <img src={tour} alt="tourism" className="img-fluid w-100" />
+            <img src={tour} alt="tourism" className="img-fluid w-100 tour-im" />
           </div>
         </div>
       </div>

@@ -41,7 +41,7 @@ root.render(
       <Route path="/personal/educational-loan" element={<EducationalLoan/>}></Route>
       <Route path="/personal/salary-advance" element={<SalaryAdvance/>}></Route>
       <Route path="/personal/market-place" element={<MarketPlace/>}></Route>
-      <Route path="/personal/fixed-deposit" element={<FixedDepo/>}></Route>
+      <Route path="/personal/savings" element={<FixedDepo/>}></Route>
       <Route path="/personal/mortgage" element={<Mortgage/>}></Route>
       <Route path="/personal/tourism" element={<Tourism/>}></Route>
       <Route path="/personal/pawn" element={<Pawn/>}></Route>

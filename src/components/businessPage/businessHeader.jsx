@@ -25,7 +25,7 @@ function BusinessHeader () {
               </Link>
               <DropDownFeatures/>
             </li>
-            <Nav.Link href="/">Invest</Nav.Link>
+            <Nav.Link href="/">Partnership <span className='p-cs bg-black'>Coming Soon</span></Nav.Link>
             <Nav.Link href="/">Auction</Nav.Link>
             <li className="nav-item dropdown">
               <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,7 +41,7 @@ function BusinessHeader () {
                 className="btn btn-primary btn-main bg-black text-white rounded-pill px-5 py-3"
                 href="#!"
               >
-                Get Started
+                Sign in
               </button>
             </Nav.Link>
           </Nav>

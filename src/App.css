@@ -896,10 +896,11 @@ a {
 }
 
 .tour-hero {
-  background-image: url(./assets/tourbg.png);
+  /* background-image: url(./assets/tourbg.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #fff;
   padding: 100px 20px;
 }
 
@@ -908,6 +909,12 @@ a {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+}
+
+@media (min-width: 992px){
+  .tour-im  {
+    margin-left: 64px;
+  }
 }
 
 .tour-loan {
@@ -1881,4 +1888,14 @@ a {
   background-color: #F3FCF3;
   padding: 100px 20px;
   margin-top: 40px;
+}
+
+.p-cs {
+  background: #23A323;
+  color: #fff;
+  padding: 7px 10px;
+  font-size: 9px;
+  border-radius: 50px;
+  margin-left: 8px;
+  font-weight: 500;
 }
