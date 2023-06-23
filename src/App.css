@@ -1294,7 +1294,8 @@ a {
 .dreams-sec p,
 .ml-hero p,
 .payback p,
-.pcc p {
+.pcc p,
+.flex-cc p {
   color: #333333;
   font-size: 14px;
   line-height: 20px;
@@ -1619,7 +1620,8 @@ a {
 
 .cc-hero p,
 .dp p,
-.zero p {
+.zero p,
+.shop-travel p {
   color: #6B7280;
   font-size: 14px;
   line-height: 20px;
@@ -1686,7 +1688,8 @@ a {
   font-family: syne-bold;
 }
 
-.pcc {
+.pcc,
+.flex-cc {
   background-color: #fff;
   padding: 100px 20px;
 }
@@ -1701,7 +1704,7 @@ a {
 
 .hargon-cred {
   background-image: url(./assets/life.svg);
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 20px;
@@ -1720,4 +1723,50 @@ a {
   font-size: 16px;
   line-height: 33px;
   font-weight: 500;
+}
+
+@media (min-width: 992px){
+  .shop-travel {
+    background-image: url(./assets/shoptravel.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 552px 20px;
+  }
+
+  .shop-img {
+    margin-top: -392px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .shop-travel {
+    background: #23A323;
+    padding: 100px 20px;
+  }
+
+}
+
+
+.shop-span {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: syne-bold;
+}
+
+.shop-travel h2 {
+  color: #FFBD00;
+  font-size: 80px;
+  line-height: 90px;
+  font-weight: 600;
+  font-family: syne-bold;
+}
+
+.flex-cc h2 {
+  color: #041004;
+  font-size: 65px;
+  line-height: 85px;
+  font-weight: 500;
+  font-family: syne-bold;
 }
