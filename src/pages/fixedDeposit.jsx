@@ -5,6 +5,8 @@ import DigitalBank from "../components/savefixDeposit/digitalBank";
 import FixedHero from "../components/savefixDeposit/fixedHero";
 import LowerRisk from "../components/savefixDeposit/lowerRisk";
 import SaveHargon from "../components/savefixDeposit/saveHargon";
+import SaveInvest from "../components/savefixDeposit/saveInvest";
+import SavingThrive from "../components/savefixDeposit/savingThrive";
 
 
 
@@ -17,6 +19,8 @@ function FixedDepo () {
       <DigitalBank/>
       <LowerRisk/>
       <SaveHargon/>
+      <SavingThrive/>
+      <SaveInvest/>
       <SemiFooter/>
       <Footer/>
     </div>

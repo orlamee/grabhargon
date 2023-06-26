@@ -1064,7 +1064,7 @@ a {
 }
 
 .digi {
-  background-image: url(./assets/db.svg);
+  background-image: url(./assets/ysyc.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1082,6 +1082,7 @@ a {
   color: #041004;
   font-size: 14px;
   font-weight: 500;
+  margin-left: 69px;
   line-height: 24px;
 }
 
@@ -1095,25 +1096,89 @@ a {
 }
 
 .lowerrisk {
-  background-image: url(./assets/fixedd.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 230px 20px;
+  background-color: #fff;
+  padding: 100px 20px;
 }
 
-.lowerrisk p {
+.lowerrisk p,
+.save-hargon p {
   font-size: 14px;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 21px;
+}
+
+@media (min-width: 992px){
+  .skewww {
+    rotate: -5deg;
+  }
 }
 
 .save-hargon {
-  background-image: url(./assets/sh.png);
+  background-image: url(./assets/savvy.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 20px;
+}
+
+.savingthrive {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.savingthrive h3 {
+  color: #041004;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 80px;
+  font-family: syne-bold;
+}
+
+.thrive-card h6 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #000;
+}
+
+.thrive-card p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #000;
+}
+
+.thrive-card {
+  padding: 35px 35px;
+  background: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  min-height: 262px;
+}
+
+.thrive-card:hover {
+  padding: 35px 35px;
+  background: linear-gradient(282.34deg, #FFC00B 0.71%, #207D11 112.18%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  min-height: 262px;
+}
+
+.thrive-card:hover h6{
+  color: #fff;
+}
+
+.thrive-card:hover p {
+  color: #fff;
+}
+
+.savingthrive h2 {
+  color: #041004;
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 80px;
+  font-family: syne-bold;
 }
 
 @media (min-width: 992px){

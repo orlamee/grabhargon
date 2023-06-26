@@ -14,6 +14,12 @@ export default function FixedHero () {
           </div>
           <div className="col-sm-5">
             <p className="w-75">Save your funds with us when you have them, and we'll provide a secure place to keep your money while ensuring flexible access for withdrawals when you need it.</p>
+            <button
+              className="btn btn-primary btn-main rounded-pill px-5 py-3 mt-4"
+              href="#!"
+            >
+              Get Started
+            </button>
           </div>
         </div>
         <div className="row justify-content-center">
