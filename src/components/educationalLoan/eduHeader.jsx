@@ -47,12 +47,12 @@ function EduHeader () {
           <Nav className="ms-auto">
             <Nav.Link href="/"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>
             <Nav.Link>
-              <a
+              <button
                 className="btn btn-primary btn-main rounded-pill px-5 py-3"
                 href="#!"
               >
                 Get Started
-              </a>
+              </button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

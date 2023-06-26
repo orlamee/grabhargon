@@ -24,11 +24,7 @@ export default function SemiFooter () {
         </div>
         <hr />
         <div className="mt-9">
-          <p>Hargon financial services are offered by curved Microfinance Bank, fully licensed and regulated by the Central bank of Nigeria. Hargon offers innovative financial solutions including investments and credit services. Our credit solution allows businesses and individuals to buy anything and pay for it in installments across online and offline Merchants by providing them with instant access to credit at the point of checkout.</p>
-          <div>
-            <p>Merchants Onboarding</p>
-            <p>Once a Merchant partners with Hargon to accept and use our services, Hargon will onboard the Merchant on its platform by having the Merchant register or by registering the Merchant on a dedicated platform.  Hargon may list the Merchant’s business on the Hargon mobile application and/or website (“Marketplace”), such that  Hargon’s users or the Merchant’s patrons are able to pay for goods and services using credit advanced by Hargon</p>
-          </div>
+          <p>Hargon is a fully licensed digital lending platform. Hargon offers innovative financial solutions including investments and credit services. Our credit solution allows businesses and individuals to buy anything and pay for it in installments across online and offline Merchants by providing them with instant access to credit at the point of checkout.</p>
         </div>
       </div>
     </section>
