@@ -7,6 +7,7 @@ import LowerRisk from "../components/savefixDeposit/lowerRisk";
 import SaveHargon from "../components/savefixDeposit/saveHargon";
 import SaveInvest from "../components/savefixDeposit/saveInvest";
 import SavingThrive from "../components/savefixDeposit/savingThrive";
+import Work from "../components/savefixDeposit/works";
 
 
 
@@ -21,6 +22,7 @@ function FixedDepo () {
       <SaveHargon/>
       <SavingThrive/>
       <SaveInvest/>
+      <Work/>
       <SemiFooter/>
       <Footer/>
     </div>

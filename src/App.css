@@ -1121,6 +1121,14 @@ a {
   padding: 100px 20px;
 }
 
+.worker {
+  background-image: url(./assets/howsave.png);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
 .savingthrive {
   background-color: #fff;
   padding: 100px 20px;
