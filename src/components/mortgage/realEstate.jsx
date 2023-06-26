@@ -1,18 +1,18 @@
 
-import madeeasy from "../../assets/me.svg";
+import finance from "../../assets/finance.png";
 
 
 export default function RealEstate () {
   return (
-    <section className='realestate'>
+    <section className='realestate pb-0'>
       <div className='container'>
         <div className="row">
-          <div className="col-sm-6 mb-3">
-            <h2 className="mb-3">Real-estate </h2>
-            <h2 className="mb-3">Investments</h2>
-            <img src={madeeasy} alt="made easy" className="img-fluid" style={{marginLeft : "-41px"}} />
-            <h6 className="my-5 text-white">Get the best mortgage deals for your piece of paradise</h6>
-            <p className="text-white w-75">Open the doors to your real estate dreams with flexible, customizable, and competitive loan options coupled with expert advise on how to channel your real estate investments.</p>
+          <div className="col-sm-6 mt-5">
+            <img src={finance} alt="finance" className="img-fluid w-100" />
+          </div>
+          <div className="col-sm-6">
+            <h2>Financing for Property Investment </h2>
+            <p className="text-white w-75 mt-5">Open the doors to your real estate and property dreams with flexible, customizable, Competitive financing and expert advice on channelling your real estate investments.</p>
           </div>
         </div>
       </div>

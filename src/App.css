@@ -92,7 +92,8 @@ a {
   padding: 100px 20px;
 }
 
-.herobg p {
+.herobg p,
+.flexreplay p {
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
@@ -827,8 +828,8 @@ a {
 }
 
 .mo-hero {
-  background-color: #092A09;
-  padding: 150px 20px;
+  background-color: #fff;
+  padding: 100px 20px;
 }
 
 .mo-hero h2,
@@ -848,11 +849,28 @@ a {
 }
 
 .ownership {
-  background-image: url(./assets/home.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 200px 20px;
+  background-color: #F2FCF2;
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .ownership h2 {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 74px;
+    color: #000;
+    font-family: syne-bold;
+  }
+}
+
+@media (max-width: 767.98px){
+  .ownership h2 {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #000;
+    font-family: syne-bold;
+  }
 }
 
 .ownership h6,
@@ -865,11 +883,8 @@ a {
 }
 
 .renting {
-  background-image: url(./assets/renting.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 150px 20px;
+  background-color: #fff;
+  padding: 100px 20px;
 }
 
 .renting p,
@@ -881,18 +896,19 @@ a {
 }
 
 .realestate {
-  background-image: url(./assets/house.png);
+  background-image: url(./assets/ysyc.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px 20px;
+  padding: 100px 20px;
 }
 
 .realestate h2 {
   color: #fff;
-  font-size: 70px;
-  font-weight: 500;
-  line-height: 70px;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 96px;
+  font-family: syne-bold;
 }
 
 .tour-hero {
@@ -2049,4 +2065,56 @@ a {
     --bs-nav-link-padding-x: 0;
     --bs-nav-link-padding-y: -0.5rem;
   }
+}
+
+.step-card {
+  background-image: url(./assets/step1.svg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 40px;
+}
+
+.step2 {
+  background-image: url(./assets/step2.svg)!important;
+}
+
+.step3 {
+  background-image: url(./assets/step3.svg)!important;
+}
+
+.step4 {
+  background-image: url(./assets/step4.svg)!important;
+}
+
+.step-card h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #000;
+}
+
+@media (min-width: 992px){
+  .oney{ 
+    margin-top: 200px;
+  }
+}
+
+@media (min-width: 992px){
+  .oranje {
+    float: right;
+    margin-top: -77px;
+  }
+}
+
+.flexreplay {
+  background: #fff;
+  padding: 100px 20px;
+}
+
+.l-mortgage {
+  background-image: url(./assets/hm.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
 }

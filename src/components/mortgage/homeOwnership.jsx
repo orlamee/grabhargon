@@ -1,6 +1,4 @@
-import home from "../../assets/own.svg";
-import p from "../../assets/peo.svg";
-import mortgage from "../../assets/stressfree.png";
+import mortgage from "../../assets/de-my.png";
 
 
 
@@ -10,10 +8,8 @@ export default function HomeOwnership () {
       <div className='container'>
         <div className="row">
           <div className="col-sm-6 mb-3 mt-5">
-            <img src={home} alt="home ownership" className="img-fluid" style={{marginLeft: "-34px"}} />
-            <h6 className="mt-5 ally">Make your home experience stress-free</h6>
-            <p className="my-5 w-75">Your home should be your place of comfort, peace, and securty. With Hargon, you get the financial foundation you need to settle into the home of your dreams.</p>
-            <img src={p} alt="home ownership" className="img-fluid" />
+            <h2><span style={{color: "#23A323"}}>De-mystifying</span> Home<br/>Ownership</h2>
+            <p className="mt-5 w-75 text-black">Owning a home doesn't have to be hard. With our financing options, you can simplify the entire process and move into your home. It's fast, and it's easy. What are you waiting for?</p>
           </div>
           <div className="col-sm-6">
             <img src={mortgage} alt="mortgage" className="img-fluid" />

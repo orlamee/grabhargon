@@ -34,8 +34,8 @@ export default function Footer () {
                 <div className="col-sm mb-3">
                   <h5>Features</h5>
                   <ul className="list-unstyled links">
-                    <li><Link to="">Personal</Link></li>
-                    <li><Link to="">Business</Link></li>
+                    <li><Link to="/personal">Personal</Link></li>
+                    <li><Link to="/business">Business</Link></li>
                     <li><Link to="">Partnership <span className="f-cs">Coming Soon</span></Link></li>
                     <li><Link to="">Wallet</Link></li>
                   </ul>
