@@ -3,7 +3,7 @@ import mp from "../assets/mp.svg";
 import card from "../assets/lend.svg";
 import secure from "../assets/daily.svg";
 import qbl from "../assets/qbl.svg";
-import scroll from "../assets/scroll.svg";
+import wch from "../assets/wch.svg";
 import sc from "../assets/sc.svg";
 import cre from "../assets/cre.svg";
 
@@ -14,7 +14,7 @@ export default function WhyChoose () {
       <div className='container whychoose'>
         <div className="row justify-content-between">
           <div className="col-sm-6">
-            <h2>Why Choose<br/><span style={{color: "#23A323"}}>Hargon?</span></h2>
+            <img src={wch} alt="why choose hargon" className="img-fluid" />
             <div className="mt-5">
               <div className="row justify-content-between">
                 <div className="col-sm-5 mb-3">
@@ -49,7 +49,7 @@ export default function WhyChoose () {
               
             </div>
           </div>
-          <div className="col-sm-5">
+          <div className="col-sm-5 mt-5">
             <img src={mp} alt="drop" className="img-fluid w-100" />
           </div>
         </div>
