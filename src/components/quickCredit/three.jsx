@@ -1,4 +1,4 @@
-// import dashboard from "../../assets/qcloan.png";
+import hargon from "../../assets/h-ac.svg";
 
 
 export default function Three () {
@@ -11,6 +11,9 @@ export default function Three () {
           </div>
         </div>
         <div className="row justify-content-center mt-9">
+          <div className="col-sm-12 text-center">
+            <img src={hargon} alt="quick loan" className="img-fluid w-100" />
+          </div>
         </div>
       </div>
     </section>

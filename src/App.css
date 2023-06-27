@@ -1761,7 +1761,8 @@ a {
 .how-it p,
 .reg p,
 .inst-cred p,
-.pay p {
+.pay p
+ {
   color: #6B7280;
   font-size: 14px;
   line-height: 20px;
