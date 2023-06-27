@@ -1,4 +1,5 @@
 import React from 'react';
+import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

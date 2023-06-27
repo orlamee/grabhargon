@@ -1,6 +1,9 @@
-
+import React, { useState } from 'react';
+import RangeSlider from 'react-bootstrap-range-slider';
 
 export default function BringYour() {
+  const [ value, setValue ] = useState(0); 
+
   return (
     <section className="bringyour">
       <div className="container">
@@ -19,9 +22,16 @@ export default function BringYour() {
             </div>
             <h2 >What’s your monthly income?</h2>
             <div style={{marginTop: "50px", marginBottom: "50px"}}>
-              <label htmlFor="customRange1" className="form-label">₦50,000</label>
-              <input type="range" className="form-range" />
-              <label htmlFor="customRange1" className="form-label" style={{color: "#9CA3AF"}}>₦20,000</label>
+              <div><label htmlFor="customRange1" className="form-label">₦50,000</label></div>
+              {/* <input type="range" className="form-range" /> */}
+              <RangeSlider
+                variant='success'
+                value={value}
+                onChange={changeEvent => setValue(changeEvent.target.value)}
+                tooltip='off'
+                size='lg'
+              />
+              <div><label htmlFor="customRange1" className="form-label" style={{color: "#9CA3AF"}}>₦20,000</label></div>
             </div>
             <h2 >Loanable amount</h2>
           </div>

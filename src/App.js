@@ -1,5 +1,7 @@
 import BringYour from "./components/bringYour";
+import CashB from "./components/cashB";
 import Clients from "./components/clients";
+import CreditGalore from "./components/creditGalore";
 import Footer from "./components/footer";
 import HomeBanner from "./components/homeBanner";
 import HowHargon from "./components/howHargon";
@@ -18,8 +20,10 @@ function App () {
       <WhyChoose/>
       <BringYour/>
       <HowHargon/>
+      <CashB/>
       <Testimony/>
       <PayBill/>
+      <CreditGalore/>
       <Investor/>
       <Clients/>
       <Footer/>

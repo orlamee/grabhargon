@@ -11,6 +11,7 @@ body {
   scroll-behavior: smooth;
 }
 
+
 @font-face {
   font-family: syne-reg;
   src: url("./syne.regular.otf");
@@ -2204,4 +2205,56 @@ a {
 
 .products-cards:hover h6 {
   color: #fff;
+}
+
+.cashb {
+  background-image: url(./assets/cashback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 140px 20px;
+  /* background-position: center; */
+}
+
+@media (min-width: 992px){
+  .upf {
+    background-image: url(./assets/stp.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 37px 55px 70px;
+    background-position: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px){
+  .upf {
+    background: #fff;
+    padding: 54px 55px;
+    text-align: center;
+  }
+}
+
+.upf p {
+  color: #228B22;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+@media (min-width: 992px){
+  .creditgalore {
+    background-image: url(./assets/credgalore.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 190px 20px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .creditgalore {
+    background-image: url(./assets/ysyc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+  }
 }
