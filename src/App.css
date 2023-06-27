@@ -2128,12 +2128,38 @@ a {
   padding: 100px 20px;
 }
 
-.qc-hero h2 {
-  color: #041004;
-  font-size: 80px;
-  line-height: 97px;
-  font-weight: 600;
-  font-family: syne-bold;
+@media (min-width: 992px){
+  .qc-hero h2 {
+    color: #041004;
+    font-size: 80px;
+    line-height: 97px;
+    font-weight: 600;
+    font-family: syne-bold;
+  }
+  .three h2 {
+    color: #041004;
+    font-size: 60px;
+    line-height: 79px;
+    font-weight: 600;
+    font-family: syne-bold;
+  }
+}
+
+@media (max-width: 767.98px){
+  .qc-hero h2 {
+    color: #041004;
+    font-size: 50px;
+    line-height: 67px;
+    font-weight: 600;
+    font-family: syne-bold;
+  }
+  .three h2 {
+    color: #041004;
+    font-size: 50px;
+    line-height: 79px;
+    font-weight: 600;
+    font-family: syne-bold;
+  }
 }
 
 @media (min-width: 992px){
@@ -2162,10 +2188,3 @@ a {
   font-family: syne-bold;
 }
 
-.three h2 {
-  color: #041004;
-  font-size: 60px;
-  line-height: 79px;
-  font-weight: 600;
-  font-family: syne-bold;
-}
