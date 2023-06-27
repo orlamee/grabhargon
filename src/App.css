@@ -1430,7 +1430,8 @@ a {
 .ml-hero p,
 .payback p,
 .pcc p,
-.flex-cc p {
+.flex-cc p,
+.qc-hero p {
   color: #333333;
   font-size: 14px;
   line-height: 20px;
@@ -1758,7 +1759,9 @@ a {
 .zero p,
 .shop-travel p,
 .how-it p,
-.reg p {
+.reg p,
+.inst-cred p,
+.pay p {
   color: #6B7280;
   font-size: 14px;
   line-height: 20px;
@@ -2117,4 +2120,51 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 20px;
+}
+
+.qc-hero {
+  background: #fff;
+  padding: 100px 20px;
+}
+
+.qc-hero h2 {
+  color: #041004;
+  font-size: 80px;
+  line-height: 97px;
+  font-weight: 600;
+  font-family: syne-bold;
+}
+
+@media (min-width: 992px){
+  .ql-img {
+    margin-top: 160px;
+  }
+}
+
+.inst-cred {
+  background-color: #F2FCF2;
+  padding: 100px 20px;
+}
+
+.pay,
+.three {
+  background: #fff;
+  padding: 100px 20px;
+}
+
+
+.pay h2 {
+  color: #041004;
+  font-size: 44px;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: syne-bold;
+}
+
+.three h2 {
+  color: #041004;
+  font-size: 60px;
+  line-height: 79px;
+  font-weight: 600;
+  font-family: syne-bold;
 }

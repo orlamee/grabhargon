@@ -24,6 +24,7 @@ import MicroLending from './pages/microLending';
 import CreditCard from './pages/creditCard';
 import PersonalCC from './pages/personalCC';
 import Merchant from './pages/merchant';
+import QuickCredit from './pages/quickCred';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -42,6 +43,7 @@ root.render(
       <Route path="/personal/salary-advance" element={<SalaryAdvance/>}></Route>
       <Route path="/personal/market-place" element={<MarketPlace/>}></Route>
       <Route path="/personal/savings" element={<FixedDepo/>}></Route>
+      <Route path="/personal/quickcredit" element={<QuickCredit/>}></Route>
       <Route path="/personal/mortgage" element={<Mortgage/>}></Route>
       <Route path="/personal/tourism" element={<Tourism/>}></Route>
       <Route path="/personal/pawn" element={<Pawn/>}></Route>

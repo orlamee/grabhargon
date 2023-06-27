@@ -19,7 +19,7 @@ function DropDownSolution() {
     <div className="dropdown-menu solution-menu sol-menu">
       <div className="row">
         <div className="col-sm-6">
-          <Link to="/" className="d-flex flex-row mb-4">
+          <Link to="/personal/quickcredit" className="d-flex flex-row mb-4">
             <img src={qc} alt="quickcredit" className="img-fluid me-3" />
             <h6 className="mt-2">Quick Credit</h6>
           </Link>
