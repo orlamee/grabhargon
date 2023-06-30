@@ -1,4 +1,3 @@
-import pay from "../../assets/paymentopt.png";
 
 
 
