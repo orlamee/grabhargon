@@ -1435,7 +1435,8 @@ a {
 .payback p,
 .pcc p,
 .flex-cc p,
-.qc-hero p {
+.qc-hero p,
+.hob p {
   color: #333333;
   font-size: 14px;
   line-height: 20px;
@@ -1595,7 +1596,10 @@ a {
 .emp p,
 .pay-roll p,
 .empower p,
-.coll-card p {
+.coll-card p,
+.nhc p,
+.bill-con h6,
+.auto-card p {
   color: #4D4D4D;
   font-size: 14px;
   line-height: 20px;
@@ -2257,4 +2261,104 @@ a {
     background-size: cover;
     padding: 100px 20px;
   }
+}
+
+@media (min-width: 992px){
+  .hob {
+    background-image: url(./assets/hob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+  }
+
+  .bill-con h2 {
+    color: #000000;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 78px;
+    font-family: syne-bold;
+  }
+}
+
+@media (max-width: 767.98px){
+  .hob {
+    background: #fff;
+    padding: 100px 20px;
+  }
+
+  .bill-con h2 {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+    font-family: syne-bold;
+  }
+}
+
+.hob-bg {
+  background: #23A323;
+  color: #fff;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 500;
+  padding: 14px 34px;
+  border-radius: 78px;
+}
+
+.nhc {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.bill-con {
+  background: #F2FCF2;
+  padding: 100px 20px;
+}
+
+.auto-bills {
+  background-color: #fff;
+  padding: 100px 0px;
+}
+
+.btn-auto,
+.btn-auto:hover {
+  background: #F2FCF2;
+  color: #23A323;
+  border-color: #F2FCF2;
+  padding: 10px 30px;
+  font-size: 14px;
+  border-radius: 40px;
+}
+
+@media (min-width: 992px){
+  .auto-card {
+    border-right: 2px solid #D1D5DB;
+    padding: 15px 26px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .auto-card {
+    padding: 15px 26px;
+  }
+}
+
+.auto-card h4 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  font-family: syne-bold;
+}
+
+.getting-started {
+  padding: 150px 20px 60px;
+}
+
+.rgb {
+  background-image: url(./assets/rgb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
 }

@@ -45,7 +45,7 @@ function DropDownSolution() {
           </Link>
         </div>
         <div className="col-sm-6">
-          <Link to="/" className="d-flex flex-row mb-4">
+          <Link to="/personal/bills" className="d-flex flex-row mb-4">
             <img src={fd} alt="bills" className="img-fluid me-3" />
             <h6 className="mt-2">Bills</h6>
           </Link>
