@@ -1004,6 +1004,26 @@ a {
   }
 }
 
+@media (max-width: 767.98px){
+  .solution-menu {
+    /* min-width: 470px!important; */
+    border: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    padding: 20px 30px;
+  }
+
+  .company-menu {
+    /* min-width: 240px!important; */
+    border: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    padding: 20px 30px;
+  }
+}
+
 @media (min-width: 992px){
   .company-menu {
     min-width: 240px!important;
