@@ -37,7 +37,7 @@ export default function Footer () {
                     <li><Link to="/personal">Personal</Link></li>
                     <li><Link to="/business">Business</Link></li>
                     <li><Link to="">Partnership <span className="f-cs">Coming Soon</span></Link></li>
-                    <li><Link to="">Wallet</Link></li>
+                    <li><Link to="/wallet">Wallet</Link></li>
                   </ul>
                 </div>
                 <div className="col-sm mb-3">

@@ -27,6 +27,7 @@ import PersonalCC from './pages/personalCC';
 import Merchant from './pages/merchant';
 import QuickCredit from './pages/quickCred';
 import Bills from './pages/bills';
+import Wallets from './pages/wallet';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -53,6 +54,7 @@ root.render(
       <Route path="/personal/auto-loan" element={<AutoLoans/>}></Route>
       <Route path="/personal/credit-card" element={<PersonalCC/>}></Route>
       <Route path="/personal/bills" element={<Bills/>}></Route>
+      <Route path="/wallet" element={<Wallets/>}></Route>
     </Routes>
   </BrowserRouter>
 );

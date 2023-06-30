@@ -2298,7 +2298,8 @@ a {
     padding: 100px 20px;
   }
 
-  .bill-con h2 {
+  .bill-con h2,
+  .wallet-hero h2 {
     color: #000000;
     font-size: 65px;
     font-weight: 600;
@@ -2313,7 +2314,8 @@ a {
     padding: 100px 20px;
   }
 
-  .bill-con h2 {
+  .bill-con h2,
+  .wallet-hero h2 {
     color: #000000;
     font-size: 45px;
     font-weight: 600;
@@ -2388,4 +2390,81 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px 20px;
+}
+
+.wallet-hero {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.wallet-hero p {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.srr {
+  background: #fff;
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .srr-cards {
+    background-color: #FF823B;
+    padding: 100px 50px;
+    border-radius: 20px;
+    min-height: 765px;
+  }
+
+  .credit-card h2 {
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 102px;
+    color: #fff;
+    font-family: syne-bold;
+  }
+}
+
+@media (max-width: 767.98px){
+  .srr-cards {
+    background-color: #FF823B;
+    padding: 100px 50px;
+    border-radius: 20px;
+  }
+
+  .credit-card h2 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #fff;
+    font-family: syne-bold;
+  }
+}
+
+.srr-cards p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.credit-card {
+  background-image: url(./assets/accessto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 50px;
+  border-radius: 20px;
+  min-height: 688px;
+}
+
+.credit-card p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.slider-img img {
+  object-position: center;
+  object-fit: cover;
+  height: 690px;
 }
