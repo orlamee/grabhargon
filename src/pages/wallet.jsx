@@ -1,9 +1,11 @@
 
 import EduHeader from "../components/educationalLoan/eduHeader";
 import Footer from "../components/footer";
-import AccessToCredit from "../components/hargonWallet.jsx/accesstoCredit";
-import SRR from "../components/hargonWallet.jsx/srr";
-import WalletHero from "../components/hargonWallet.jsx/walletHero";
+import AccessToCredit from "../components/hargonWallet/accesstoCredit";
+import PayOpt from "../components/hargonWallet/payOpt";
+import PaymentBills from "../components/hargonWallet/paymentBills";
+import SRR from "../components/hargonWallet/srr";
+import WalletHero from "../components/hargonWallet/walletHero";
 import SemiFooter from "../components/personalPage/semiFooter";
 
 
@@ -17,6 +19,8 @@ function Wallets () {
       <WalletHero/>
       <SRR/>
       <AccessToCredit/>
+      <PaymentBills/>
+      <PayOpt/>
       <SemiFooter/>
       <Footer/>
     </div>

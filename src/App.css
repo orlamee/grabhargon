@@ -2299,7 +2299,9 @@ a {
   }
 
   .bill-con h2,
-  .wallet-hero h2 {
+  .wallet-hero h2,
+  .bills-payment h2,
+  .opt-payment h2 {
     color: #000000;
     font-size: 65px;
     font-weight: 600;
@@ -2397,7 +2399,8 @@ a {
   background-color: #fff;
 }
 
-.wallet-hero p {
+.wallet-hero p,
+.opt-payment p {
   color: #000000;
   font-size: 14px;
   font-weight: 500;
@@ -2424,6 +2427,15 @@ a {
     color: #fff;
     font-family: syne-bold;
   }
+
+  .credit-card {
+    background-image: url(./assets/accessto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 50px;
+    border-radius: 20px;
+    min-height: 688px;
+  }
 }
 
 @media (max-width: 767.98px){
@@ -2440,21 +2452,21 @@ a {
     color: #fff;
     font-family: syne-bold;
   }
+
+  .credit-card {
+    background-image: url(./assets/accessto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 50px;
+    border-radius: 20px;
+    /* min-height: 688px; */
+  }
 }
 
 .srr-cards p {
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
-}
-
-.credit-card {
-  background-image: url(./assets/accessto.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px 50px;
-  border-radius: 20px;
-  min-height: 688px;
 }
 
 .credit-card p {
@@ -2467,4 +2479,18 @@ a {
   object-position: center;
   object-fit: cover;
   height: 690px;
+}
+
+.bills-payment {
+  background-image: url(./assets/backline.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
+}
+
+.opt-payment {
+  background-image: url(./assets/payopt.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 20px;
 }
