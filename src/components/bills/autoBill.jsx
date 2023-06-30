@@ -71,7 +71,7 @@ export default function AutoBills () {
       <div className="rgb">
         <div className="container-fluid">
           <div className="row justify-content-center">
-            <div className="col-sm-7 text-center">
+            <div className="col-sm-10 text-center">
               <img src={middle} alt="getting started" className="img-fluid w-100" />
             </div>
           </div>

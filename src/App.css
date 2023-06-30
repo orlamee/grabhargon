@@ -2301,7 +2301,8 @@ a {
   .bill-con h2,
   .wallet-hero h2,
   .bills-payment h2,
-  .opt-payment h2 {
+  .opt-payment h2,
+  .smart-money h2 {
     color: #000000;
     font-size: 65px;
     font-weight: 600;
@@ -2312,12 +2313,17 @@ a {
 
 @media (max-width: 767.98px){
   .hob {
-    background: #fff;
-    padding: 100px 20px;
+    background-image: url(./assets/hob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 20px;
   }
 
   .bill-con h2,
-  .wallet-hero h2 {
+  .wallet-hero h2,
+  .opt-payment h2,
+  .smart-money h2,
+  .bills-payment h2 {
     color: #000000;
     font-size: 45px;
     font-weight: 600;
@@ -2400,7 +2406,8 @@ a {
 }
 
 .wallet-hero p,
-.opt-payment p {
+.opt-payment p,
+.smart-money p {
   color: #000000;
   font-size: 14px;
   font-weight: 500;
@@ -2493,4 +2500,25 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 150px 20px;
+  /* background-position: center; */
+}
+
+@media (min-width: 992px){
+  .smart-money {
+    background-image: url(./assets/smartmoney.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 454px 20px;
+    background-position: center;
+  }
+}
+
+@media (max-width: 767.98px){
+  .smart-money {
+    background-image: url(./assets/ysyc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+    background-position: center;
+  }
 }
