@@ -28,6 +28,7 @@ export default function SRR () {
           </div>
           <div className="col-sm-4">
             <div className="srr-cards text-center" style={{background: "#23A323"}}>
+              <span className="float-end srr-cs">Coming Soon</span>
               <img src={rem} alt="request money" className="img-fluid" />
               <p className="text-white mt-4">Safely and conveniently request money from anyone-family and friends using your unique CAN identifier on Hargon.</p>
               <img src={four} alt="send money" className="img-fluid w-100 mt-5" />
