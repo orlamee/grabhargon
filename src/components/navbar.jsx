@@ -41,12 +41,12 @@ function Header () {
           <Nav className="ms-auto">
             <Nav.Link href="/"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>
             <Nav.Link>
-              <a
+              <Link
                 className="btn btn-primary btn-main rounded-pill px-5 py-3"
-                href="#!"
+                to="/grabhargon"
               >
                 Get Started
-              </a>
+              </Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

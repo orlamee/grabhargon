@@ -28,12 +28,14 @@ import Merchant from './pages/merchant';
 import QuickCredit from './pages/quickCred';
 import Bills from './pages/bills';
 import Wallets from './pages/wallet';
+import DownloadHargon from './pages/download';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}></Route>
+      <Route path="/grabhargon" element={<DownloadHargon/>}></Route>
       <Route path="/personal" element={<Personal/>}></Route>
       <Route path="/business" element={<Business/>}></Route>
       <Route path="/business/loan-agency" element={<LoanAgency/>}></Route>
