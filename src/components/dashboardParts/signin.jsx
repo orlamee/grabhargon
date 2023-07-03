@@ -42,7 +42,7 @@ export default function SignIn () {
                     </div>
                     <Link to=""><h6 className="float-end" style={{marginTop: "-21px"}}>Forgot Password?</h6></Link>
                   </div>
-                  <Link to="" type="button" className="btn btn-primary btn-main rounded-pill px-5 py-3 w-100">Sign In</Link>
+                  <Link to="/login/otp" type="button" className="btn btn-primary btn-main rounded-pill px-5 py-3 w-100">Sign In</Link>
                   <div className="text-center mt-4">
                     <p>Don’t have an account?  <Link to="" className="" style={{color: "#23A323"}}>Create account</Link></p>
                   </div>
