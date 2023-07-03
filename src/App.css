@@ -2540,3 +2540,86 @@ a {
   padding: 42px 20px;
   background-position: center;
 }
+
+.loginleft {
+  background-image: url('./assets/pattern.png');
+  background-repeat: no-repeat!important;
+  background-size: cover!important; 
+  background-position: center;
+}
+
+.half, .half .container > .row {
+  height: 100vh;
+}
+
+@media (max-width: 991.98px) {
+  .half .bg {
+    height: 500px; 
+  }
+}
+
+.half .contents, .half .bg {
+  width: 50%; 
+}
+
+.half .bg {
+  background-size: cover;
+}
+
+@media (max-width: 767.98px){
+  .half .contents, .half .bg {
+    width: 100%; 
+  }
+}
+
+.login-form h3 {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.login-form .form-control {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  color: #888;
+  font-size: 12px;
+  padding: 16px;
+}
+
+.forgot-p .form-check-label {
+  color: #6B7280;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.forgot-p h6 {
+  color: #228B22;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.forgot-p .form-check-input[type=checkbox] {
+  border-radius: 0;
+}
+
+.login-form p {
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.form-check-input:checked {
+  background-color: #228B22;
+  border-color: #228B22;
+}
+
+.login-form .form-text {
+  color: #9CA3AF;
+  font-size: 10px;
+  float: right!important;
+}

@@ -29,6 +29,7 @@ import QuickCredit from './pages/quickCred';
 import Bills from './pages/bills';
 import Wallets from './pages/wallet';
 import DownloadHargon from './pages/download';
+import Login from './adminPages/login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -57,6 +58,7 @@ root.render(
       <Route path="/personal/credit-card" element={<PersonalCC/>}></Route>
       <Route path="/personal/bills" element={<Bills/>}></Route>
       <Route path="/wallet" element={<Wallets/>}></Route>
+      <Route path="/login" element={<Login/>}></Route>
     </Routes>
   </BrowserRouter>
 );

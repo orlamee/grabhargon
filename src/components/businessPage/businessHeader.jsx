@@ -6,10 +6,11 @@ import globe from "../../assets/globe.svg";
 import { Link } from 'react-router-dom';
 import DropDownFeatures from './dropDownFeatures';
 import DropDownCompany from '../dropdownCompany';
-
+import { useNavigate } from "react-router-dom";
 
 
 function BusinessHeader () {
+  const navigate = useNavigate();
   return (
     <Navbar bg="white" expand="lg" className='py-3 header sticky-top'>
       <Container>
@@ -49,7 +50,7 @@ function BusinessHeader () {
             <Nav.Link>
               <button
                 className="btn btn-primary btn-main bg-black text-white rounded-pill px-5 py-3"
-                href="#!"
+                onClick={() => navigate("/login")}
               >
                 Sign in
               </button>
