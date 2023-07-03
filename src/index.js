@@ -31,6 +31,7 @@ import Wallets from './pages/wallet';
 import DownloadHargon from './pages/download';
 import Login from './adminPages/login';
 import LoginOTP from './adminPages/loginOtp';
+import Register from './adminPages/register';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -59,6 +60,7 @@ root.render(
       <Route path="/personal/credit-card" element={<PersonalCC/>}></Route>
       <Route path="/personal/bills" element={<Bills/>}></Route>
       <Route path="/wallet" element={<Wallets/>}></Route>
+      <Route path="/sign-up" element={<Register/>}></Route>
       <Route path="/login" element={<Login/>}></Route>
       <Route path="/login/otp" element={<LoginOTP/>}></Route>
     </Routes>

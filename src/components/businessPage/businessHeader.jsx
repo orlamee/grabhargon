@@ -50,7 +50,7 @@ function BusinessHeader () {
             <Nav.Link>
               <button
                 className="btn btn-primary btn-main bg-black text-white rounded-pill px-5 py-3"
-                onClick={() => navigate("/login")}
+                onClick={() => navigate("/sign-up")}
               >
                 Sign in
               </button>
