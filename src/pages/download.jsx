@@ -17,7 +17,7 @@ function DownloadHargon () {
         <div className="row">
           <div className="col-sm-12">
             <Link to="/"><img src={logo} alt="logo" className="img-fluid" /></Link>
-            <Link><img src={get} alt="get started" className="img-fluid float-end" /></Link>
+            <img src={get} alt="get started" className="img-fluid float-end" />
           </div>
         </div>
         <div className="mt-9">
@@ -27,7 +27,7 @@ function DownloadHargon () {
             </div>
           </div>
         </div>
-        <div>
+        <div style={{marginTop: "-50px"}}>
           <div className="row justify-content-between">
             <div className="col-sm-4 mb-3" style={{marginTop: "140px"}}>
               <img src={scan} alt="barcode" className="img-fluid"  />
