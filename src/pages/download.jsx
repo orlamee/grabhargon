@@ -16,7 +16,7 @@ function DownloadHargon () {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <img src={logo} alt="logo" className="img-fluid" />
+            <Link to="/"><img src={logo} alt="logo" className="img-fluid" /></Link>
             <Link><img src={get} alt="get started" className="img-fluid float-end" /></Link>
           </div>
         </div>
