@@ -32,12 +32,10 @@ export default function SignIn () {
                     </Form.Text>
                   </Form.Group>
                   <Form.Group className="mb-3 mt-5">
-                    {/* <Form.Control type="password" placeholder="Password" /> */}
                     <Input
                       type="password"
                       name="password"
                       placeholder="Password"
-                      // bottomText="Must contain 8+ characters with at least 1 number"
                     />
                   </Form.Group>
                   <div className="mb-4 forgot-p">
@@ -47,7 +45,7 @@ export default function SignIn () {
                         Remember Password
                       </label>
                     </div>
-                    <Link to=""><h6 className="float-end" style={{marginTop: "-21px"}}>Forgot Password?</h6></Link>
+                    <Link to="/recover-password"><h6 className="float-end" style={{marginTop: "-21px"}}>Forgot Password?</h6></Link>
                   </div>
                   <Link to="/login/otp" type="button" className="btn btn-primary btn-main rounded-pill px-5 py-3 w-100">Sign In</Link>
                   <div className="text-center mt-4">

@@ -32,6 +32,8 @@ import DownloadHargon from './pages/download';
 import Login from './adminPages/login';
 import LoginOTP from './adminPages/loginOtp';
 import Register from './adminPages/register';
+import ForgotP from './adminPages/forgotPassword';
+import NewPassword from './adminPages/newPassword';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -63,6 +65,8 @@ root.render(
       <Route path="/sign-up" element={<Register/>}></Route>
       <Route path="/login" element={<Login/>}></Route>
       <Route path="/login/otp" element={<LoginOTP/>}></Route>
+      <Route path="/recover-password" element={<ForgotP/>}></Route>
+      <Route path="/set-password" element={<NewPassword/>}></Route>
     </Routes>
   </BrowserRouter>
 );
