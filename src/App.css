@@ -2739,7 +2739,8 @@ a {
 }
 
 .fitwell h3,
-.yourdreams h2 {
+.yourdreams h2,
+.ta h2 {
   color: #000;
   font-size: 70px;
   font-weight: 500;
@@ -2748,7 +2749,8 @@ a {
 
 .fitwell p,
 .yourdreams p,
-.our-v p {
+.our-v p,
+.our-m p {
   color: #000;
   font-size: 14px;
   font-weight: 500;
@@ -2776,4 +2778,33 @@ a {
 .our-v {
   background-color: #F2FCF2;
   padding: 100px 20px;
+}
+
+.our-m {
+  background-image: url(./assets/miss.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  padding: 100px 20px;
+}
+
+.ta {
+  background-image: url(./assets/takebg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 20px;
+}
+
+.ta h6 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+.ta p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
 }
