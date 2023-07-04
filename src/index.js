@@ -34,12 +34,14 @@ import LoginOTP from './adminPages/loginOtp';
 import Register from './adminPages/register';
 import ForgotP from './adminPages/forgotPassword';
 import NewPassword from './adminPages/newPassword';
+import Aboutus from './pages/aboutus';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}></Route>
+      <Route path="/about-us" element={<Aboutus/>}></Route>
       <Route path="/grabhargon" element={<DownloadHargon/>}></Route>
       <Route path="/personal" element={<Personal/>}></Route>
       <Route path="/business" element={<Business/>}></Route>

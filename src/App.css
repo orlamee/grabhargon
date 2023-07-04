@@ -2717,3 +2717,57 @@ a {
   border-radius: 52px;
   margin-top: -37px;
 }
+
+.aboutus-hero {
+  background-image: url(./assets/aboutbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 60px 20px;
+}
+
+.aboutus-hero h6 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.fitwell {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.fitwell h3,
+.yourdreams h2 {
+  color: #000;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 80px;
+}
+
+.fitwell p,
+.yourdreams p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+@media (min-width: 992px){
+  .yourdreams {
+    background-image: url(./assets/guy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 630px 20px 100px 20px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .yourdreams {
+    background-image: url(./assets/guy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px 100px 20px;
+  }
+}

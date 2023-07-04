@@ -9,7 +9,7 @@ function DropDownCompany() {
     <div className="dropdown-menu company-menu sol-menu">
       <div className="row">
         <div className="col-sm-12">
-          <Link to="/" className="d-flex flex-row mb-4">
+          <Link to="/about-us" className="d-flex flex-row mb-4">
             <img src={cc} alt="About" className="img-fluid me-3" />
             <h6 className="mt-2">About us</h6>
           </Link>
