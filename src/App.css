@@ -2747,7 +2747,8 @@ a {
 }
 
 .fitwell p,
-.yourdreams p {
+.yourdreams p,
+.our-v p {
   color: #000;
   font-size: 14px;
   font-weight: 500;
@@ -2770,4 +2771,9 @@ a {
     background-size: cover;
     padding: 100px 20px 100px 20px;
   }
+}
+
+.our-v {
+  background-color: #F2FCF2;
+  padding: 100px 20px;
 }

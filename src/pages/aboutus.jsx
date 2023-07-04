@@ -4,6 +4,7 @@ import Header from "../components/navbar";
 import AboutHero from "../components/aboutus/aboutHero";
 import Fitwell from "../components/aboutus/fitwell";
 import YourDreams from "../components/aboutus/yourDreams";
+import OurV from "../components/aboutus/ourVision";
 
 
 
@@ -14,6 +15,7 @@ function Aboutus () {
       <AboutHero/>
       <Fitwell/>
       <YourDreams/>
+      <OurV/>
       <SemiFooter/>
       <Footer/>
     </div>
