@@ -1,6 +1,7 @@
 import { Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../assets/loginlogo.svg";
+import Input from "./input";
 
 
 export default function SignIn () {
@@ -31,7 +32,13 @@ export default function SignIn () {
                     </Form.Text>
                   </Form.Group>
                   <Form.Group className="mb-3 mt-5">
-                    <Form.Control type="password" placeholder="Password" />
+                    {/* <Form.Control type="password" placeholder="Password" /> */}
+                    <Input
+                      type="password"
+                      name="password"
+                      placeholder="Password"
+                      // bottomText="Must contain 8+ characters with at least 1 number"
+                    />
                   </Form.Group>
                   <div className="mb-4 forgot-p">
                     <div className="form-check">
