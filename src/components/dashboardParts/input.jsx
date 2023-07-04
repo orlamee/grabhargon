@@ -66,7 +66,7 @@ const Input = ({
           style={{
             cursor: 'pointer',
             position: 'absolute',
-            top: '42px',
+            top: '12px',
             right: '10px',
           }}
           onClick={() => setSecureText(false)}
