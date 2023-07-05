@@ -2837,7 +2837,8 @@ a {
 }
 
 .good,
-.bigger {
+.bigger,
+.r-term {
   background-color: #fff;
   padding: 100px 20px;
 }
@@ -2870,4 +2871,80 @@ a {
   font-weight: 400;
   line-height: 50px;
   color: #000;
+}
+
+.auto-hero {
+  background-image: url(./assets/wheels.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 20px; 
+}
+
+@media (min-width: 992px){
+  .auto-hero h2 {
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 109px;
+    font-family: syne-bold;
+    color: #041004;
+  }
+  .auto-h {
+    margin-top: 140px;
+  }
+
+  .r-term h2,
+  .g-started h2,
+  .auto-fin h2 {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 79px;
+    font-family: syne-bold;
+    color: #041004;
+  }
+}
+
+@media (max-width: 767.98px){
+  .auto-hero h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 69px;
+    font-family: syne-bold;
+    color: #041004;
+  }
+
+  .r-term h2,
+  .g-started h2,
+  .auto-fin h2 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 60px;
+    font-family: syne-bold;
+    color: #041004;
+  }
+}
+
+.auto-hero p,
+.yourwhip p,
+.r-term p,
+.g-started p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #333;
+}
+
+.yourwhip {
+  background-image: url(./assets/yourwhip.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px 385px;
+}
+
+.g-started {
+  background-image: url(./assets/gsbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
 }
