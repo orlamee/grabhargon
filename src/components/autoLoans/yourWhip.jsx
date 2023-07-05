@@ -8,7 +8,7 @@ export default function YourWhip () {
       <div className='container'>
         <div className="row justify-content-center">
           <div className="col-sm-7 text-center">
-            <img src={whip} alt="auto loans" className="img-fluid" />
+            <img src={whip} alt="Your Whip, Your Choice" className="img-fluid" />
             <p className="text-white mt-5">Enjoy your preferred whip or vehicle, from motorbikes to<br/>private cars, keke, kurope, and others. </p>
           </div>
         </div>
