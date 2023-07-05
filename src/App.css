@@ -2810,7 +2810,8 @@ a {
 }
 
 .lpo-hero h2,
-.good h2 {
+.good h2,
+.business-need h2 {
   color: #000;
   font-size: 65px;
   font-weight: 500;
@@ -2818,7 +2819,9 @@ a {
 }
 
 .lpo-hero p,
-.good p {
+.good p,
+.business-need p,
+.bigger p {
   color: #000;
   font-size: 14px;
   font-weight: 500;
@@ -2833,7 +2836,8 @@ a {
   padding: 150px 20px;
 }
 
-.good {
+.good,
+.bigger {
   background-color: #fff;
   padding: 100px 20px;
 }
@@ -2843,4 +2847,27 @@ a {
   background-repeat: no-repeat!important;
   background-size: cover!important;
   background-position: center!important;
+}
+
+.business-need {
+  background-image: url(./assets/businessneed.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+}
+
+.bigger h2 {
+  font-size: 129px;
+  font-weight: 500;
+  line-height: 130px;
+  font-family: syne-bold;
+  color: #23A323;
+}
+
+.bigger h6 {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #000;
 }
