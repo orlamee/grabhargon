@@ -2808,3 +2808,39 @@ a {
   font-weight: 500;
   line-height: 26px;
 }
+
+.lpo-hero h2,
+.good h2 {
+  color: #000;
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 80px;
+}
+
+.lpo-hero p,
+.good p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.lpo-hero {
+  background-image: url(./assets/lpobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+}
+
+.good {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.hta {
+  background-image: url(./assets/hoa.png)!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  background-position: center!important;
+}

@@ -35,6 +35,7 @@ import Register from './adminPages/register';
 import ForgotP from './adminPages/forgotPassword';
 import NewPassword from './adminPages/newPassword';
 import Aboutus from './pages/aboutus';
+import LPO from './pages/lpo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -69,6 +70,7 @@ root.render(
       <Route path="/login/otp" element={<LoginOTP/>}></Route>
       <Route path="/recover-password" element={<ForgotP/>}></Route>
       <Route path="/set-password" element={<NewPassword/>}></Route>
+      <Route path="/lpo" element={<LPO/>}></Route>
     </Routes>
   </BrowserRouter>
 );

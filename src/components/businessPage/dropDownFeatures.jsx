@@ -37,7 +37,7 @@ function DropDownFeatures() {
             <img src={fd} alt="Fixed" className="img-fluid me-3" />
             <h6 className="mt-2">Merchant store</h6>
           </Link>
-          <Link to="/" className="d-flex flex-row mb-4">
+          <Link to="/lpo" className="d-flex flex-row mb-4">
             <img src={s} alt="LPO Financing" className="img-fluid me-3" />
             <h6 className="mt-2">LPO Financing</h6>
           </Link>
