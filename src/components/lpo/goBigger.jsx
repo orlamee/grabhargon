@@ -1,3 +1,4 @@
+import TextLoop from "react-text-loop";
 import asset from "../../assets/asset.png";
 
 
@@ -8,7 +9,12 @@ export default function GoBigger () {
         <div className="row justify-content-between">
           <div className="col-sm-5 mb-3">
             <h6>Go</h6>
-            <h2>Bigger</h2>
+            
+            <TextLoop mask={true}>
+                <h2>Bigger</h2>
+                <h2>Faster</h2>
+                <h2>Further</h2>
+            </TextLoop>
           </div>
           <div className="col-sm-5">
             <p>Hargon's LPO financing is smart for empowering your business to grow and prosper.</p>
