@@ -2971,7 +2971,8 @@ a {
 }
 
 .career-hero p,
-.our-staffs p {
+.our-staffs p,
+.card-app p {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -3081,4 +3082,49 @@ a {
 .fo {
   background-image: url(./assets/focus.png)!important; 
   min-height: 550px!important
+}
+
+.card-app {
+  text-align: center;
+  background-image: url(./assets/apply1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 50px;
+  min-height: 700px;
+  background-position: bottom;
+}
+
+@media (min-width: 992px){
+  .card-app h2 {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 96px;
+    font-family: 'syne-bold';
+  }
+}
+
+
+.tw {
+  background-image: url(./assets/2.svg);
+}
+
+.th {
+  background-image: url(./assets/3.svg);
+}
+
+.fou {
+  background-image: url(./assets/4.svg);
+}
+
+@media (max-width: 767.98px){
+  .logotop {
+    display: none;
+  }
+  .card-app h2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 96px;
+    font-family: 'syne-bold';
+}
 }
