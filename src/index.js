@@ -36,6 +36,12 @@ import ForgotP from './adminPages/forgotPassword';
 import NewPassword from './adminPages/newPassword';
 import Aboutus from './pages/aboutus';
 import LPO from './pages/lpo';
+import MerchantSignup from './adminPages/merchantSignup';
+import SignupOTP from './adminPages/signupOtp';
+import ChangeEmail from './adminPages/changeEmail';
+import CompanySignup from './adminPages/companySignup';
+import AgentSignup from './adminPages/agentSignup';
+import Careers from './pages/careers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -66,11 +72,17 @@ root.render(
       <Route path="/personal/bills" element={<Bills/>}></Route>
       <Route path="/wallet" element={<Wallets/>}></Route>
       <Route path="/sign-up" element={<Register/>}></Route>
+      <Route path="/sign-up/otp" element={<SignupOTP/>}></Route>
+      <Route path="/change-email" element={<ChangeEmail/>}></Route>
+      <Route path="/sign-up/merchant" element={<MerchantSignup/>}></Route>
+      <Route path="/sign-up/company" element={<CompanySignup/>}></Route>
+      <Route path="/sign-up/agent" element={<AgentSignup/>}></Route>
       <Route path="/login" element={<Login/>}></Route>
       <Route path="/login/otp" element={<LoginOTP/>}></Route>
       <Route path="/recover-password" element={<ForgotP/>}></Route>
       <Route path="/set-password" element={<NewPassword/>}></Route>
       <Route path="/lpo" element={<LPO/>}></Route>
+      <Route path="/career" element={<Careers/>}></Route>
     </Routes>
   </BrowserRouter>
 );

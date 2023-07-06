@@ -13,7 +13,7 @@ function DropDownCompany() {
             <img src={cc} alt="About" className="img-fluid me-3" />
             <h6 className="mt-2">About us</h6>
           </Link>
-          <Link to="/" className="d-flex flex-row mb-4">
+          <Link to="/career" className="d-flex flex-row mb-4">
             <img src={al} alt="Career" className="img-fluid me-3" />
             <h6 className="mt-2">Career page</h6>
           </Link>
