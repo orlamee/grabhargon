@@ -2974,3 +2974,68 @@ a {
   font-weight: 400;
   line-height: 20px;
 }
+
+.vacancies,
+.our-values {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+.vacancies .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #23A323;
+  background-color: #fff;
+  border: 1px solid #23A323;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'syne-bold';
+}
+
+.vacancies .nav-link {
+  color: #9CA3AF;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'syne-bold';
+}
+
+.vac-card {
+  background: #F2FCF2;
+  padding: 50px 40px;
+  margin-bottom: 30px;
+}
+
+.vac-card h6 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #000;
+  font-family: 'syne-bold';
+}
+
+.btn-post, .btn-post:hover {
+  background: #D5F6D5;
+  border: #D5F6D5;
+  color: #23A323;
+}
+
+.our-c {
+  background-image: url(./assets/ourcbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+}
+
+.our-values h6 {
+  color: #FFBD00;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+.our-values img {
+  width: 60px;
+  object-fit: cover;
+  object-position: top;
+}
