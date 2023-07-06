@@ -2953,3 +2953,24 @@ a {
 .login-cards .bi {
   color: #000;
 }
+
+.career-hero {
+  background-image: url(./assets/bg-career.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+}
+
+.career-hero h2 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+  font-family: syne-bold;
+}
+
+.career-hero p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
