@@ -1,6 +1,8 @@
 
 import CareerHero from "../components/career/careerHero";
+import Demand from "../components/career/demand";
 import OurCulture from "../components/career/ourCulture";
+import OurStaffs from "../components/career/ourStaffs";
 import OurValues from "../components/career/ourValues";
 import Vacancies from "../components/career/vacancies";
 import Footer from "../components/footer";
@@ -19,6 +21,8 @@ function Careers () {
       <Vacancies/>
       <OurCulture/>
       <OurValues/>
+      <OurStaffs/>
+      <Demand/>
       <SemiFooter/>
       <Footer/>
     </div>
