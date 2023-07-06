@@ -5,7 +5,7 @@ import process from "../../assets/TheProcess.svg";
 
 export default function TheProcess () {
   return (
-    <section className='our-values pb-0'>
+    <section className='our-values pt-0'>
       <div className='container'>
         <div className="row">
           <div className="col-sm-12">
