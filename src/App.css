@@ -1402,12 +1402,15 @@ a {
   font-weight: 400;
 }
 
-.b-bridge {
+.b-bridge,
+.beneloans {
   background: #fff;
   padding: 100px 20px;
 }
 
-.b-bridge h2 {
+.b-bridge h2,
+.cluster h2,
+.beneloans h2 {
   color: #041004;
   font-size: 65px;
   line-height: 78px;
@@ -1415,11 +1418,17 @@ a {
   font-family: syne-bold;
 }
 
-.b-bridge p {
+.b-bridge p,
+.cluster p {
   color: #333333;
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
+}
+
+.ssrbg {
+  background-image: url(./assets/ssrbg.png)!important;
+  background-position: bottom!important;
 }
 
 .b-bridge h6 {
@@ -1438,16 +1447,25 @@ a {
 }
 
 .cluster {
-  background-image: url(./assets/easyy.svg);
+  background-image: url(./assets/flx.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px 20px;
+  padding: 100px 20px;
 }
 
 .paymentterms {
-  padding: 100px 20px;
-  background-color: #fff;
+  background-image: url(./assets/works.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+
+@media (min-width: 992px){
+  .hand-img {
+    margin-top: 150px;
+  }
 }
 
 .paymentterms h2 {

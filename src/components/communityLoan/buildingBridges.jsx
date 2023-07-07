@@ -23,9 +23,9 @@ export default function BuildingBridges () {
           <div className="col-sm-6">
             <img src={cash} alt="loans" className="img-fluid w-100" />
           </div>
-          <div className="col-sm-4 mb-3" style={{marginTop: "100px"}}>
+          <div className="col-sm-5 mb-3" style={{marginTop: "100px"}}>
             <h2 className="mb-5">EASY CREDIT: <br/><span style={{color: "#23A323"}}>UP TO 5M</span></h2>
-            <p className="mb-5">Your business cluster or community can get credit solutions of up to N5,000,000 for a six-month maximum span, giving you all the resources to get the best out of your business.</p>
+            <p className="mb-5 w-87">Your business cluster or community can get credit solutions of up to N5,000,000 for a six-month maximum span, giving you all the resources to get the best out of your business.</p>
             <img src={traction} alt="traction" className="img-fluid" />
           </div>
         </div>
