@@ -20,7 +20,7 @@ export default function CommunityHero () {
               <h4 className="text-white">Take out loans in groups or clusters of at least three or more and unlock new levels of financial empowerment, giving you all you need to live with freedom.</h4>
               <img src={member} alt="members" className="img-fluid mt-5" />
             </div>
-            <div className="col-sm-7" style={{marginTop: "-456px"}}>
+            <div className="col-sm-7 comimg">
               <img src={credit} alt="community credit" className="img-fluid w-100" />
             </div>
           </div>
