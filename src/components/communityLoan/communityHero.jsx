@@ -1,19 +1,28 @@
-import loan from "../../assets/loaners.svg";
-import enable from "../../assets/enable.svg";
+import get from "../../assets/get financial.svg";
+import credit from "../../assets/comcredit.svg";
+import member from "../../assets/members.svg";
 
 
 
 export default function CommunityHero () {
   return (
-    <section className='comhero pb-0 pe-0'>
-      <div className='container-fluid'>
+    <section className='comhero'>
+      <div className='container'>
         <div className="row">
-          <div className="col-lg-4 mb-3 offset-md-2 p-0 mt-5">
-            <img src={enable} alt="Enabling success through empowered business communities" className="img-fluid" />
-            <p className="mt-5">Take out loans in groups or clusters of at least three or more small businesses and unlock new opportunities for growth.</p>
+          <div className="col-sm-9">
+            <span className="explo">Explore Growth Opportunities Together</span>
+            <img src={get} alt="Get financial empowerment through our community credit" className="img-fluid mt-5"/>
           </div>
-          <div className="col-lg-5 offset-md-1 p-0 mt-5 pe-0">
-            <img src={loan} alt="community hero" className="img-fluid w-100" />
+        </div>
+        <div className="combg">
+          <div className="row justify-content-between">
+            <div className="col-sm-4 mb-3">
+              <h4 className="text-white">Take out loans in groups or clusters of at least three or more and unlock new levels of financial empowerment, giving you all you need to live with freedom.</h4>
+              <img src={member} alt="members" className="img-fluid mt-5" />
+            </div>
+            <div className="col-sm-7" style={{marginTop: "-456px"}}>
+              <img src={credit} alt="community credit" className="img-fluid w-100" />
+            </div>
           </div>
         </div>
       </div>

@@ -1350,8 +1350,35 @@ a {
   font-weight: 400;
 }
 
+.combg {
+  background-image: url(./assets/combg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 50px 40px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+.combg h4 {
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 500;
+}
+
+
+.explo {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #23A323;
+  padding: 14px 20px;
+  border-radius: 50px;
+}
+
 .comhero {
-  background: linear-gradient(282.34deg, #179942 0.71%, #0A2A0A 112.18%);
+  background: #fff;
   padding: 100px 20px;
 }
 
