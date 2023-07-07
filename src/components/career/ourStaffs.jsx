@@ -63,7 +63,7 @@ export default function OurStaffs () {
               <div className="row justify-content-between mt-9">
                 <div className="col-sm-5 mb-3 staff-cred">
                   <img src={dot} alt="dot" className="img-fluid mb-5" />
-                  <h3>Project Manager</h3>
+                  <h3>Product Manager</h3>
                   <p>Anita</p>
                   <div className="mt-4 bleu">
                     <p>Working in Hargon has been quite the ride, and I take pride in being a part of this team. It is a company that genuinely makes its people a priority.</p>
