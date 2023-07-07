@@ -3175,5 +3175,40 @@ a {
     font-weight: 600;
     line-height: 96px;
     font-family: 'syne-bold';
+  }
 }
+
+.auction-hero {
+  background-image: url(./assets/fs.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .auction-hero h2 {
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 100px;
+    font-family: 'syne-bold';
+    color: #000;
+  }
+}
+
+@media (max-width: 767.98px){
+  .auction-hero h2 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    font-family: 'syne-bold';
+    color: #000;
+  }
+}
+
+.auction-hero p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000;
 }

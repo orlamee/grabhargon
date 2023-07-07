@@ -42,6 +42,7 @@ import ChangeEmail from './adminPages/changeEmail';
 import CompanySignup from './adminPages/companySignup';
 import AgentSignup from './adminPages/agentSignup';
 import Careers from './pages/careers';
+import Auction from './pages/auction';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -49,6 +50,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/about-us" element={<Aboutus/>}></Route>
+      <Route path="/auction" element={<Auction/>}></Route>
       <Route path="/grabhargon" element={<DownloadHargon/>}></Route>
       <Route path="/personal" element={<Personal/>}></Route>
       <Route path="/business" element={<Business/>}></Route>

@@ -30,7 +30,7 @@ function Header () {
           <Nav className="mx-auto">
             <Nav.Link href="/">Shop</Nav.Link>
             <Nav.Link href="/" className='pe-none'>Partnership <span className='p-cs'>Coming Soon</span></Nav.Link>
-            <Nav.Link href="/">Auction</Nav.Link>
+            <Nav.Link href="/auction">Auction</Nav.Link>
             <li className="nav-item dropdown">
               <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Company
