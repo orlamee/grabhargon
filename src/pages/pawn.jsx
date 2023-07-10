@@ -1,7 +1,7 @@
 import EduHeader from "../components/educationalLoan/eduHeader";
 import Footer from "../components/footer";
 import FairSecure from "../components/pawn/fairSecure";
-import Pawns from "../components/pawn/pawn";
+// import Pawns from "../components/pawn/pawn";
 import PawnCredit from "../components/pawn/pawnCredit";
 import PawnHero from "../components/pawn/pawnHero";
 import PawnYour from "../components/pawn/pawnYour";
@@ -17,7 +17,7 @@ function Pawn () {
       <FairSecure/>
       <PawnCredit/>
       <PawnYour/>
-      <Pawns/>
+      {/* <Pawns/> */}
       <SemiFooter/>
       <Footer/>
     </div>
