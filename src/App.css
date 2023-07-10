@@ -3194,10 +3194,20 @@ a {
     font-family: 'syne-bold';
     color: #000;
   }
+
+  .auction-h h2,
+  .auction-f h2 {
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 100px;
+    font-family: 'syne-bold';
+  }
 }
 
 @media (max-width: 767.98px){
-  .auction-hero h2 {
+  .auction-hero h2,
+  .auction-h h2,
+  .auction-f h2 {
     font-size: 60px;
     font-weight: 600;
     line-height: 60px;
@@ -3206,9 +3216,43 @@ a {
   }
 }
 
-.auction-hero p {
+.auction-hero p,
+.auction-h p,
+.auction-f p {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   color: #000;
+}
+
+.auction-h {
+  background-image: url(./assets/auctionbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+}
+
+.auction-f {
+  background: #fff;
+  padding: 100px 20px;
+}
+
+.bidtastic {
+  background: #F2FCF2!important;
+}
+
+@media (min-width: 992px){
+  .ah-p {
+    margin-top: -131px;
+    padding-bottom: 53px;
+  }
+}
+
+.zero {
+  background-image: url(./assets/zero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
 }
