@@ -1388,6 +1388,18 @@ a {
   border-radius: 20px;
 }
 
+@media (max-width: 767.98px){
+  .view-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 992px){
+  .view-mobile {
+    display: none;
+  }
+}
+
 .pawns p {
   color: #fff;
   font-size: 14px;
