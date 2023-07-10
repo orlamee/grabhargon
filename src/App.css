@@ -1400,6 +1400,13 @@ a {
   }
 }
 
+.error-cont h6 {
+  color: #1E2C31;
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
 .pawns p {
   color: #fff;
   font-size: 14px;

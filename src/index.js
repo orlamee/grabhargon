@@ -2,7 +2,7 @@ import React from 'react';
 import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './index.css';
 import './App.css';
 import App from './App';
@@ -43,6 +43,7 @@ import CompanySignup from './adminPages/companySignup';
 import AgentSignup from './adminPages/agentSignup';
 import Careers from './pages/careers';
 import Auction from './pages/auction';
+import Error from './pages/error';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -85,6 +86,8 @@ root.render(
       <Route path="/set-password" element={<NewPassword/>}></Route>
       <Route path="/lpo" element={<LPO/>}></Route>
       <Route path="/career" element={<Careers/>}></Route>
+      <Route path="/404" element={<Error/>}></Route>
+      <Route path="*" element={<Navigate to="/404" replace />}></Route>
     </Routes>
   </BrowserRouter>
 );
