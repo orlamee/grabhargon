@@ -37,7 +37,7 @@ function BusinessHeader () {
               <DropDownFeatures/>
             </li>
             <Nav.Link href="/">Partnership <span className='p-cs bg-black'>Coming Soon</span></Nav.Link>
-            <Nav.Link href="/">Auction</Nav.Link>
+            <Nav.Link href="/auction">Auction</Nav.Link>
             <li className="nav-item dropdown">
               <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Company
