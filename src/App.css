@@ -447,11 +447,17 @@ a {
 }
 
 .educational {
-  background-image: url(./assets/ed.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 250px 20px;
+  background-color: #F2FCF2;
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .p-bus {
+    margin-left: 60px;
+  }
+  .i-bus {
+    margin-left: 40px;
+  }
 }
 
 .ed {
