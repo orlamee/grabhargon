@@ -1,5 +1,6 @@
 
-import invest from "../assets/invest.svg";
+import invest from "../assets/pg.svg";
+import line from "../assets/pline.svg";
 import loans from "../assets/loan.svg";
 import collections from "../assets/collections.svg";
 import realtime from "../assets/realtime.svg";
@@ -11,7 +12,9 @@ export default function Investor() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <img src={invest} alt="invest" className="img-fluid mb-4" />
+            <span className="part-cs">Coming Soon</span>
+            <img src={invest} alt="invest" className="img-fluid my-5" />
+            <img src={line} alt="invest" className="img-fluid mb-5" />
             <h6>Trust Hargon to help you invest your funds with lower risks</h6>
           </div>
         </div>

@@ -55,13 +55,13 @@ root.render(
       <Route path="/grabhargon" element={<DownloadHargon/>}></Route>
       <Route path="/personal" element={<Personal/>}></Route>
       <Route path="/business" element={<Business/>}></Route>
-      <Route path="/business/loan-agency" element={<LoanAgency/>}></Route>
+      <Route path="/business/agency" element={<LoanAgency/>}></Route>
       <Route path="/business/merchant" element={<Merchant/>}></Route>
-      <Route path="/business/business-loan" element={<BusinessLoan/>}></Route>
-      <Route path="/business/salary-loan" element={<SalaryLoan/>}></Route>
+      <Route path="/business/business" element={<BusinessLoan/>}></Route>
+      <Route path="/business/salary" element={<SalaryLoan/>}></Route>
       <Route path="/business/micro-lending" element={<MicroLending/>}></Route>
       <Route path="/business/credit-card" element={<CreditCard/>}></Route>
-      <Route path="/personal/educational-loan" element={<EducationalLoan/>}></Route>
+      <Route path="/personal/student" element={<EducationalLoan/>}></Route>
       <Route path="/personal/salary-advance" element={<SalaryAdvance/>}></Route>
       <Route path="/personal/market-place" element={<MarketPlace/>}></Route>
       <Route path="/personal/savings" element={<FixedDepo/>}></Route>
@@ -69,8 +69,8 @@ root.render(
       <Route path="/personal/mortgage" element={<Mortgage/>}></Route>
       <Route path="/personal/tourism" element={<Tourism/>}></Route>
       <Route path="/personal/pawn" element={<Pawn/>}></Route>
-      <Route path="/personal/community-loans" element={<ComLoan/>}></Route>
-      <Route path="/personal/auto-loan" element={<AutoLoans/>}></Route>
+      <Route path="/personal/community" element={<ComLoan/>}></Route>
+      <Route path="/personal/auto" element={<AutoLoans/>}></Route>
       <Route path="/personal/credit-card" element={<PersonalCC/>}></Route>
       <Route path="/personal/bills" element={<Bills/>}></Route>
       <Route path="/wallet" element={<Wallets/>}></Route>

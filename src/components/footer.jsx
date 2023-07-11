@@ -4,6 +4,7 @@ import facebook from "../assets/facebook.svg";
 import twitter from "../assets/twitter.svg";
 import linkedin from "../assets/instagram.svg";
 import instagram from "../assets/linkedin.svg";
+import line from "../assets/dline.svg";
 
 
 export default function Footer () {
@@ -30,6 +31,12 @@ export default function Footer () {
                   <ul className="list-unstyled links">
                     <li><Link to="">Integration</Link></li>
                   </ul>
+                  <img src={line} alt="logo" className="img-fluid" />
+                  <h5 className="mt-2">Resources</h5>
+                  <ul className="list-unstyled links">
+                    <li><Link to="">Press</Link></li>
+                    <li><Link to="">Blog</Link></li>
+                  </ul>
                 </div>
                 <div className="col-sm mb-3">
                   <h5>Features</h5>
@@ -38,6 +45,8 @@ export default function Footer () {
                     <li><Link to="/business">Business</Link></li>
                     <li><Link to="">Partnership <span className="f-cs">Coming Soon</span></Link></li>
                     <li><Link to="/wallet">Wallet</Link></li>
+                    <li><Link to="/personal/bills">Bills</Link></li>
+                    <li><Link to="/">Credit history</Link></li>
                   </ul>
                 </div>
                 <div className="col-sm mb-3">
@@ -53,7 +62,6 @@ export default function Footer () {
                   <h5>Transparency</h5>
                   <ul className="list-unstyled links">
                     <li><Link to="">Terms & conditions</Link></li>
-                    <li><Link to="">Information security policy</Link></li>
                     <li><Link to="">Privacy policy</Link></li>
                     <li><Link to="">Complaints</Link></li>
                   </ul>
@@ -65,7 +73,7 @@ export default function Footer () {
                   </ul>
                   <h5>Contact</h5>
                   <ul className="list-unstyled links">
-                    <li><Link>Support@hargon.africa</Link></li>
+                    <li><a href="mailto:support@hargon.africa">Support@hargon.africa</a></li>
                     <li><Link>+234  813  029  2726</Link></li>
                   </ul>
                   <div className="d-flex flex-row">

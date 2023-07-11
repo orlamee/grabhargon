@@ -27,17 +27,17 @@ function DropDownSolution() {
             <img src={sa} alt="Salary Advance" className="img-fluid me-3" />
             <h6 className="mt-2">Salary Advance</h6>
           </Link>
-          <Link to="/personal/auto-loan" className="d-flex flex-row mb-4">
+          <Link to="/personal/auto" className="d-flex flex-row mb-4">
             <img src={al} alt="Auto loan" className="img-fluid me-3" />
-            <h6 className="mt-2">Auto Loan</h6>
+            <h6 className="mt-2">Auto</h6>
           </Link>
-          <Link to="/personal/community-loans" className="d-flex flex-row mb-4">
+          <Link to="/personal/community" className="d-flex flex-row mb-4">
             <img src={gl} alt="Group loan" className="img-fluid me-3" />
-            <h6 className="mt-2">Group Loan</h6>
+            <h6 className="mt-2">Community</h6>
           </Link>
-          <Link to="/personal/educational-loan" className="d-flex flex-row mb-4">
+          <Link to="/personal/student" className="d-flex flex-row mb-4">
             <img src={sl} alt="Student" className="img-fluid me-3" />
-            <h6 className="mt-2">Student Loan</h6>
+            <h6 className="mt-2">Student</h6>
           </Link>
           <Link to="/personal/pawn" className="d-flex flex-row mb-4">
             <img src={p} alt="Pawn" className="img-fluid me-3" />

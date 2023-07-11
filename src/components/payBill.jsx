@@ -1,9 +1,9 @@
 
-import phone from "../assets/phne.svg";
+import phone from "../assets/phne.png";
 
 export default function PayBill() {
   return (
-    <section className="paybill">
+    <section className="paybill pb-0">
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-sm-5">

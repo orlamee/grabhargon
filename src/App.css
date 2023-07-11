@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.cdnfonts.com/css/julietta-messie');
 
 html,
 body {
@@ -416,7 +417,7 @@ a {
 }
 
 .navigation a:hover {
-  color: #000;
+  color: #6DE46D;
   font-size: 13px;
   font-weight: 400;
   line-height: 32px;
@@ -3320,3 +3321,57 @@ a {
   background-position: center;
   padding: 100px 20px;
 }
+
+.autho h5 {
+  font-family: 'Julietta Messie', sans-serif;
+  font-size: 26px;
+  line-height: 30px;
+  margin: 0;
+  color: #268017;                                        
+}
+
+.autho p {
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  color: #9CA3AF;                                        
+}
+
+.part-cs {
+  padding: 14px 20px;
+  background: #23A323;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.card-hero {
+  background-image: url(./assets/counter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  border-radius: 20px;
+}
+
+.card-hero h3 {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: syne-bold;
+}
+
+@media (min-width: 992px){
+  .trak {
+    margin-top: -151px;
+    margin-left: -37px;
+  }
+
+  .trac-hero {
+    text-align: center;
+    border-right: 2px solid #D1D5DB
+  }
+}
+
