@@ -21,7 +21,10 @@ export default function SalaryAdvance() {
             </div>
           </div>
         </div>
-        <div className="row justify-content-between" style={{marginTop: "100px"}}>
+      </div>
+      <div className="catch-fli">
+       <div className="container" style={{marginTop: "100px"}}>
+        <div className="row justify-content-between" >
           <div className="col-sm-5">
             <img src={flight} alt="flight" className="img-fluid mb-4" />
             <h2><span className="ally">Catch flights</span> on credit</h2>
@@ -32,6 +35,7 @@ export default function SalaryAdvance() {
           </div>
         </div>
       </div>
+     </div>
     </section>
     
   )

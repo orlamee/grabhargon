@@ -460,6 +460,18 @@ a {
   }
 }
 
+.allow-up {
+  color: #fff;
+  background: #228B22;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+
 .ed {
   padding: 20px 50px;
   background: #fff;
@@ -471,11 +483,8 @@ a {
 }
 
 .allowance {
-  background-image: url(./assets/allowance.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 250px 20px;
+  background-color: #fff;
+  padding: 100px 20px;
 }
 
 .mortgage {
@@ -490,6 +499,13 @@ a {
   background-size: cover;
   padding: 100px 20px;
   border-radius: 40px;
+}
+
+.catch-fli {
+  background-image: url(./assets/catch.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .salaryadvance {
@@ -525,10 +541,10 @@ a {
 
 .loanrange {
   background-image: url(./assets/backbg.svg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 301px 20px;
+  padding: 250px 20px;
   margin-top: -91px;
   background-color: #fff;
 }
