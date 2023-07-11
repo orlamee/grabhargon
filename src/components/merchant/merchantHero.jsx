@@ -1,4 +1,3 @@
-import { Slide } from "react-awesome-reveal";
 import merchant from "../../assets/merchant.png";
 
 
@@ -10,9 +9,7 @@ export default function MerchantHero () {
       <div className='container'>
         <div className="row">
           <div className="col-sm-7">
-            <Slide>
-              <img src={merchant} alt="merchant" className="img-fluid w-100" />
-            </Slide>
+          <img src={merchant} alt="merchant" className="img-fluid w-100" />
           </div>
           <div className="col-sm-5">
             <h2><span style={{color: "#228B22"}}>More customers,</span> <span style={{color: "#FFA529"}}>More credit</span> and infinite possibilities for your business</h2>

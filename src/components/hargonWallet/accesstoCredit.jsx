@@ -14,7 +14,7 @@ export default function AccessToCredit () {
           <div className="col-sm-7 mb-3">
             <div className="credit-card">
               <h2>Access to credit</h2>
-              <p className="text-white mt-5 w-75">With hargon's wallet, you have instant access to quick loans</p>
+              <p className="text-white mt-5 w-75">With Hargon's wallet, you have access to instant credit up to N500,000, unlocking the flexibility you need to live your best life on your terms. Its fast, its smooth, and best of all, its always there.</p>
             </div>
           </div>
           <div className="col-sm-5 slider-img">

@@ -560,7 +560,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px 20px;
+  padding: 100px 20px;
 }
 
 .paydayloan {
@@ -572,11 +572,14 @@ a {
 }
 
 .marketplace {
-  background-image: url(./assets/exp.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #F3FCF3;
   padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .sellq {
+    margin-left: 179px;
+  }
 }
 
 .marketplace h6,

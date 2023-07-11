@@ -13,11 +13,11 @@ export default function SchoolFees () {
           </div>
         </div>
         <div className="row mt-5 justify-content-start">
-          <div className="col-sm-3">
+          <div className="col-sm-4">
             <img src={phone} alt="School Fees" className="img-fluid w-100" />
           </div>
           <div className="col-sm-5 sf">
-            <p className="text-white">Focus on your studies while we ensure funds or finances never come between you and your educational aspirations. We are invested in making you a success.</p>
+            <p className="text-white w-75">Focus on your studies while we ensure funds or finances never come between you and your educational aspirations. We are invested in making you a success.</p>
           </div>
         </div>
       </div>

@@ -1,7 +1,5 @@
 import desktop from "../../assets/desktop.png";
-import { Fade } from "react-awesome-reveal";
-
-
+import personal from "../../assets/personalized.svg";
 
 export default function Personalized () {
   return (
@@ -9,16 +7,12 @@ export default function Personalized () {
       <div className='container'>
         <div className="row justify-content-center">
           <div className="col-sm-9 text-center">
-            <Fade cascade>
-              <h2>Personalized support</h2>
-            </Fade>
+            <img src={personal} alt="Personalized Loan" className="img-fluid" />
           </div>
         </div>
         <div className="row justify-content-center mt-4">
           <div className="col-sm-4 text-center">
-            <Fade cascade>
-              <p className="">With Hargon, you will enjoy all the benefits of a dedicated account manager, helping you streamline your business and connect with more borrowers</p>
-            </Fade>
+            <p className="">With Hargon, you will enjoy all the benefits of a dedicated account manager, helping you streamline your business and connect with more borrowers</p>
           </div>
         </div>
         <div className="row justify-content-center" style={{marginTop: "70px"}}>

@@ -1,5 +1,5 @@
 
-import shape from "../../assets/shapeyour.png";
+import shape from "../../assets/shapeyour.svg";
 import right from "../../assets/rightpartner.svg";
 import down from "../../assets/fundings.svg";
 

@@ -3,7 +3,7 @@ import hargon from "../../assets/shadow.png";
 
 export default function EasyApplication () {
   return (
-    <section className='three pb-0'>
+    <section className='three pb-0' style={{marginBottom: "-191px"}}>
       <div className='container'>
         <div className="row justify-content-center">
           <div className="col-sm-8 text-center">
