@@ -1715,11 +1715,12 @@ a {
 
 .bi-sec {
   background-image: url(./assets/bi.svg);
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 300px 20px;
+  padding: 250px 20px;
 }
+
 
 .be-sec {
   padding: 100px 20px;
@@ -1727,7 +1728,8 @@ a {
 }
 
 @media (min-width: 992px){
-  .be-sec h2 {
+  .be-sec h2,
+  .bi-sec h2 {
     font-size: 100px;
     line-height: 120px;
     font-weight: 700;
@@ -1736,7 +1738,8 @@ a {
 }
 
 @media (max-width: 767.98px){
-  .be-sec h2 {
+  .be-sec h2,
+  .bi-sec h2 {
     font-size: 50px;
     line-height: 60px;
     font-weight: 700;

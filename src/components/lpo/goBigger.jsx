@@ -9,7 +9,6 @@ export default function GoBigger () {
         <div className="row justify-content-between">
           <div className="col-sm-5 mb-3">
             <h6>Go</h6>
-            
             <TextLoop mask={true}>
                 <h2>Bigger</h2>
                 <h2>Faster</h2>
