@@ -23,7 +23,7 @@ export default function HomeBanner () {
             <img src={heroimg} alt="hargon" className="img-fluid w-100" />
           </div>
         </div>
-        <div className="row">
+        <div className="row d-phone">
           <div className="col-sm-4 trak">
             <div className="card-hero">
               <div className="row justify-content-center">
