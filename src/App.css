@@ -3380,8 +3380,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 50px 20px;
-  border-radius: 20px;
+  padding: 10px 20px;
+  border-radius: 7px;
 }
 
 .card-hero h3 {
@@ -3393,8 +3393,8 @@ a {
 
 @media (min-width: 992px){
   .trak {
-    margin-top: -151px;
-    margin-left: -37px;
+    margin-top: -68px;
+    margin-left: 704px;
   }
 
   .trac-hero {
@@ -3403,3 +3403,118 @@ a {
   }
 }
 
+.builder-hero,
+.integrate-sol,
+.seam-less {
+  background-color: #fff;
+  padding: 100px 20px;
+}
+
+@media (min-width: 992px){
+  .builder-hero h2,
+  .investor h2,
+  .integrate-hero h2,
+  .integrate-sol h2,
+  .booster h2,
+  .seam-less h2 {
+    font-size: 60px;
+    line-height: 78px;
+    font-weight: 600;
+    font-family: syne-bold;
+    color: #000;
+  }
+}
+
+@media (max-width: 767.98px){
+  .builder-hero h2,
+  .investor h2,
+  .integrate-hero h2,
+  .integrate-sol h2,
+  .booster h2,
+  .seam-less h2 {
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 600;
+    font-family: syne-bold;
+    color: #000;
+  }
+}
+
+.builder-hero p,
+.investor,
+.cred-work p,
+.integrate-hero p,
+.seam-less p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.new-inv {
+  padding: 60px 0px!important;
+  margin-top: 60px;
+}
+
+.new-inv h5 {
+  font-size: 19px!important;
+}
+
+.cred-work,
+.booster {
+  background-color: #23A323;
+  padding: 100px 20px;
+}
+
+.one-card {
+  padding: 60px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 992px){
+  .one-b {
+    margin-left: -90px;
+  }
+  .two-b {
+    margin-left: -120px;
+  }
+}
+
+.sol-box {
+  background-image: url(./assets/box-1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 32px;
+  border-radius: 20px;
+  margin-bottom: 41px;
+}
+
+.sol-box-2 {
+  background-image: url(./assets/box-2.svg)!important;
+}
+
+.sol-box-3 {
+  background-image: url(./assets/box-3.svg)!important;
+}
+
+.sol-box h3 {
+  color: #FF823B;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  font-family: syne-bold;
+}
+
+.sol-box h6 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.boost {
+  background: #FFBD00;
+  padding: 10px 15px;
+  border-radius: 13px;
+}

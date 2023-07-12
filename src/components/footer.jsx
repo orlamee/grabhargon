@@ -29,7 +29,7 @@ export default function Footer () {
                 <div className="col-sm mb-3">
                   <h5>Developer</h5>
                   <ul className="list-unstyled links">
-                    <li><Link to="">Integration</Link></li>
+                    <li><Link to="/integration">Integration</Link></li>
                   </ul>
                   <img src={line} alt="logo" className="img-fluid" />
                   <h5 className="mt-2">Resources</h5>
@@ -46,14 +46,14 @@ export default function Footer () {
                     <li><Link to="">Partnership <span className="f-cs">Coming Soon</span></Link></li>
                     <li><Link to="/wallet">Wallet</Link></li>
                     <li><Link to="/personal/bills">Bills</Link></li>
-                    <li><Link to="/">Credit history</Link></li>
+                    <li><Link to="/credit-builder">Credit builder</Link></li>
                   </ul>
                 </div>
                 <div className="col-sm mb-3">
                   <h5>Company</h5>
                   <ul className="list-unstyled links">
                     <li><Link to="/about-us">About us</Link></li>
-                    <li><Link to="/careers">Careers</Link></li>
+                    <li><Link to="/career">Careers</Link></li>
                     <li><Link to="">FAQS</Link></li>
                     <li><Link to="">Security</Link></li>
                   </ul>

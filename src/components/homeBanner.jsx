@@ -23,21 +23,21 @@ export default function HomeBanner () {
             <img src={heroimg} alt="hargon" className="img-fluid w-100" />
           </div>
         </div>
-        <div className="row justify-content-end">
-          <div className="col-sm-6">
-            <div className="card-hero trak">
+        <div className="row">
+          <div className="col-sm-4 trak">
+            <div className="card-hero">
               <div className="row justify-content-center">
                 <div className="col-md-4 trac-hero text-center mb-3">
                   <h3 className="text-white"><span style={{fontSize: "14px" , lineHeight: "14px"}}>₦</span> <CountUp end={3} delay={3} duration="20" suffix="B+"/></h3>
-                  <img src={trans} alt="trans" className="img-fluid mt-3" />
+                  <img src={trans} alt="trans" className="img-fluid mt-2" />
                 </div>
                 <div className="col-md-4 trac-hero text-center mb-3">
                   <h3 className="text-white"><CountUp end={1000} delay={3} duration="20" suffix="+"/></h3>
-                  <img src={client} alt="trans" className="img-fluid mt-3" />
+                  <img src={client} alt="trans" className="img-fluid mt-2" />
                 </div>
                 <div className="col-md-4 text-center mb-3">
                   <h3 className="text-white"><CountUp end={56} delay={3} duration="20" suffix="+"/></h3>
-                  <img src={agent} alt="trans" className="img-fluid mt-3" />
+                  <img src={agent} alt="trans" className="img-fluid mt-2" />
                 </div>
               </div>
             </div>

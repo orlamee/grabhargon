@@ -1,5 +1,6 @@
 
-
+import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 export default function Vacancies () {
   return (
@@ -20,19 +21,19 @@ export default function Vacancies () {
         <div className="row mt-5">
           <div className="col-sm-12">
             <div className="tab-content" id="pills-tabContent">
-              <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
                 <div className="vac-card">
                   <div className="row justify-content-between">
                     <div className="col-sm-6 mb-3 mt-3">
                       <h6>UI/UX Designer intern</h6>
                     </div>
                     <div className="col-sm-3">
-                      <button className="btn btn-primary btn-main rounded-pill px-5 py-3">Apply for Position</button>
+                      <Button className="btn btn-primary btn-main rounded-pill px-5 py-3">Apply for Position</Button>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+              <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex="0">
                 <div className="vac-card">
                   <div className="row justify-content-between">
                     <div className="col-sm-6 mb-3 mt-3">

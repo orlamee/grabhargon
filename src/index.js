@@ -44,6 +44,8 @@ import AgentSignup from './adminPages/agentSignup';
 import Careers from './pages/careers';
 import Auction from './pages/auction';
 import Error from './pages/error';
+import CreditBuilder from './pages/creditBuilder';
+import Integration from './pages/integration';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -54,6 +56,8 @@ root.render(
       <Route path="/auction" element={<Auction/>}></Route>
       <Route path="/grabhargon" element={<DownloadHargon/>}></Route>
       <Route path="/personal" element={<Personal/>}></Route>
+      <Route path="/integration" element={<Integration/>}></Route>
+      <Route path="/credit-builder" element={<CreditBuilder/>}></Route>
       <Route path="/business" element={<Business/>}></Route>
       <Route path="/business/agency" element={<LoanAgency/>}></Route>
       <Route path="/business/merchant" element={<Merchant/>}></Route>
