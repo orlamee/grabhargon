@@ -54,28 +54,28 @@ export default function ContentApply () {
               </Form.Group>
               <Form.Group className="mb-5">
                 <div><Form.Label>Work type <span className="text-danger">*</span></Form.Label></div>
-                <div class="form-check form-check-inline me-5">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                  <label class="form-check-label" for="inlineRadio1">On-site</label>
+                <div className="form-check form-check-inline me-5">
+                  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+                  <label className="form-check-label" htmlFor="inlineRadio1">On-site</label>
                 </div>
-                <div class="form-check form-check-inline me-5">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-                  <label class="form-check-label" for="inlineRadio2">Hybrid</label>
+                <div className="form-check form-check-inline me-5">
+                  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+                  <label className="form-check-label" htmlFor="inlineRadio2">Hybrid</label>
                 </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-                  <label class="form-check-label" for="inlineRadio2">Remote</label>
+                <div className="form-check form-check-inline">
+                  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+                  <label className="form-check-label" htmlFor="inlineRadio2">Remote</label>
                 </div>
               </Form.Group>
               <Form.Group className="mb-5">
                 <div><Form.Label>Available to Start Immediately <span className="text-danger">*</span></Form.Label></div>
-                <div class="form-check form-check-inline me-5">
-                  <input class="form-check-input" type="radio" name="inlineRadioOption" id="inlineRadio4" value="option1"/>
-                  <label class="form-check-label" for="inlineRadio4">Yes</label>
+                <div className="form-check form-check-inline me-5">
+                  <input className="form-check-input" type="radio" name="inlineRadioOption" id="inlineRadio4" value="option1"/>
+                  <label className="form-check-label" htmlFor="inlineRadio4">Yes</label>
                 </div>
-                <div class="form-check form-check-inline me-5">
-                  <input class="form-check-input" type="radio" name="inlineRadioOption" id="inlineRadio5" value="option2"/>
-                  <label class="form-check-label" for="inlineRadio5">No</label>
+                <div className="form-check form-check-inline me-5">
+                  <input className="form-check-input" type="radio" name="inlineRadioOption" id="inlineRadio5" value="option2"/>
+                  <label className="form-check-label" htmlFor="inlineRadio5">No</label>
                 </div>
               </Form.Group>
               <Form.Group className="mb-5">
