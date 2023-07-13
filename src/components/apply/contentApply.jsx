@@ -1,10 +1,17 @@
-import { Col, Form, Row } from "react-bootstrap";
+import { Button, Col, Form, Row } from "react-bootstrap";
 import full from "../../assets/apply-icon.svg";
+import React, { useState } from "react";
+import { FileUploader } from "react-drag-drop-files";
 
+const fileTypes = ["DOC", "DOCX", "PDF"];
 
 export default function ContentApply () {
+  const [setFile] = useState(null);
+  const handleChange = (file) => {
+    setFile(file);
+  };
   return (
-    <section className='content-apply'>
+    <section className='content-apply pb-0'>
       <div className='container'>
         <div className="row">
           <div className="col px-0">
@@ -63,14 +70,27 @@ export default function ContentApply () {
               <Form.Group className="mb-5">
                 <div><Form.Label>Available to Start Immediately <span className="text-danger">*</span></Form.Label></div>
                 <div class="form-check form-check-inline me-5">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                  <label class="form-check-label" for="inlineRadio1">Yes</label>
+                  <input class="form-check-input" type="radio" name="inlineRadioOption" id="inlineRadio4" value="option1"/>
+                  <label class="form-check-label" for="inlineRadio4">Yes</label>
                 </div>
                 <div class="form-check form-check-inline me-5">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
-                  <label class="form-check-label" for="inlineRadio2">No</label>
+                  <input class="form-check-input" type="radio" name="inlineRadioOption" id="inlineRadio5" value="option2"/>
+                  <label class="form-check-label" for="inlineRadio5">No</label>
                 </div>
               </Form.Group>
+              <Form.Group className="mb-5">
+                <Form.Label>Upload CV <span className="text-danger">*</span></Form.Label>
+                <FileUploader handleChange={handleChange} name="file" types={fileTypes} label="Drop your resume here or browse" />
+              </Form.Group>
+              <Form.Group className="mb-5">
+                <Form.Label>Upload Cover Letter</Form.Label>
+                <FileUploader handleChange={handleChange} name="file" types={fileTypes} label="Drop your resume here or browse" />
+              </Form.Group>
+              <Button
+                className="btn btn-primary btn-main rounded-pill px-5 py-4 w-100"
+              >
+                SUBMIT
+              </Button>
             </Form>
           </div>
         </div>
