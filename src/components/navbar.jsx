@@ -3,12 +3,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../assets/logo.svg";
 import globe from "../assets/globe.svg";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import DropDownCompany from './dropdownCompany';
+import { Button } from 'react-bootstrap';
 
 
 
 function Header () {
+  const navigate = useNavigate();
   return (
     <Navbar bg="white" expand="lg" className='py-3 header sticky-top'>
       <Container>
@@ -41,12 +43,12 @@ function Header () {
           <Nav className="ms-auto">
             <Nav.Link href="/"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>
             <Nav.Link>
-              <Link
+              <Button
                 className="btn btn-primary btn-main rounded-pill px-5 py-3"
-                to="/grabhargon"
+                onClick={() => navigate("/grabhargon")}
               >
                 Get Started
-              </Link>
+              </Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

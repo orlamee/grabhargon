@@ -46,6 +46,8 @@ import Auction from './pages/auction';
 import Error from './pages/error';
 import CreditBuilder from './pages/creditBuilder';
 import Integration from './pages/integration';
+import SavingBusiness from './pages/savingsbusiness';
+import Apply from './pages/apply';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -62,6 +64,7 @@ root.render(
       <Route path="/business/agency" element={<LoanAgency/>}></Route>
       <Route path="/business/merchant" element={<Merchant/>}></Route>
       <Route path="/business/business" element={<BusinessLoan/>}></Route>
+      <Route path="/business/savings" element={<SavingBusiness/>}></Route>
       <Route path="/business/salary" element={<SalaryLoan/>}></Route>
       <Route path="/business/micro-lending" element={<MicroLending/>}></Route>
       <Route path="/business/credit-card" element={<CreditCard/>}></Route>
@@ -88,8 +91,9 @@ root.render(
       <Route path="/login/otp" element={<LoginOTP/>}></Route>
       <Route path="/recover-password" element={<ForgotP/>}></Route>
       <Route path="/set-password" element={<NewPassword/>}></Route>
-      <Route path="/lpo" element={<LPO/>}></Route>
+      <Route path="/business/lpo" element={<LPO/>}></Route>
       <Route path="/career" element={<Careers/>}></Route>
+      <Route path="/apply" element={<Apply/>}></Route>
       <Route path="/404" element={<Error/>}></Route>
       <Route path="*" element={<Navigate to="/404" replace />}></Route>
     </Routes>

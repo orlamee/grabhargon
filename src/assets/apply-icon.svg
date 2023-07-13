@@ -1,0 +1,32 @@
+<svg width="280" height="203" viewBox="0 0 280 203" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_7603_73320)">
+<g filter="url(#filter0_d_7603_73320)">
+<rect x="48.9043" y="15.6367" width="182.431" height="143.138" rx="14.0488" fill="white"/>
+</g>
+<path d="M145.259 127.623C143.127 131.337 137.738 131.337 135.606 127.623L106.198 76.3909C104.086 72.7112 106.76 68.1367 111.024 68.1367H169.841C174.105 68.1367 176.779 72.7112 174.667 76.3909L145.259 127.623Z" fill="#228B22"/>
+<g filter="url(#filter1_f_7603_73320)">
+<path d="M145.432 72.0352H109.875V78.659H145.432V72.0352Z" fill="#0D3D0D"/>
+</g>
+<path d="M123.24 40.0009C124.951 37.057 129.228 37.057 130.939 40.0009L148.741 70.636C150.452 73.5801 148.314 77.2598 144.892 77.2598H109.287C105.866 77.2598 103.727 73.5801 105.438 70.636L123.24 40.0009Z" fill="#23A323"/>
+</g>
+<defs>
+<filter id="filter0_d_7603_73320" x="-1.0957" y="-28.3633" width="282.431" height="243.137" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="25"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.504167 0 0 0 0 0.495764 0 0 0 0 0.495764 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7603_73320"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7603_73320" result="shape"/>
+</filter>
+<filter id="filter1_f_7603_73320" x="69.4307" y="31.5909" width="116.445" height="87.5135" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="20.2221" result="effect1_foregroundBlur_7603_73320"/>
+</filter>
+<clipPath id="clip0_7603_73320">
+<rect width="280" height="203" fill="white"/>
+</clipPath>
+</defs>
+</svg>

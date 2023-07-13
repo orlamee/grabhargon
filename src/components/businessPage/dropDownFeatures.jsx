@@ -37,7 +37,7 @@ function DropDownFeatures() {
             <img src={fd} alt="Fixed" className="img-fluid me-3" />
             <h6 className="mt-2">Merchant store</h6>
           </Link>
-          <Link to="/lpo" className="d-flex flex-row mb-4">
+          <Link to="/business/lpo" className="d-flex flex-row mb-4">
             <img src={s} alt="LPO Financing" className="img-fluid me-3" />
             <h6 className="mt-2">LPO Financing</h6>
           </Link>
@@ -45,7 +45,7 @@ function DropDownFeatures() {
             <img src={ma} alt="Microlending" className="img-fluid me-3" />
             <h6 className="mt-2">Microlending</h6>
           </Link>
-          <Link to="" className="d-flex flex-row mb-4">
+          <Link to="/business/savings" className="d-flex flex-row mb-4">
             <img src={saving} alt="Savings" className="img-fluid me-3" />
             <h6 className="mt-2">Savings</h6>
           </Link>

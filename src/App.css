@@ -3418,7 +3418,9 @@ a {
 
 .builder-hero,
 .integrate-sol,
-.seam-less {
+.seam-less,
+.save-hero,
+.featuresof {
   background-color: #fff;
   padding: 100px 20px;
 }
@@ -3530,4 +3532,96 @@ a {
   background: #FFBD00;
   padding: 10px 15px;
   border-radius: 13px;
+}
+
+.save-hero h2,
+.featuresof h2 {
+  color: #041004;
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 500;
+  font-family: syne-bold;
+}
+
+.save-hero p,
+.feature-card p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.feature-card {
+  background-color: #FFF5F0;
+  padding: 80px 60px;
+  border-radius: 10px;
+  min-height: 450px;
+}
+
+.feature-card h3 {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #000;
+  font-family: syne-bold;
+  min-height: 60px;
+}
+
+@media (min-width: 992px){
+  .apply-icon {
+    margin-top: -182px;
+    margin-left: -49px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 767.98px){
+  .apply-icon {
+    display: none;
+  }
+}
+
+.content-apply {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.content-apply h5 {
+  color: #6B7280;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: syne-bold;
+}
+
+.content-apply h2 {
+  color: #000;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+  font-family: syne-bold;
+}
+
+.content-apply p {
+  color: #000;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.content-apply .form-control {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  color: #9CA3AF;
+  font-size: 23px;
+  padding: 16px;
+}
+
+.content-apply .form-label {
+  color: #6B7280;
+  font-size: 20px;
+  line-height: 43px;
+  font-weight: 400;
 }
