@@ -3650,3 +3650,26 @@ a {
   border-radius: 0px!important;
   max-width: 1335px!important;
 }
+
+.career-modal .modal-header {
+  border-bottom: 0;
+}
+
+.career-modal h2 {
+  color: #000;
+  font-size: 35px;
+  line-height: 47px;
+  font-weight: 600;
+  font-family: syne-bold;
+}
+
+.career-modal p {
+  color: #9CA3AF;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.career-modal .modal-body {
+  padding-bottom: 60px!important;
+}

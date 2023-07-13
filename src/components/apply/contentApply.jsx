@@ -1,11 +1,48 @@
 import { Button, Col, Form, Row } from "react-bootstrap";
 import full from "../../assets/apply-icon.svg";
+import hurray from "../../assets/hurray.svg";
+import got from "../../assets/goto.svg";
 import React, { useState } from "react";
 import { FileUploader } from "react-drag-drop-files";
+import Modal from 'react-bootstrap/Modal';
+import { Link } from "react-router-dom";
 
 const fileTypes = ["DOC", "DOCX", "PDF"];
 
+
+function Submit(props) {
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+      className="career-modal"
+    >
+      <Modal.Header closeButton>
+        {/* <Modal.Title id="contained-modal-title-vcenter">
+          Modal heading
+        </Modal.Title> */}
+      </Modal.Header>
+      <Modal.Body>
+        <div className="row justify-content-center">
+          <div className="col-sm-10 text-center">
+            <img src={hurray} alt="hurray" className="img-fluid" />
+            <h2 className="my-4">Your application has been submitted successfully</h2>
+            <p>If your qualifications match our requirements and you are selected for further consideration, we<br/>will reach out to you directly using the contact information provided in your application.</p>
+            <Link to="/career"><img src={got} alt="go back" className="img-fluid mt-4" /></Link>
+          </div>
+        </div>
+      </Modal.Body>
+      {/* <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer> */}
+    </Modal>
+  );
+}
+
 export default function ContentApply () {
+  const [modalShow, setModalShow] = React.useState(false);
   const [setFile] = useState(null);
   const handleChange = (file) => {
     setFile(file);
@@ -88,12 +125,17 @@ export default function ContentApply () {
               </Form.Group>
               <Button
                 className="btn btn-primary btn-main rounded-pill px-5 py-4 w-100"
+                onClick={() => setModalShow(true)}
               >
                 SUBMIT
               </Button>
             </Form>
           </div>
         </div>
+        <Submit
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+        />
       </div>
     </section>
     
