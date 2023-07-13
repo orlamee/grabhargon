@@ -93,7 +93,7 @@ root.render(
       <Route path="/set-password" element={<NewPassword/>}></Route>
       <Route path="/business/lpo" element={<LPO/>}></Route>
       <Route path="/career" element={<Careers/>}></Route>
-      <Route path="/apply" element={<Apply/>}></Route>
+      <Route path="/career/apply" element={<Apply/>}></Route>
       <Route path="/404" element={<Error/>}></Route>
       <Route path="*" element={<Navigate to="/404" replace />}></Route>
     </Routes>

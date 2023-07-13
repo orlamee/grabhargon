@@ -61,7 +61,7 @@ export default function Vacancies() {
                       <h6>UI/UX Designer intern</h6>
                     </div>
                     <div className="col-sm-3">
-                      <Button className="btn btn-primary btn-main rounded-pill px-5 py-3" onClick={() => navigate("/apply")}>
+                      <Button className="btn btn-primary btn-main rounded-pill px-5 py-3" onClick={() => navigate("/career/apply")}>
                         Apply for Position
                       </Button>
                     </div>
