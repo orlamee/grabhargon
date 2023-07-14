@@ -18,7 +18,8 @@ export default function CreateAgent() {
       <div className="container">
         <div className="row align-items-start justify-content-center">
           <div className="col-md-7">
-            <div className="mt-5">
+            <div className="mt-5"> 
+              <Link to="/sign-up" style={{color: "#9CA3AF"}}><i className="bi bi-chevron-left"></i> Back</Link>
               <Link to="/"><img src={logo} alt="logo" className="img-fluid float-end" /></Link>
             </div>
             <div style={{marginTop: "100px"}}>

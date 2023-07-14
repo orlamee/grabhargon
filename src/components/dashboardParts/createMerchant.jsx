@@ -5,10 +5,42 @@ import Input from "./input";
 import Select from 'react-select'
 
 const options = [
-  { value: 'Agriculture', label: 'Agriculture' },
-  { value: 'Oil and Gas', label: 'Oil and Gas' },
-  { value: 'Manufacturing', label: 'Manufacturing' },
-  { value: 'Media', label: 'Media' },
+  { value: 'Agriculture',label: 'Agriculture'},
+  { value: 'Oil and Gas',label: 'Oil and Gas'},
+  { value: 'Manufacturing',label: 'Manufacturing'},
+  { value: 'Media',label:' Media'},
+  { value: 'Advertising',label: 'Advertising'},
+  { value: 'Aviation',label: 'Aviation'},
+  { value: 'Manufacturing',label: 'Manufacturing'},
+  { value: 'Banking',label: 'Banking'},
+  { value: 'Fintech',label: 'Fintech'},
+  { value: 'Energy',label: 'Energy'},
+  { value: 'Entertainment',label: 'Entertainment'},
+  { value: 'Sports',label: 'Sports'},
+  { value: 'Construction',label: 'Construction'},
+  { value: 'Real Estate',label: 'Real Estate'},
+  { value: 'Transportation',label:' Transportation'},
+  { value: 'Financial Services',label: 'Financial Services'},
+  { value: 'Hospitality',label: 'Hospitality'},
+  { value: 'Tourism',label: 'Tourism'},
+  { value: 'NGO',label: 'NGO'},
+  { value: 'Fashion',label: 'Fashion'},
+  { value: 'Healthcare',label: 'Healthcare'},
+  { value: 'Education',label: 'Education'},
+  { value: 'Retail',label: 'Retail'},
+  { value: 'Creative',label: 'Creative'},
+  { value: 'Marine',label: 'Marine'},
+  { value: 'Shipping',label: 'Shipping'},
+  { value: 'Power',label: 'Power'},
+  { value: 'Mining',label: 'Mining'},
+  { value: 'FMCG',label: 'FMCG'},
+  { value: 'Pharmaceuticals',label: 'Pharmaceuticals'},
+ { value: 'Government',label: 'Government'},
+  { value: 'Water',label: 'Water'},
+  { value: 'Environmental',label: 'Environmental'},
+  { value: 'Security',label: 'Security'},
+  { value: 'Insurance',label: 'Insurance'},
+  { value: 'Telecommunications',label: 'Telecommunications'}
 ]
 
 
@@ -27,6 +59,7 @@ export default function CreateMerchant () {
         <div className="row align-items-start justify-content-center">
           <div className="col-md-7">
             <div className="mt-5">
+              <Link to="/sign-up" style={{color: "#9CA3AF"}}><i className="bi bi-chevron-left"></i> Back</Link>
               <Link to="/"><img src={logo} alt="logo" className="img-fluid float-end" /></Link>
             </div>
             <div style={{marginTop: "100px"}}>

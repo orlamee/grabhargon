@@ -2,6 +2,46 @@ import { Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../assets/loginlogo.svg";
 import Input from "./input";
+import Select from 'react-select'
+
+const options = [
+  { value: 'Agriculture',label: 'Agriculture'},
+  { value: 'Oil and Gas',label: 'Oil and Gas'},
+  { value: 'Manufacturing',label: 'Manufacturing'},
+  { value: 'Media',label:' Media'},
+  { value: 'Advertising',label: 'Advertising'},
+  { value: 'Aviation',label: 'Aviation'},
+  { value: 'Manufacturing',label: 'Manufacturing'},
+  { value: 'Banking',label: 'Banking'},
+  { value: 'Fintech',label: 'Fintech'},
+  { value: 'Energy',label: 'Energy'},
+  { value: 'Entertainment',label: 'Entertainment'},
+  { value: 'Sports',label: 'Sports'},
+  { value: 'Construction',label: 'Construction'},
+  { value: 'Real Estate',label: 'Real Estate'},
+  { value: 'Transportation',label:' Transportation'},
+  { value: 'Financial Services',label: 'Financial Services'},
+  { value: 'Hospitality',label: 'Hospitality'},
+  { value: 'Tourism',label: 'Tourism'},
+  { value: 'NGO',label: 'NGO'},
+  { value: 'Fashion',label: 'Fashion'},
+  { value: 'Healthcare',label: 'Healthcare'},
+  { value: 'Education',label: 'Education'},
+  { value: 'Retail',label: 'Retail'},
+  { value: 'Creative',label: 'Creative'},
+  { value: 'Marine',label: 'Marine'},
+  { value: 'Shipping',label: 'Shipping'},
+  { value: 'Power',label: 'Power'},
+  { value: 'Mining',label: 'Mining'},
+  { value: 'FMCG',label: 'FMCG'},
+  { value: 'Pharmaceuticals',label: 'Pharmaceuticals'},
+ { value: 'Government',label: 'Government'},
+  { value: 'Water',label: 'Water'},
+  { value: 'Environmental',label: 'Environmental'},
+  { value: 'Security',label: 'Security'},
+  { value: 'Insurance',label: 'Insurance'},
+  { value: 'Telecommunications',label: 'Telecommunications'}
+]
 
 
 export default function CreateCompany () {
@@ -19,6 +59,7 @@ export default function CreateCompany () {
         <div className="row align-items-start justify-content-center">
           <div className="col-md-7">
             <div className="mt-5">
+              <Link to="/sign-up" style={{color: "#9CA3AF"}}><i className="bi bi-chevron-left"></i> Back</Link>
               <Link to="/"><img src={logo} alt="logo" className="img-fluid float-end" /></Link>
             </div>
             <div style={{marginTop: "100px"}}>
@@ -38,12 +79,10 @@ export default function CreateCompany () {
                     <Form.Control type="tel" placeholder="Company Phone Number" />
                   </Form.Group>
                   <Form.Group>
-                    <Form.Select aria-label="Default select example">
-                      <option>Business Industry</option>
-                      <option value="1">Oil and Gas</option>
-                      <option value="2">Media</option>
-                      <option value="3">Aviation</option>
-                    </Form.Select>
+                    <Select
+                      options={options}
+                      placeholder="Business Industry"
+                     />
                   </Form.Group>
                   <Form.Group className="my-4">
                     <Form.Control type="email" placeholder="Company Email" />
