@@ -2,6 +2,14 @@ import { Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import logo from "../../assets/loginlogo.svg";
 import Input from "./input";
+import Select from 'react-select'
+
+const options = [
+  { value: 'Agriculture', label: 'Agriculture' },
+  { value: 'Oil and Gas', label: 'Oil and Gas' },
+  { value: 'Manufacturing', label: 'Manufacturing' },
+  { value: 'Media', label: 'Media' },
+]
 
 
 export default function CreateMerchant () {
@@ -38,12 +46,10 @@ export default function CreateMerchant () {
                     <Form.Control type="tel" placeholder="Business Phone Number" />
                   </Form.Group>
                   <Form.Group>
-                    <Form.Select aria-label="Default select example">
-                      <option>Business Industry</option>
-                      <option value="1">Oil and Gas</option>
-                      <option value="2">Media</option>
-                      <option value="3">Aviation</option>
-                    </Form.Select>
+                    <Select
+                      options={options}
+                      placeholder="Business Industry"
+                     />
                   </Form.Group>
                   <Form.Group className="my-4">
                     <Form.Control type="email" placeholder="Business Email" />

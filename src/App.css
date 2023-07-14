@@ -2690,6 +2690,12 @@ a {
   background-position: center;
 }
 
+@media (max-width: 767.98px){
+  .loginleft {
+    display: none;
+  }
+}
+
 .loginleft {
   background-image: url('./assets/pattern.png');
   background-repeat: no-repeat!important;
@@ -3672,4 +3678,10 @@ a {
 
 .career-modal .modal-body {
   padding-bottom: 60px!important;
+}
+
+.css-13cymwt-control,
+.css-13cymwt-control:hover {
+  min-height: 55px!important;
+  border: 1px solid #F0F0F0!important;
 }

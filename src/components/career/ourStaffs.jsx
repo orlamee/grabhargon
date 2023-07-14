@@ -51,7 +51,7 @@ export default function OurStaffs () {
                   <h3>Frontend Developer</h3>
                   <p>Vivian</p>
                   <div className="mt-4 bleu">
-                    <p>It feels like a family.</p>
+                    <p>During my exciting journey as a frontend developer at Hargon, I had the pleasure of working alongside a fantastic team, crafting delightful user interfaces for web applications..</p>
                   </div>
                 </div>
                 <div className="col-sm-6">

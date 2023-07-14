@@ -1,4 +1,3 @@
-import { Slide } from "react-awesome-reveal";
 import cc from "../../assets/topper.svg";
 import ploan from "../../assets/ploan.svg";
 import below from "../../assets/below.svg";
@@ -12,9 +11,7 @@ export default function PaymentLoan () {
       <div className='container'>
         <div className="row">
           <div className="col-sm-5">
-            <Slide direction="top">
-              <img src={cc} alt="Credit-Card" className="img-fluid" />
-            </Slide>
+            <img src={cc} alt="Credit-Card" className="img-fluid" />
           </div>
         </div>
         <div className="row justify-content-center">
@@ -24,9 +21,7 @@ export default function PaymentLoan () {
         </div>
         <div className="row justify-content-end">
           <div className="col-sm-5">
-            <Slide direction="right">
-              <img src={below} alt="Credit Card Payment Loans" className="img-fluid" />
-            </Slide>
+            <img src={below} alt="Credit Card Payment Loans" className="img-fluid" />
           </div>
         </div>
       </div>
