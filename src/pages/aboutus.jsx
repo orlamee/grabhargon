@@ -8,8 +8,6 @@ import OurV from "../components/aboutus/ourVision";
 import OurM from "../components/aboutus/ourMission";
 import TakeAdvantage from "../components/aboutus/takeAdvantage";
 
-
-
 function Aboutus () {
   return (
     <div>
