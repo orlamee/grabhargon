@@ -2802,13 +2802,14 @@ a {
 
 @media (max-width: 767.98px) {
   .otp-form {
-    width: 45px !important;
+    width: 40px !important;
     height: 40px;
     border: 1px solid #E5E7EB !important;
     text-align: center;
     font-size: 24px !important;
     font-weight: bold !important;
     color: #228B22 !important;
+    margin: 0 3px;
   }
 }
 
