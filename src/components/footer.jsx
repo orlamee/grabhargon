@@ -34,7 +34,7 @@ export default function Footer () {
                   <img src={line} alt="logo" className="img-fluid" />
                   <h5 className="mt-2">Resources</h5>
                   <ul className="list-unstyled links">
-                    <li><Link to="/press-media-resources">Press</Link></li>
+                    <li><Link to="/press-media">Press</Link></li>
                     <li><Link to="/blogs">Blog</Link></li>
                   </ul>
                 </div>
@@ -54,16 +54,16 @@ export default function Footer () {
                   <ul className="list-unstyled links">
                     <li><Link to="/about-us">About us</Link></li>
                     <li><Link to="/career">Careers</Link></li>
-                    <li><Link to="/transparency/faqs">FAQS</Link></li>
+                    <li><Link to="/faqs">FAQS</Link></li>
                     <li><Link to="">Security</Link></li>
                   </ul>
                 </div>
                 <div className="col-sm mb-3">
                   <h5>Transparency</h5>
                   <ul className="list-unstyled links">
-                    <li><Link to="/transparency/termsandconditons">Terms & conditions</Link></li>
-                    <li><Link to="/transparency/privacypolicy">Privacy policy</Link></li>
-                    <li><Link to="/transparency/complaints">Complaints</Link></li>
+                    <li><Link to="/termsandconditons">Terms & conditions</Link></li>
+                    <li><Link to="/privacypolicy">Privacy policy</Link></li>
+                    <li><Link to="/complaints">Complaints</Link></li>
                   </ul>
                 </div>
                 <div className="col-sm mb-3">

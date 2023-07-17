@@ -42,15 +42,14 @@ function BlogContent() {
                           The best loan apps in Nigeria
                         </h2>
                         <div className="">
-                          <Link to="/blog/top-lending-apps">
-                          <button
-                            className="btn btn-primary btn-success rounded-pill px-4 py-2 "
-                            to=""
-                          >
-                            Read More
-                          </button>
+                          <Link to="/blog/lending-apps">
+                            <button
+                              className="btn btn-primary btn-success rounded-pill px-4 py-2 "
+                              to=""
+                            >
+                              Read More
+                            </button>
                           </Link>
-                         
                         </div>
                       </div>
                     </div>
@@ -62,16 +61,15 @@ function BlogContent() {
                       type="button"
                     >
                       {" "}
-                     Personal Loans
+                      Personal Loans
                     </button>
                     <button
                       className="btn next-blog  rounded-pill mx-2 "
                       type="button"
                     >
                       {" "}
-                     Business Loans
+                      Business Loans
                     </button>
-                   
                   </div>
                 </div>
               </div>
@@ -94,7 +92,7 @@ function BlogContent() {
                       </span>{" "}
                     </p>
 
-                    <Link to="/blog/maximizing-your-loan">
+                    <Link to="/blog/maximizing-loan">
                       <h3 className="my-3">
                         Maximizing Your Loan: How to Effectively Utilize Your
                         Funds
@@ -131,12 +129,10 @@ function BlogContent() {
                         <span className="mx-3"> 2 hours ago</span>{" "}
                       </span>{" "}
                     </p>
-                    <Link to="/blog/top-lending-apps">
-                      <h3 className="my-3">
-                        Top Lending Apps in Nigeria
-                      </h3>
+                    <Link to="/blog/lending-apps">
+                      <h3 className="my-3">Top Lending Apps in Nigeria</h3>
                     </Link>
-                    
+
                     <div className="">
                       <button
                         className="btn next-blog  rounded-pill "
@@ -154,7 +150,7 @@ function BlogContent() {
                       </button>
                     </div>
                   </div>
-                 
+
                   <div className="col-md-4 mb-3">
                     <img
                       src={pend}
@@ -169,12 +165,13 @@ function BlogContent() {
                       </span>{" "}
                     </p>
 
-                    <h3 className="my-3">
-                      {" "}
-                     Best MicroFinance Investment in Nigeria
-                     {" "}
-                    </h3>
-
+                    <Link to="/blog/saving">
+                      <h3 className="my-3">
+                        {" "}
+                        Tips for Saving and Investing For beginners{" "}
+                      </h3>
+                    </Link>
+                   
                     <div className="">
                       <button
                         className="btn next-blog  rounded-pill "
@@ -209,7 +206,7 @@ function BlogContent() {
                     </p>
 
                     <h3 className="my-3">
-                    How To Save Like A Pro
+                      Tips for Saving and Investing For beginners
                     </h3>
 
                     <div className="">
@@ -243,10 +240,7 @@ function BlogContent() {
                       </span>{" "}
                     </p>
 
-                    <h3 className="my-3">
-                      {" "}
-                      Requirement For Loan Application
-                    </h3>
+                    <h3 className="my-3"> Requirement For Loan Application</h3>
 
                     <div className="">
                       <button
@@ -313,9 +307,7 @@ function BlogContent() {
                         <span className="mx-3"> 2 hours ago</span>{" "}
                       </span>{" "}
                     </p>
-                    <h3 className="my-3">
-                    Save as an Investment 
-                     </h3>
+                    <h3 className="my-3">Save as an Investment</h3>
                     <div className="col-sm">
                       <button
                         className="btn next-blog  rounded-pill "
@@ -381,10 +373,7 @@ function BlogContent() {
                       </span>{" "}
                     </p>
 
-                    <h3 className="my-3">
-                      {" "}
-                      Student Loan Options in Nigeria
-                    </h3>
+                    <h3 className="my-3"> Student Loan Options in Nigeria</h3>
 
                     <div className="">
                       <button
@@ -403,7 +392,6 @@ function BlogContent() {
                       </button>
                     </div>
                   </div>
-                 
                 </div>
               </div>
             </div>

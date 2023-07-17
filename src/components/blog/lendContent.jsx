@@ -6,8 +6,9 @@ import kash from "../../assets/okash.png";
 import fair from "../../assets/Fairmoney (1).png";
 import palm from "../../assets/palmcredit.png";
 import carbon from "../../assets/carbon.png";
+import side from "../../assets/savebox.png";
 import pic from "../../assets/boy.png";
-import tip from "../../assets/techcrunch.png";
+import tip from "../../assets/pills.png";
 import bogimg from "../../assets/student.png";
 import facebook from "../../assets/Facebook logo.png";
 import linkedin from "../../assets/linkedin logo.png";
@@ -318,7 +319,7 @@ function LendContent() {
                         />
 
                         <div>
-                          <Link to="/blog/maximizing-your-loan">
+                          <Link to="/blog/maximizing-loan">
                           <h6 className="mb-5">
                           Maximizing Your Loan: How to Effectively Utilize Your Funds
                           </h6>
@@ -328,6 +329,25 @@ function LendContent() {
                           <span className="blog-date"> May 6, 2023</span>
                         </div>
                       </div>
+                      <div className="d-flex flex-row mt-3">
+                        <img
+                          src={side}
+                          alt="new-article"
+                          className="img-fluid me-3"
+                        />
+
+                        <div>
+                          <Link to="/blog/saving">
+                          <h6 className="mb-5">
+                          Tips for Saving and Investing For beginners
+                          </h6>
+                          </Link>
+                         
+
+                          <span className="blog-date"> May 6, 2023</span>
+                        </div>
+                      </div>
+
 
                       <div className="d-flex flex-row mt-4">
                         <img

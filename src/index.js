@@ -56,6 +56,7 @@ import PressMedia from './pages/pressMedia';
 import Blogs from './pages/Blogs';
 import Logos from './pages/logos';
 import BlogLending from './pages/blogLending';
+import Blogsave from './pages/blogsave';
 import BlogMaximize from './pages/blogMaximize';
 
 
@@ -108,15 +109,16 @@ root.render(
       <Route path="/career/apply" element={<Apply/>}></Route>
       <Route path="/404" element={<Error/>}></Route>
       <Route path="*" element={<Navigate to="/404" replace />}></Route>
-      <Route path="/transparency/termsandconditons" element={<TermsCond/>}></Route>
-      <Route path="/transparency/privacypolicy" element={<PrivacyPolicy/>}></Route>
-      <Route path="/transparency/complaints" element={<Complaints/>}></Route>
-      <Route path="/transparency/faqs" element={<Faqs/>}></Route>
-      <Route path="/press-media-resources" element={<PressMedia/>}></Route>
+      <Route path="/termsandconditons" element={<TermsCond/>}></Route>
+      <Route path="/privacypolicy" element={<PrivacyPolicy/>}></Route>
+      <Route path="/complaints" element={<Complaints/>}></Route>
+      <Route path="/faqs" element={<Faqs/>}></Route>
+      <Route path="/press-media" element={<PressMedia/>}></Route>
       <Route path="/blogs" element={<Blogs/>}></Route>
       <Route path="/press/logos" element={<Logos/>}></Route>
-      <Route path="/blog/maximizing-your-loan" element={<BlogMaximize/>}></Route>
-      <Route path="/blog/top-lending-apps" element={<BlogLending/>}></Route>
+      <Route path="/blog/maximizing-loan" element={<BlogMaximize/>}></Route>
+      <Route path="/blog/lending-apps" element={<BlogLending/>}></Route>
+      <Route path="/blog/saving" element={<Blogsave/>}></Route>
      
     </Routes>
   </BrowserRouter>

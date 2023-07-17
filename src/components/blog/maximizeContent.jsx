@@ -1,12 +1,13 @@
 import React from "react";
 import bogimg from "../../assets/student.png";
 import pic from "../../assets/boy.png";
-import tip from "../../assets/techcrunch.png";
+import tip from "../../assets/pills.png";
 import topic from "../../assets/maxtop.png";
 import fond from "../../assets/maxpic.png";
 import savimg from "../../assets/asan.png";
 import rite from "../../assets/eligibility.png";
 import byn from "../../assets/bestbus.png";
+import side from "../../assets/savebox.png";
 import bnyimg from "../../assets/apy.png";
 import mini from "../../assets/mirco.png";
 import facebook from "../../assets/Facebook logo.png";
@@ -279,7 +280,47 @@ function MaximizeContent() {
                   <div className="blog-sidebar mt-5">
                     <div className="row">
                       <h5>Recent Posts </h5>
+                      <div className="d-flex flex-row mt-3">
+                        <img
+                          src={side}
+                          alt="new-article"
+                          className="img-fluid me-3"
+                        />
+
+                        <div>
+                          <Link to="/blog/saving">
+                          <h6 className="mb-5">
+                          Tips for Saving and Investing For beginners
+                          </h6>
+                          </Link>
+                         
+
+                          <span className="blog-date"> May 6, 2023</span>
+                        </div>
+                      </div>
                     
+                  
+                    
+                    <div className="d-flex flex-row mt-4">
+                      <img
+                        src={bnyimg}
+                        alt="new-article"
+                        className="img-fluid me-3"
+                      />
+
+                      <div>
+                        <Link to="/blog/lending-apps" >
+                        
+                        <h6 className="mb-4">
+                        The Best Loan Apps in Nigeria
+                        </h6>
+                        </Link>
+                       
+                        <p className="">
+                          <span className="blog-date"> May 6, 2023</span>
+                        </p>
+                      </div>
+                    </div>
                     <div className="d-flex flex-row mt-2">
                       <img
                         src={bogimg}
@@ -291,27 +332,6 @@ function MaximizeContent() {
                         <h6 className="mb-4">
                         Student loan options in Nigeria
                         </h6>
-                        <p className="">
-                          <span className="blog-date"> May 6, 2023</span>
-                        </p>
-                      </div>
-                    </div>
-                    
-                    <div className="d-flex flex-row mt-4">
-                      <img
-                        src={bnyimg}
-                        alt="new-article"
-                        className="img-fluid me-3"
-                      />
-
-                      <div>
-                        <Link to="/blog/top-lending-apps" >
-                        
-                        <h6 className="mb-4">
-                        The Best Loan Apps in Nigeria
-                        </h6>
-                        </Link>
-                       
                         <p className="">
                           <span className="blog-date"> May 6, 2023</span>
                         </p>
