@@ -48,6 +48,18 @@ import CreditBuilder from './pages/creditBuilder';
 import Integration from './pages/integration';
 import SavingBusiness from './pages/savingsbusiness';
 import Apply from './pages/apply';
+import TermsCond from './pages/termsCond';
+import PrivacyPolicy from './pages/privacyPolicy';
+import Complaints from './pages/Complaints';
+import Faqs from './pages/Faqs';
+import PressMedia from './pages/pressMedia';
+import Blogs from './pages/Blogs';
+import Logos from './pages/logos';
+import BlogLending from './pages/blogLending';
+import BlogMaximize from './pages/blogMaximize';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -96,6 +108,16 @@ root.render(
       <Route path="/career/apply" element={<Apply/>}></Route>
       <Route path="/404" element={<Error/>}></Route>
       <Route path="*" element={<Navigate to="/404" replace />}></Route>
+      <Route path="/transparency/termsandconditons" element={<TermsCond/>}></Route>
+      <Route path="/transparency/privacypolicy" element={<PrivacyPolicy/>}></Route>
+      <Route path="/transparency/complaints" element={<Complaints/>}></Route>
+      <Route path="/transparency/faqs" element={<Faqs/>}></Route>
+      <Route path="/press-media-resources" element={<PressMedia/>}></Route>
+      <Route path="/blogs" element={<Blogs/>}></Route>
+      <Route path="/press/logos" element={<Logos/>}></Route>
+      <Route path="/blog/maximizing-your-loan" element={<BlogMaximize/>}></Route>
+      <Route path="/blog/top-lending-apps" element={<BlogLending/>}></Route>
+     
     </Routes>
   </BrowserRouter>
 );
