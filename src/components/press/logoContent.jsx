@@ -16,7 +16,7 @@ function LogoContent() {
     <section>
       <div className="container">
         <div className="row justify-content-center mt-5">
-          <div className="col-md-12">
+          <div className="col-sm-12">
             <div className="logo-content mt-5">
               <p className="mt-5">
                 Hargon is a fully licensed digital lending platform. Hargon

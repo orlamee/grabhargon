@@ -57,7 +57,9 @@ import Blogs from './pages/Blogs';
 import Logos from './pages/logos';
 import BlogLending from './pages/blogLending';
 import Blogsave from './pages/blogsave';
+import BlogEli from './pages/blogEli';
 import BlogMaximize from './pages/blogMaximize';
+import BlogDefault from './pages/blogDefault';
 
 
 
@@ -119,6 +121,8 @@ root.render(
       <Route path="/blog/maximizing-loan" element={<BlogMaximize/>}></Route>
       <Route path="/blog/lending-apps" element={<BlogLending/>}></Route>
       <Route path="/blog/saving" element={<Blogsave/>}></Route>
+      <Route path="/blog/loan-eligibility" element={<BlogEli/>}></Route>
+      <Route path="/blog/defaulting-loans" element={<BlogDefault/>}></Route>
      
     </Routes>
   </BrowserRouter>

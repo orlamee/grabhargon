@@ -9,7 +9,7 @@ function PressHero() {
         <div className="row justify-content-center">
           <div className="col-sm-9 text-center blonde">
             <h2 className=" my-5"> Press & Media Resources </h2>
-            <div className="d-flex justify-content-center align-content-start text-white">
+            <div className="d-flex justify-content-center text-white">
             <div>
                 
                   <p className=" mx-5">News</p>

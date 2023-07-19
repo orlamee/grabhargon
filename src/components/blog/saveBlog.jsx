@@ -4,6 +4,8 @@ import pic from "../../assets/boy.png";
 import tip from "../../assets/pills.png";
 import topic from "../../assets/savetop.png";
 import savemid from "../../assets/savepic2.png";
+import non from "../../assets/boximg.png";
+import box from "../../assets/loanbox.png";
 import invest from "../../assets/savepic3.png";
 import savimg from "../../assets/asan.png";
 import rite from "../../assets/eligibility.png";
@@ -303,6 +305,44 @@ function SaveBlog() {
                           </p>
                         </div>
                       </div>
+                      <div className="d-flex flex-row mt-2">
+                    <img
+                        src={box}
+                        alt="new-article"
+                        className="img-fluid me-3"
+                      />
+                    
+                      <div  className="box">
+                        <Link to="/blog/defaulting-loans">
+                        <h6 className="mb-4">
+                        The Consequences of Defaulting on Loans
+                        </h6>
+                        </Link>
+                       
+                        <p className="">
+                          <span className="blog-date"> May 6, 2023</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="d-flex flex-row mt-4">
+                      <img
+                        src={non}
+                        alt="new-article"
+                        className="img-fluid me-3"
+                      />
+
+                      <div>
+                      <Link to="/blog/loan-Eligibility">
+                            <h6 className="mb-4">
+                            Demystifying Loan Eligibility in Nigeria: A Comprehensive Guide
+
+                            </h6>
+                          </Link>
+                        <p className="">
+                          <span className="blog-date"> May 6, 2023</span>
+                        </p>
+                      </div>
+                    </div>
                       <div className="d-flex flex-row mt-2">
                         <img
                           src={bogimg}

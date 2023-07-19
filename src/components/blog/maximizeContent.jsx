@@ -2,10 +2,11 @@ import React from "react";
 import bogimg from "../../assets/student.png";
 import pic from "../../assets/boy.png";
 import tip from "../../assets/pills.png";
+import non from "../../assets/boximg.png";
 import topic from "../../assets/maxtop.png";
 import fond from "../../assets/maxpic.png";
 import savimg from "../../assets/asan.png";
-import rite from "../../assets/eligibility.png";
+import box from "../../assets/loanbox.png";
 import byn from "../../assets/bestbus.png";
 import side from "../../assets/savebox.png";
 import bnyimg from "../../assets/apy.png";
@@ -322,16 +323,19 @@ function MaximizeContent() {
                       </div>
                     </div>
                     <div className="d-flex flex-row mt-2">
-                      <img
-                        src={bogimg}
+                    <img
+                        src={box}
                         alt="new-article"
                         className="img-fluid me-3"
                       />
-
+                    
                       <div  className="box">
+                        <Link to="/blog/defaulting-loans">
                         <h6 className="mb-4">
-                        Student loan options in Nigeria
+                        The Consequences of Defaulting on Loans
                         </h6>
+                        </Link>
+                       
                         <p className="">
                           <span className="blog-date"> May 6, 2023</span>
                         </p>
@@ -340,15 +344,18 @@ function MaximizeContent() {
                     
                     <div className="d-flex flex-row mt-4">
                       <img
-                        src={rite}
+                        src={non}
                         alt="new-article"
                         className="img-fluid me-3"
                       />
 
                       <div>
-                        <h6 className="mb-4">
-                        Loan Eligibility Criteria in Nigeria
-                        </h6>
+                      <Link to="/blog/loan-Eligibility">
+                            <h6 className="mb-4">
+                            Demystifying Loan Eligibility in Nigeria: A Comprehensive Guide
+
+                            </h6>
+                          </Link>
                         <p className="">
                           <span className="blog-date"> May 6, 2023</span>
                         </p>
@@ -396,6 +403,22 @@ function MaximizeContent() {
                       <div  className="box">
                         <h6 className="mb-4">
                         Best Microfinance Investment in Nigeria
+                        </h6>
+                        <p className="">
+                          <span className="blog-date"> May 6, 2023</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="d-flex flex-row mt-2">
+                      <img
+                        src={bogimg}
+                        alt="new-article"
+                        className="img-fluid me-3"
+                      />
+
+                      <div  className="box">
+                        <h6 className="mb-4">
+                        Student loan options in Nigeria
                         </h6>
                         <p className="">
                           <span className="blog-date"> May 6, 2023</span>

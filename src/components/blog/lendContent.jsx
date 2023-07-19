@@ -7,14 +7,15 @@ import fair from "../../assets/Fairmoney (1).png";
 import palm from "../../assets/palmcredit.png";
 import carbon from "../../assets/carbon.png";
 import side from "../../assets/savebox.png";
+import non from "../../assets/boximg.png";
 import pic from "../../assets/boy.png";
+import box from "../../assets/loanbox.png";
 import tip from "../../assets/pills.png";
 import bogimg from "../../assets/student.png";
 import facebook from "../../assets/Facebook logo.png";
 import linkedin from "../../assets/linkedin logo.png";
 import twitter from "../../assets/twitter logo.png";
 import savimg from "../../assets/asan.png";
-import rite from "../../assets/eligibility.png";
 import byn from "../../assets/bestbus.png";
 import loanimg from "../../assets/maximize.png";
 import mini from "../../assets/mirco.png";
@@ -347,6 +348,45 @@ function LendContent() {
                           <span className="blog-date"> May 6, 2023</span>
                         </div>
                       </div>
+                      <div className="d-flex flex-row mt-2">
+                    <img
+                        src={box}
+                        alt="new-article"
+                        className="img-fluid me-3"
+                      />
+                    
+                      <div  className="box">
+                        <Link to="/blog/defaulting-loans">
+                        <h6 className="mb-4">
+                        The Consequences of Defaulting on Loans
+                        </h6>
+                        </Link>
+                       
+                        <p className="">
+                          <span className="blog-date"> May 6, 2023</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="d-flex flex-row mt-4">
+                      
+                      <img
+                        src={non}
+                        alt="new-article"
+                        className="img-fluid me-3"
+                      />
+
+                      <div>
+                      <Link to="/blog/loan-Eligibility">
+                            <h6 className="mb-4">
+                            Demystifying Loan Eligibility in Nigeria: A Comprehensive Guide
+
+                            </h6>
+                          </Link>
+                        <p className="">
+                          <span className="blog-date"> May 6, 2023</span>
+                        </p>
+                      </div>
+                    </div>
 
 
                       <div className="d-flex flex-row mt-4">
@@ -364,22 +404,8 @@ function LendContent() {
                           <span className="blog-date"> May 6, 2023</span>
                         </div>
                       </div>
-
-                      <div className="d-flex flex-row mt-4">
-                        <img
-                          src={rite}
-                          alt="new-article"
-                          className="img-fluid me-3"
-                        />
-
-                        <div className="">
-                          <h6 className="mb-5">
-                            Loan Eligibility Criteria in Nigeria
-                          </h6>
-
-                          <span className="blog-date"> May 6, 2023</span>
-                        </div>
-                      </div>
+                     
+                     
                       <div className="d-flex flex-row mt-4">
                         <img
                           src={savimg}

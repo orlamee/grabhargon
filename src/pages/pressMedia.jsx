@@ -1,7 +1,6 @@
 import React from "react";
 import EduHeader from "../components/educationalLoan/eduHeader";
-import PressHero from "../components/press/pressHero";
-import PressContent from "../components/press/pressContent";
+import MediaContent from "../components/press/mediaContent";
 import SemiFooter from "../components/personalPage/semiFooter";
 import Footer from "../components/footer";
 
@@ -9,8 +8,7 @@ function PressMedia() {
   return (
     <div>
       <EduHeader />
-      <PressHero />
-      <PressContent />
+      <MediaContent />
       <SemiFooter />
       <Footer />
     </div>
