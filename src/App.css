@@ -3834,7 +3834,7 @@ a {
   border-bottom-left-radius: 0px;
 }
 
-.boxes h1 {
+.complain h1 {
   font-family: "syne-reg";
   font-weight: 500;
   font-size: 30px;
@@ -3842,14 +3842,31 @@ a {
   color: black;
 }
 
-.boxes p {
+.complain p {
   font-family: "syne-reg";
   font-weight: 400;
   line-height: 20px;
   font-size: 14px;
 }
 
-.boxes .form-label {
+
+.complain .nav-link, 
+.complain  .nav-link.active  {
+  color: #169323;
+  font-family: "syne-reg";
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 16px; 
+ }
+  
+
+
+.complain .nav-link:hover {
+  border-bottom: 0.1rem solid  #169323 ;
+}
+
+
+.complain .form-label {
   font-size: 15px;
   line-height: 24px;
   font-weight: 500;
@@ -3861,7 +3878,7 @@ a {
   padding-top: 10px;
 }
 
-.boxes .form-control {
+.complain .form-control {
   border: 1px solid #9ca3af;
   padding: 11px 20px;
   border-radius: 0px;
@@ -4155,7 +4172,6 @@ color:  #1E2C31;
  
 }
 
-
 .info .nav-tabs .nav-link.active {
   border: 0;
   -webkit-text-fill-color: transparent;
@@ -4164,7 +4180,47 @@ color:  #1E2C31;
   
 }
 
+
 .info .nav-tabs{
   border-bottom-color:transparent;
 }
 
+.benefits {
+  background: #fff;
+  padding: 100px 20px;
+}
+
+.benefits h2,
+.shopers h2 {
+font-family: 'syne-bold';
+ font-size: 65px;
+ font-weight: 600;
+ line-height: 78px;
+
+}
+
+.benefits p,
+.shopers p {
+  font-family: 'syne-reg';
+  font-size: 14px;
+}
+
+
+.shopers {
+  background-image: url(../src/assets/greenback.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 40px;
+  min-height: 150px;
+  margin-bottom: 120px;
+}
+
+
+
+
+ @media (max-width: 767.98px) {
+  .joined {
+    margin-top: 20px;
+    
+  }}

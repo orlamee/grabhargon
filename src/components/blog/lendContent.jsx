@@ -9,6 +9,7 @@ import carbon from "../../assets/carbon.png";
 import side from "../../assets/savebox.png";
 import non from "../../assets/boximg.png";
 import pic from "../../assets/boy.png";
+import dig from "../../assets/digit-box.png";
 import box from "../../assets/loanbox.png";
 import tip from "../../assets/pills.png";
 import bogimg from "../../assets/student.png";
@@ -379,6 +380,25 @@ function LendContent() {
                       <Link to="/blog/loan-Eligibility">
                             <h6 className="mb-4">
                             Demystifying Loan Eligibility in Nigeria: A Comprehensive Guide
+
+                            </h6>
+                          </Link>
+                        <p className="">
+                          <span className="blog-date"> May 6, 2023</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="d-flex flex-row mt-4">
+                      <img
+                        src={dig}
+                        alt="new-article"
+                        className="img-fluid me-3"
+                      />
+
+                      <div>
+                      <Link to="/blog/digital-platforms">
+                            <h6 className="mb-4">
+                            Digital Investment Platforms in Nigeria
 
                             </h6>
                           </Link>

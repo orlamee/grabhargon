@@ -5,6 +5,7 @@ import tip from "../../assets/pills.png";
 import bogimg from "../../assets/student.png";
 import savimg from "../../assets/asan.png";
 import side from "../../assets/savebox.png";
+import dig from "../../assets/digit-box.png";
 import byn from "../../assets/bestbus.png";
 import box from "../../assets/loanbox.png";
 import bnyimg from "../../assets/apy.png";
@@ -320,6 +321,25 @@ function DefaultLoan () {
                           </p>
                         </div>
                       </div>
+                      <div className="d-flex flex-row mt-4">
+                      <img
+                        src={dig}
+                        alt="new-article"
+                        className="img-fluid me-3"
+                      />
+
+                      <div>
+                      <Link to="/blog/digital-platforms">
+                            <h6 className="mb-4">
+                            Digital Investment Platforms in Nigeria
+
+                            </h6>
+                          </Link>
+                        <p className="">
+                          <span className="blog-date"> May 6, 2023</span>
+                        </p>
+                      </div>
+                    </div>
                       <div className="d-flex flex-row mt-2">
                         <img
                           src={bogimg}

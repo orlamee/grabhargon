@@ -10,12 +10,11 @@ import Terms from '../components/transparency/terms';
 function TermsCond() {
   return (
     <div>
-      
       <EduHeader/>
-        <TermsBreadcrumb />
-       <Terms />
-        <SemiFooter/>
-        <Footer/>
+      <TermsBreadcrumb />
+      <Terms />
+      <SemiFooter/>
+      <Footer/>
     </div>
   );
 }

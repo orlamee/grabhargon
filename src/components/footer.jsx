@@ -61,8 +61,8 @@ export default function Footer () {
                 <div className="col-sm mb-3">
                   <h5>Transparency</h5>
                   <ul className="list-unstyled links">
-                    <li><Link to="/termsandconditons">Terms & conditions</Link></li>
-                    <li><Link to="/privacypolicy">Privacy policy</Link></li>
+                    <li><Link to="/terms-conditons">Terms & conditions</Link></li>
+                    <li><Link to="/privacy-policy">Privacy policy</Link></li>
                     <li><Link to="/complaints">Complaints</Link></li>
                   </ul>
                 </div>

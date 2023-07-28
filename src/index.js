@@ -60,6 +60,8 @@ import Blogsave from './pages/blogsave';
 import BlogEli from './pages/blogEli';
 import BlogMaximize from './pages/blogMaximize';
 import BlogDefault from './pages/blogDefault';
+import BlogDigital from './pages/blogDigital';
+import Shop from './pages/Shop';
 
 
 
@@ -111,8 +113,8 @@ root.render(
       <Route path="/career/apply" element={<Apply/>}></Route>
       <Route path="/404" element={<Error/>}></Route>
       <Route path="*" element={<Navigate to="/404" replace />}></Route>
-      <Route path="/termsandconditons" element={<TermsCond/>}></Route>
-      <Route path="/privacypolicy" element={<PrivacyPolicy/>}></Route>
+      <Route path="/terms-conditons" element={<TermsCond/>}></Route>
+      <Route path="/privacy-policy" element={<PrivacyPolicy/>}></Route>
       <Route path="/complaints" element={<Complaints/>}></Route>
       <Route path="/faqs" element={<Faqs/>}></Route>
       <Route path="/press-media" element={<PressMedia/>}></Route>
@@ -123,6 +125,8 @@ root.render(
       <Route path="/blog/saving" element={<Blogsave/>}></Route>
       <Route path="/blog/loan-eligibility" element={<BlogEli/>}></Route>
       <Route path="/blog/defaulting-loans" element={<BlogDefault/>}></Route>
+      <Route path="/blog/digital-platforms" element={<BlogDigital/>}></Route>
+      <Route path="/shop" element={<Shop/>}></Route>
      
     </Routes>
   </BrowserRouter>

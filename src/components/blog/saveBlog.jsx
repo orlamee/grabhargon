@@ -10,6 +10,7 @@ import invest from "../../assets/savepic3.png";
 import savimg from "../../assets/asan.png";
 import rite from "../../assets/eligibility.png";
 import byn from "../../assets/bestbus.png";
+import dig from "../../assets/digit-box.png";
 import bnyimg from "../../assets/apy.png";
 import mini from "../../assets/mirco.png";
 import facebook from "../../assets/Facebook logo.png";
@@ -335,6 +336,25 @@ function SaveBlog() {
                       <Link to="/blog/loan-Eligibility">
                             <h6 className="mb-4">
                             Demystifying Loan Eligibility in Nigeria: A Comprehensive Guide
+
+                            </h6>
+                          </Link>
+                        <p className="">
+                          <span className="blog-date"> May 6, 2023</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="d-flex flex-row mt-4">
+                      <img
+                        src={dig}
+                        alt="new-article"
+                        className="img-fluid me-3"
+                      />
+
+                      <div>
+                      <Link to="/blog/digital-platforms">
+                            <h6 className="mb-4">
+                            Digital Investment Platforms in Nigeria
 
                             </h6>
                           </Link>

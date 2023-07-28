@@ -2,7 +2,7 @@ import React from "react";
 import header from "../../assets/penhead.png";
 import tex from "../../assets/peng1.png";
 import app from "../../assets/peng2.png";
-import pend from "../../assets/peng3.png";
+import pend from "../../assets/digit-side.png";
 import pen from "../../assets/peng4.png";
 import one from "../../assets/peng5.png";
 import fam from "../../assets/peng6.png";
@@ -282,9 +282,12 @@ function BlogContent() {
                       </span>{" "}
                     </p>
 
-                    <h3 className="my-3">
-                      Tips for Saving and Investing For beginners
-                    </h3>
+                    <Link to="/blog/digital-platforms">
+                            <h3 className="mb-4">
+                            Digital Investment Platforms in Nigeria
+
+                            </h3>
+                          </Link>
 
                     <div className="">
                       <button
@@ -292,14 +295,14 @@ function BlogContent() {
                         type="button"
                       >
                         {" "}
-                        Finance{" "}
+                        Investment
                       </button>
                       <button
                         className="btn next-blog rounded-pill mx-3"
                         type="button"
                       >
                         {" "}
-                        Personal Loan
+                        Financial Freedom
                       </button>
                     </div>
                   </div>

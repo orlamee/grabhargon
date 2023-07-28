@@ -7,6 +7,7 @@ import bogimg from "../../assets/student.png";
 import box from "../../assets/loanbox.png";
 import side from "../../assets/savebox.png";
 import savimg from "../../assets/asan.png";
+import dig from "../../assets/digit-box.png";
 import elig from "../../assets/loaneli3.png";
 import rite from "../../assets/eligibility.png";
 import byn from "../../assets/bestbus.png";
@@ -382,6 +383,25 @@ function EligibilityContent() {
                         </h6>
                         </Link>
                        
+                        <p className="">
+                          <span className="blog-date"> May 6, 2023</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="d-flex flex-row mt-4">
+                      <img
+                        src={dig}
+                        alt="new-article"
+                        className="img-fluid me-3"
+                      />
+
+                      <div>
+                      <Link to="/blog/digital-platforms">
+                            <h6 className="mb-4">
+                            Digital Investment Platforms in Nigeria
+
+                            </h6>
+                          </Link>
                         <p className="">
                           <span className="blog-date"> May 6, 2023</span>
                         </p>
