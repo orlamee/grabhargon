@@ -1,15 +1,15 @@
 import React from "react";
-import bogimg from "../../assets/student.png";
 import pic from "../../assets/boy.png";
 import tip from "../../assets/pills.png";
 import topic from "../../assets/savetop.png";
+import schoolimg from "../../assets/schbox.png";
+import debit from "../../assets/scorebox.png";
+import stockimg from "../../assets/stockbox.png";
 import savemid from "../../assets/savepic2.png";
 import non from "../../assets/boximg.png";
 import box from "../../assets/loanbox.png";
 import invest from "../../assets/savepic3.png";
-import savimg from "../../assets/asan.png";
 import rite from "../../assets/eligibility.png";
-import byn from "../../assets/bestbus.png";
 import dig from "../../assets/digit-box.png";
 import bnyimg from "../../assets/apy.png";
 import mini from "../../assets/mirco.png";
@@ -365,21 +365,21 @@ function SaveBlog() {
                     </div>
                       <div className="d-flex flex-row mt-2">
                         <img
-                          src={bogimg}
+                          src={debit}
                           alt="new-article"
                           className="img-fluid me-3"
                         />
 
                         <div className="box">
-                          <h6 className="mb-4">
-                            Student loan options in Nigeria
-                          </h6>
+                         
                           <p className="">
                             <span className="blog-date"> May 6, 2023</span>
                           </p>
                         </div>
                       </div>
-
+                      <Link to="/blog/creditscore">
+                      <h6 className="my-3"> Credit Score in Nigeria</h6>
+                    </Link>
                       <div className="d-flex flex-row mt-4">
                         <img
                           src={rite}
@@ -398,13 +398,15 @@ function SaveBlog() {
                       </div>
                       <div className="d-flex flex-row mt-4">
                         <img
-                          src={savimg}
+                          src={schoolimg}
                           alt="new-article"
                           className="img-fluid me-3"
                         />
 
                         <div className="box">
-                          <h6 className="mb-4">Save As An Investment</h6>
+                        <Link to="/blog/student-loans">
+                      <h6 className="my-3"> Student Loan Options in Nigeria</h6>
+                    </Link>
                           <p className="">
                             <span className="blog-date"> May 6, 2023</span>
                           </p>
@@ -412,15 +414,15 @@ function SaveBlog() {
                       </div>
                       <div className="d-flex flex-row mt-4">
                         <img
-                          src={byn}
+                          src={stockimg}
                           alt="new-article"
                           className="img-fluid me-3"
                         />
 
                         <div className="box">
-                          <h6 className="mb-4">
-                            Best Business Loans without Collateral in Nigeria
-                          </h6>
+                        <Link to="/blog/investment">
+                      <h6 className="my-3"> Diversification of Investment</h6>
+                    </Link>
                           <p className="">
                             <span className="blog-date"> May 6, 2023</span>
                           </p>

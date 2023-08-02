@@ -61,6 +61,12 @@ import BlogEli from './pages/blogEli';
 import BlogMaximize from './pages/blogMaximize';
 import BlogDefault from './pages/blogDefault';
 import BlogDigital from './pages/blogDigital';
+import BlogInvest from './pages/blogInvest';
+import BlogStudent from './pages/blogStudent';
+import BlogCredit from './pages/blogCredit';
+import BlogMyths from './pages/blogMyths';
+import BlogTurn from './pages/blogTurn';
+import BlogUnlock from './pages/blogUnlock';
 import Shop from './pages/Shop';
 
 
@@ -126,6 +132,12 @@ root.render(
       <Route path="/blog/loan-eligibility" element={<BlogEli/>}></Route>
       <Route path="/blog/defaulting-loans" element={<BlogDefault/>}></Route>
       <Route path="/blog/digital-platforms" element={<BlogDigital/>}></Route>
+      <Route path="/blog/student-loans" element={<BlogStudent/>}></Route>
+      <Route path="/blog/investment" element={<BlogInvest/>}></Route>
+      <Route path="/blog/creditscore" element={<BlogCredit/>}></Route>
+      <Route path="/blog/creditmyths" element={<BlogMyths/>}></Route>
+      <Route path="/blog/unlocking-financial" element={<BlogUnlock/>}></Route>
+      <Route path="/blog/turn-savings" element={<BlogTurn/>}></Route>
       <Route path="/shop" element={<Shop/>}></Route>
      
     </Routes>

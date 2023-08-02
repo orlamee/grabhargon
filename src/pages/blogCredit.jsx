@@ -1,16 +1,15 @@
 import React from 'react'
 import EduHeader from "../components/educationalLoan/eduHeader";
-import Digital from '../components/blog/digital';
+import CreditScore from '../components/blog/creditScore';
 import Replies from '../components/replies';
 import SemiFooter from '../components/personalPage/semiFooter';
 import Footer from "../components/footer";
 
-
-function BlogDigital() {
+function BlogCredit() {
   return (
     <div>
     <EduHeader />
-    <Digital/>
+    <CreditScore/>
     <Replies />
     <SemiFooter />
     <Footer />
@@ -18,4 +17,4 @@ function BlogDigital() {
   );
 }
 
-export default BlogDigital;
+export default BlogCredit;

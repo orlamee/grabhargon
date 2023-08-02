@@ -12,12 +12,12 @@ import pic from "../../assets/boy.png";
 import dig from "../../assets/digit-box.png";
 import box from "../../assets/loanbox.png";
 import tip from "../../assets/pills.png";
-import bogimg from "../../assets/student.png";
 import facebook from "../../assets/Facebook logo.png";
 import linkedin from "../../assets/linkedin logo.png";
 import twitter from "../../assets/twitter logo.png";
-import savimg from "../../assets/asan.png";
-import byn from "../../assets/bestbus.png";
+import schoolimg from "../../assets/schbox.png";
+import debit from "../../assets/scorebox.png";
+import stockimg from "../../assets/stockbox.png";
 import loanimg from "../../assets/maximize.png";
 import mini from "../../assets/mirco.png";
 import { Link } from "react-router-dom";
@@ -411,15 +411,15 @@ function LendContent() {
 
                       <div className="d-flex flex-row mt-4">
                         <img
-                          src={bogimg}
+                          src={debit}
                           alt="new-article"
                           className="img-fluid me-3"
                         />
 
                         <div>
-                          <h6 className="mb-5">
-                          Student loan options in Nigeria
-                          </h6>
+                        <Link to="/blog/creditscore">
+                      <h6 className="my-3"> Credit Score in Nigeria</h6>
+                    </Link>
 
                           <span className="blog-date"> May 6, 2023</span>
                         </div>
@@ -428,28 +428,30 @@ function LendContent() {
                      
                       <div className="d-flex flex-row mt-4">
                         <img
-                          src={savimg}
+                          src={schoolimg}
                           alt="new-article"
                           className="img-fluid me-3"
                         />
 
                         <div className="">
-                          <h6 className="mb-5">Save As An Investment</h6>
+                        <Link to="/blog/student-loans">
+                      <h6 className="my-3"> Student Loan Options in Nigeria</h6>
+                    </Link>
 
                           <span className="blog-date"> May 6, 2023</span>
                         </div>
                       </div>
                       <div className="d-flex flex-row mt-4">
                         <img
-                          src={byn}
+                          src={stockimg}
                           alt="new-article"
                           className="img-fluid me-3"
                         />
 
                         <div className="">
-                          <h6 className="mb-5">
-                            Best Business Loans without Collateral in Nigeria
-                          </h6>
+                        <Link to="/blog/investment">
+                      <h6 className="my-3"> Diversification of Investment</h6>
+                    </Link>
 
                           <span className="blog-date"> May 6, 2023</span>
                         </div>

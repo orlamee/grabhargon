@@ -3,13 +3,16 @@ import header from "../../assets/penhead.png";
 import tex from "../../assets/peng1.png";
 import app from "../../assets/peng2.png";
 import pend from "../../assets/digit-side.png";
-import pen from "../../assets/peng4.png";
+import loans from "../../assets/schframe.png";
 import one from "../../assets/peng5.png";
-import fam from "../../assets/peng6.png";
-import snap from "../../assets/peng7.png";
+import guide from "../../assets/stockframe.png";
+import credit from "../../assets/scoreframe.png";
 import woh from "../../assets/peng8.png";
 import deb from "../../assets/peng9.png";
 import peg from "../../assets/page1.svg";
+import lock from "../../assets/unlock frame.png";
+import into from "../../assets/turnframe.png";
+import fact from "../../assets/myhtsframe.png";
 import { Link } from "react-router-dom";
 // import { Icon } from "@iconify/react";
 
@@ -171,7 +174,7 @@ function BlogContent() {
                         Tips for Saving and Investing For beginners{" "}
                       </h3>
                     </Link>
-                   
+
                     <div className="">
                       <button
                         className="btn next-blog  rounded-pill "
@@ -191,7 +194,7 @@ function BlogContent() {
                   </div>
                 </div>
                 <div className="row  justify-content-center mt-5">
-                <div className="col-md-4 mb-3">
+                  <div className="col-md-4 mb-3">
                     <img
                       src={deb}
                       alt="testimonial"
@@ -205,14 +208,13 @@ function BlogContent() {
                       </span>{" "}
                     </p>
                     <Link to="/blog/loan-eligibility">
-                    <h3 className="my-3">
-                      {" "}
-                      Demystifying Loan Eligibility in Nigeria: A Comprehensive Guide
-
-
-                    </h3>
+                      <h3 className="my-3">
+                        {" "}
+                        Demystifying Loan Eligibility in Nigeria: A
+                        Comprehensive Guide
+                      </h3>
                     </Link>
-                   
+
                     <div className="">
                       <button
                         className="btn next-blog  rounded-pill "
@@ -243,12 +245,12 @@ function BlogContent() {
                       </span>{" "}
                     </p>
                     <Link to="/blog/defaulting-loans">
-                    <h3 className="my-3">
-                      {" "}
-                      Consequences of Defaulting on Loans
-                    </h3>
+                      <h3 className="my-3">
+                        {" "}
+                        Consequences of Defaulting on Loans
+                      </h3>
                     </Link>
-                   
+
                     <div className="">
                       <button
                         className="btn next-blog  rounded-pill "
@@ -266,9 +268,8 @@ function BlogContent() {
                       </button>
                     </div>
                   </div>
-                 
-                
-                   <div className="col-md-4 mb-3">
+
+                  <div className="col-md-4 mb-3">
                     <img
                       src={pend}
                       alt="testimonial"
@@ -283,11 +284,10 @@ function BlogContent() {
                     </p>
 
                     <Link to="/blog/digital-platforms">
-                            <h3 className="mb-4">
-                            Digital Investment Platforms in Nigeria
-
-                            </h3>
-                          </Link>
+                      <h3 className="mb-4">
+                        Digital Investment Platforms in Nigeria
+                      </h3>
+                    </Link>
 
                     <div className="">
                       <button
@@ -306,12 +306,11 @@ function BlogContent() {
                       </button>
                     </div>
                   </div>
-                 
                 </div>
-                <div className="row  justify-content-center my-5">
+                <div className="row  justify-content-center mt-5">
                   <div className="col-md-4 mb-3">
                     <img
-                      src={fam}
+                      src={guide}
                       alt="testimonial"
                       className="img-fluid w-100 mb-3"
                     />
@@ -322,7 +321,10 @@ function BlogContent() {
                         <span className="mx-3"> 2 hours ago</span>{" "}
                       </span>{" "}
                     </p>
-                    <h3 className="my-3">Save as an Investment</h3>
+                    <Link to="/blog/investment">
+                      <h3 className="my-3"> Diversification of Investment</h3>
+                    </Link>
+
                     <div className="col-sm">
                       <button
                         className="btn next-blog  rounded-pill "
@@ -340,10 +342,10 @@ function BlogContent() {
                       </button>
                     </div>
                   </div>
-                 
+
                   <div className="col-md-4 mb-3">
                     <img
-                      src={pen}
+                      src={loans}
                       alt="testimonial"
                       className="img-fluid w-100 mb-3"
                     />
@@ -355,7 +357,11 @@ function BlogContent() {
                       </span>{" "}
                     </p>
 
-                    <h3 className="my-3"> Student Loan Options in Nigeria</h3>
+                    <Link to="/blog/student-loans">
+                      <h3 className="my-3"> Student Loan Options in Nigeria</h3>
+                    </Link>
+
+                    
 
                     <div className="">
                       <button
@@ -374,9 +380,9 @@ function BlogContent() {
                       </button>
                     </div>
                   </div>
-                    <div className="col-md-4 mb-3">
+                  <div className="col-md-4 mb-3">
                     <img
-                      src={snap}
+                      src={credit}
                       alt="testimonial"
                       className="img-fluid w-100 mb-3"
                     />
@@ -388,7 +394,10 @@ function BlogContent() {
                       </span>{" "}
                     </p>
 
-                    <h3 className="my-3"> Requirement For Loan Application</h3>
+                    <Link to="/blog/creditscore">
+                      <h3 className="my-3"> Credit Score in Nigeria</h3>
+                    </Link>
+                   
 
                     <div className="">
                       <button
@@ -397,6 +406,117 @@ function BlogContent() {
                       >
                         {" "}
                         Personal Loan
+                      </button>
+                      <button
+                        className="btn next-blog rounded-pill mx-3"
+                        type="button"
+                      >
+                        {" "}
+                        Finance{" "}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div className="row  justify-content-center my-5">
+                  <div className="col-md-4 mb-3">
+                    <img
+                      src={lock}
+                      alt="testimonial"
+                      className="img-fluid w-100 mb-3"
+                    />
+                    <p>
+                      <span>
+                        {" "}
+                        Tochukwu Tabansi
+                        <span className="mx-3"> 2 hours ago</span>{" "}
+                      </span>{" "}
+                    </p>
+                    <Link to="/blog/unlocking-financial">
+                      <h3 className="my-3"> Unlocking Financial Success in Nigeria
+</h3>
+                    </Link>
+
+                    <div className="col-sm">
+                      <button
+                        className="btn next-blog  rounded-pill "
+                        type="button"
+                      >
+                        {" "}
+                        Finance{" "}
+                      </button>
+                      <button
+                        className="btn next-blog rounded-pill mx-3"
+                        type="button"
+                      >
+                        {" "}
+                       Investment
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="col-md-4 mb-3">
+                    <img
+                      src={into}
+                      alt="testimonial"
+                      className="img-fluid w-100 mb-3"
+                    />
+                    <p>
+                      <span>
+                        {" "}
+                        Tochukwu Tabansi{" "}
+                        <span className="mx-3"> 2 hours ago</span>{" "}
+                      </span>{" "}
+                    </p>
+
+                    <Link to="/blog/turn-savings">
+                      <h3 className="my-3"> Turn Savings Into An Investment</h3>
+                    </Link>
+
+                    
+
+                    <div className="">
+                      <button
+                        className="btn next-blog  rounded-pill "
+                        type="button"
+                      >
+                        {" "}
+                        Savings
+                      </button>
+                      <button
+                        className="btn next-blog rounded-pill mx-3"
+                        type="button"
+                      >
+                        {" "}
+                       Investment
+                      </button>
+                    </div>
+                  </div>
+                  <div className="col-md-4 mb-3">
+                    <img
+                      src={fact}
+                      alt="testimonial"
+                      className="img-fluid w-100 mb-3"
+                    />
+                    <p>
+                      <span>
+                        {" "}
+                        Tochukwu Tabansi
+                        <span className="mx-3"> 2 hours ago</span>{" "}
+                      </span>{" "}
+                    </p>
+
+                    <Link to="/blog/creditmyths">
+                      <h3 className="my-3"> Credit Myths in Nigeria Exposed</h3>
+                    </Link>
+                   
+
+                    <div className="">
+                      <button
+                        className="btn next-blog  rounded-pill "
+                        type="button"
+                      >
+                        {" "}
+                        Term Loan 
                       </button>
                       <button
                         className="btn next-blog rounded-pill mx-3"
