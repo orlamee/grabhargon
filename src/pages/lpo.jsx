@@ -7,6 +7,7 @@ import HowToApply from "../components/lpo/howtoapply";
 import LPOHero from "../components/lpo/lpoHero";
 import SayGood from "../components/lpo/sayGoodbye";
 import SemiFooter from "../components/personalPage/semiFooter";
+import { Description, Title } from "react-head-meta";
 
 
 
@@ -14,6 +15,14 @@ import SemiFooter from "../components/personalPage/semiFooter";
 function LPO () {
   return (
     <div>
+      <div>
+        <Title title="   Meeting your business obligations " />
+        <Description
+          description="
+          Get specialized LPO financing tailored to help your business meet its financial obligations and grow its potential.
+ "
+        />
+      </div>
       <BusinessHeader/>
       <LPOHero/>
       <SayGood/>

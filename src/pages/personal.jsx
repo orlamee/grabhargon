@@ -7,12 +7,17 @@ import LoanRange from "../components/personalPage/loanRange";
 import Mortgage from "../components/personalPage/mortgage";
 import SalaryAdvance from "../components/personalPage/salaryAdvance";
 import SemiFooter from "../components/personalPage/semiFooter";
+import { Description, Title } from "react-head-meta";
 
 
 
 function Personal () {
   return (
     <div>
+      <div>
+        <Title title=" Personal finance made easy"/>
+        <Description description="Take control of your finances with our credit and savings products designed to help you achieve your financial dreams and goals. "/>
+      </div>
       <EduHeader/>
       <Banner/>
       <EducationalLoan/>

@@ -7,12 +7,17 @@ import MortgageHero from "../components/mortgage/mortgageHero";
 import RealEstate from "../components/mortgage/realEstate";
 import Renting from "../components/mortgage/renting";
 import SemiFooter from "../components/personalPage/semiFooter";
+import { Description, Title } from "react-head-meta";
 
 
 
 function Mortgage () {
   return (
     <div>
+      <div>
+        <Title title=" Your dream home "/>
+        <Description description=" Your dream home is only a credit away. Experience the excitement of owning a home using Hargon's credit solutions."/>
+      </div>
       <EduHeader/>
       <MortgageHero/>
       <HomeOwnership/>

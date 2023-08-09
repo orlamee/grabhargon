@@ -6,6 +6,7 @@ import NoHiddenCharges from "../components/bills/noHidden";
 import EduHeader from "../components/educationalLoan/eduHeader";
 import Footer from "../components/footer";
 import SemiFooter from "../components/personalPage/semiFooter";
+import { Description, Title } from "react-head-meta";
 
 
 
@@ -14,6 +15,14 @@ import SemiFooter from "../components/personalPage/semiFooter";
 function Bills () {
   return (
     <div>
+       <div>
+        <Title title="  Your bill concierge  " />
+        <Description
+          description="
+          Streamline your bill payments using Hargon.  Enjoy amazing features such as auto bill payment, cash back, and paying bills using credit. 
+ "
+        />
+      </div>
       <EduHeader/>
       <BillsHero/>
       <BillPayment/>

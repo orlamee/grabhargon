@@ -6,6 +6,7 @@ import MicroHero from "../components/microLend/microHero";
 import NoCollateral from "../components/microLend/noCollateral";
 import PayBack from "../components/microLend/payday";
 import SemiFooter from "../components/personalPage/semiFooter";
+import { Description, Title } from "react-head-meta";
 
 
 
@@ -13,6 +14,14 @@ import SemiFooter from "../components/personalPage/semiFooter";
 function MicroLending () {
   return (
     <div>
+      <div>
+        <Title title="  Helping the overlooked  " />
+        <Description
+          description="
+          Financial inclusion for everyone. No matter your financial background, you have a place at Hargon with our microlending program.
+ "
+        />
+      </div>
       <BusinessHeader/>
       <MicroHero/>
       <Empowering/>

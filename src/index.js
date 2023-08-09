@@ -68,6 +68,7 @@ import BlogMyths from './pages/blogMyths';
 import BlogTurn from './pages/blogTurn';
 import BlogUnlock from './pages/blogUnlock';
 import Shop from './pages/Shop';
+import LpoFinancing from './pages/lpoFinancing';
 
 
 
@@ -139,6 +140,7 @@ root.render(
       <Route path="/blog/unlocking-financial" element={<BlogUnlock/>}></Route>
       <Route path="/blog/turn-savings" element={<BlogTurn/>}></Route>
       <Route path="/shop" element={<Shop/>}></Route>
+      <Route path="/lpofinancing" element={<LpoFinancing/>}></Route>
      
     </Routes>
   </BrowserRouter>

@@ -7,12 +7,21 @@ import Payback from "../components/quickCredit/payback";
 import QCHero from "../components/quickCredit/qcHero";
 import Three from "../components/quickCredit/three";
 import WhyQuick from "../components/quickCredit/whyQuick";
+import { Description, Title } from "react-head-meta";
 
 
 
 function QuickCredit () {
   return (
     <div>
+       <div>
+        <Title title="  Instant access to credit " />
+        <Description
+          description="
+          Get Instant relief of up to N1,000,000 for emergency or unwanted situations. Our quick credit applies to salary and non-salary earners.
+ "
+        />
+      </div>
       <EduHeader/>
       <QCHero/>
       <InstantCredit/>
