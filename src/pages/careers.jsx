@@ -9,6 +9,7 @@ import Vacancies from "../components/career/vacancies";
 import Footer from "../components/footer";
 import Header from "../components/navbar";
 import SemiFooter from "../components/personalPage/semiFooter";
+import { Description, Title } from "react-head-meta";
 
 
 
@@ -17,6 +18,14 @@ import SemiFooter from "../components/personalPage/semiFooter";
 function Careers () {
   return (
     <div>
+             <div>
+        <Title title="   Join the financial revolution  " />
+        <Description
+          description="
+          Hargon is revolutionizing the financial landscape one credit at a time. Join the train today and change the game with us.
+ "
+        />
+      </div>
       <Header/>
       <CareerHero/>
       <Vacancies/>

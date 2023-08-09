@@ -4,14 +4,14 @@ import deals from "../../assets/manleft.png";
 
 function Shoppers() {
   return (
-    <section className="shopers">
-      <div className="container">
+    <section className="shopers " style={{ marginTop: "40px" }}>
+      <div className="container ">
         <div className="row  justify-content-between">
-          <div className="col-sm-6">
+          <div className="col-sm-7">
             <img src={deals} alt="man-img" className="img-fluid w-100" />
           </div>
 
-          <div className="col-sm-5" >
+          <div className="col-sm-5" style={{ marginTop: "110px" }}>
             <img src={bot} alt="for-shoppers" className="mb-3" style={{ width: "170px" }} />
             <h2 className="mt-2">
               <span style={{ color: "#23A323" }}>Best Deals</span> on <br></br>

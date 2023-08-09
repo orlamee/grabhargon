@@ -116,7 +116,7 @@ function ComplainBox() {
           </div>
           <div className="tab-content" id="myTabContent">
             <div
-              className="tab-pane fade show active"
+              className="tab-pane"
               id="profile-tab-pane"
               role="tabpanel"
               aria-labelledby="profile-tab"

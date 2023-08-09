@@ -5,10 +5,10 @@ import extra from "../../assets/Extravaganza.svg";
 
 function Reachmore() {
   return (
-    <section className="benefits">
+    <section className="reach" style={{ marginTop: "120px" }}>
       <div className="container" >
-        <div className="row  justify-content-between">
-          <div className="col-sm-6 ">
+        <div className="row  justify-content-between ">
+          <div className="col-sm-6 " style={{ marginTop: "50px" }}>
             <img
               src={vend}
               alt="checkout "
@@ -25,7 +25,7 @@ function Reachmore() {
           </div>
 
           <div className="col-sm-6 ">
-            <img src={join} alt="checkout " className="joined w-100"  style={{ marginTop: "-80px" }} />
+            <img src={join} alt="checkout " className=" img-fluid w-100" style={{ marginTop: "-100px" }}  />
           </div>
         </div>
       </div>

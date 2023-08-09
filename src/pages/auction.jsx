@@ -6,6 +6,7 @@ import AuctionHero from "../components/auction/auctionHero";
 import AuctionFever from "../components/auction/auctionFever";
 import BidTastic from "../components/auction/bidtastic";
 import Zero from "../components/auction/zeroNegotiation";
+import { Description, Title } from "react-head-meta";
 
 
 
@@ -13,6 +14,13 @@ import Zero from "../components/auction/zeroNegotiation";
 function Auction () {
   return (
     <div>
+       <div>
+        <Title title="Quality products for cheap  " />
+        <Description
+          description="The ultimate shopping experience. Get all sorts of items for cheap, including land, cars, homes, and many more.
+ "
+        />
+      </div>
       <Header/>
       <AuctionHero/>
       <AuctionFever/>

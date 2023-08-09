@@ -6,6 +6,7 @@ import FeaturesHargon from "../components/savings/featuresHargon";
 import HowWorks from "../components/savings/howworks";
 import SavingsHero from "../components/savings/savingsHero";
 import StepInto from "../components/savings/stepInto";
+import { Description, Title } from "react-head-meta";
 
 
 
@@ -13,6 +14,14 @@ import StepInto from "../components/savings/stepInto";
 function SavingBusiness () {
   return (
     <div>
+       <div>
+        <Title title="   Building a solid financial foundation " />
+        <Description
+          description="
+          Grow and diversify your business cash reserves by using our savings platform. Enjoy upfront interest and cashback.
+ "
+        />
+      </div>
       <BusinessHeader/>
       <SavingsHero/>
       <StepInto/>

@@ -20,7 +20,7 @@ function Shophero() {
                   />
                   <div className="text-center mt-3">
                     <button
-                      className="btn btn-primary btn-main rounded-pill px-5 py-3"
+                      className="btn btn-primary btn-main rounded-pill  px-5 py-3"
                       to="/grabhargon"
                     >
                       Experience it
@@ -40,12 +40,12 @@ function Shophero() {
             </div>
           </div>
 
-          <div className="container" style={{ marginTop: "120px" }}>
+          <div className="container" style={{ marginTop: "130px" }}>
             <div className="row d-flex justify-content-between">
               <div className="col-sm-6 mb-3 mt-5">
                 <img
                   src={merchant}
-                  alt="Buy and sell "
+                  alt="Buy and sell on credit"
                   className="img-fluid w-100"
                 />
                 <p className="w-75 my-3" style={{ marginLeft: "48px" }}>

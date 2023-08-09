@@ -12,7 +12,6 @@ import zany from "../../assets/gan2.png";
 import man from "../../assets/penhead.png";
 import tex from "../../assets/peng1.png";
 import app from "../../assets/peng2.png";
-import pend from "../../assets/peng3.png";
 import pen from "../../assets/peng4.png";
 import one from "../../assets/peng5.png";
 import fam from "../../assets/peng6.png";
