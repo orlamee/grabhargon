@@ -30,6 +30,11 @@ body {
   src: url("./Mona-Sans-Medium.ttf");
 }
 
+@font-face {
+  font-family: mili;
+  src: url("./Millik.otf");
+}
+
 a {
   text-decoration: none!important;
 }
@@ -2220,8 +2225,8 @@ a {
   background: transparent;
   color: #fff;
   border: 1px solid #fff;
-  padding: 5px 10px;
-  font-size: 9px;
+  padding: 4px;
+  font-size: 7px;
   border-radius: 50px;
   margin-left: 8px;
   font-weight: 500;
@@ -2626,6 +2631,7 @@ a {
 }
 
 .credit-card p,
+.lpofinance p,
 .grabhargon p {
   font-size: 14px;
   font-weight: 500;
@@ -4219,6 +4225,16 @@ font-family: 'syne-bold';
   padding: 0px 20px 80px 20px ;
 }
 
+
+
+@media (max-width: 767.98px){
+  .befits h2 {
+    font-size: 48px;
+    
+   
+  }
+}
+
 .shopers {
   background-image: url(../src/assets/greenback.svg);
   background-repeat: no-repeat;
@@ -4227,13 +4243,43 @@ font-family: 'syne-bold';
   padding: 50px 30px;
  
  
+} 
+.busloan {
+ background: #FFFFFF;
+ padding: 30px 20px;
+
+}
+.busloan p {
+  font-family: 'syne-reg';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.68px;
+}
+
+.lendform {
+  background-image: url(./assets/microlend.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 42px 20px;
+  min-height: 850px !important;
+  background-position: center;
+}
+
+.lendform h2 {
+  font-family:'mili';
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 101.5px;
+
+
 }
 
 .lpofinance {
   background-image: url(./assets/lpoback.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 32px 20px;
+  padding: 42px 20px;
+  min-height: 850px !important;
   background-position: center;
 }
 
@@ -4241,32 +4287,60 @@ font-family: 'syne-bold';
   background-image: url(./assets/tribe.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 20px;
+  padding: 50px 20px;
   background-position: center;
 
 }
+
 .lpofrm {
   background-image: url(./assets/greenlpo.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding:  40px 20px;
-  width: 802px;
-  justify-content: center;
+  min-height: 1000px !important;
+  border-radius: 15px;
   background-position: center;
 }
 
+
+
+
+@media (min-width: 992px){
+  .lpofrm {
+    margin: auto;
+    width: 802px;
+   
+  }
+}
+
 .lpoforms .form-control {
-  padding: 11px 20px;
+  padding: 15px 20px;
   border-radius: 3px;
   background: transparent;
-  border: 1px solid #BECDD2;
+  border: 1px solid white;
   color: white;
 }
 
 .lpoforms .form-label {
-  color: #BECDD2;
+  color:white;
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
+}
+
+.form-control::placeholder {
+  font-family: "syne-reg";
+  opacity: 0.5;
+  padding-top: 10px;
+  color: white;
+}
+
+
+.lpoforms h2 {
+  font-family:'syne-bold';
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 60px;
+  color: white;
 }
 

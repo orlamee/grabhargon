@@ -55,8 +55,19 @@ export default function Footer () {
                     <li><Link to="/about-us">About us</Link></li>
                     <li><Link to="/career">Careers</Link></li>
                     <li><Link to="/faqs">FAQS</Link></li>
-                    <li><Link to="">Security</Link></li>
-                  </ul>
+                    
+                 </ul>
+                </div>
+                <div className="col-sm mb-3">
+                  <h5>Landing Pages </h5>
+                  <ul className="list-unstyled links">
+                    <li><Link to="/microlending-form">Microlending</Link></li>
+                    <li><Link to="/"> Mortage</Link></li>
+                    <li><Link to="/lpofinancing">LPO</Link></li>
+                    <li><Link to="/businessloan-form">Business Loan</Link></li>
+                    <li><Link to="/">POF</Link></li>
+                    
+                 </ul>
                 </div>
                 <div className="col-sm mb-3">
                   <h5>Transparency</h5>

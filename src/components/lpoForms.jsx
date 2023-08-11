@@ -7,10 +7,10 @@ function LpoForms() {
   return (
     <section>
       <div className="lpoforms mt-9">
-        <div className="container">
-          <div className="row lpofrm  mt-5 justify-content-center">
-            <div className="">
-              <Form classname= "justify-content-center">
+        <div className="col">
+          <div className="row  justify-content-center mt-5 lpofrm">
+            <div className="col-sm-9">
+              <Form>
                 <div className="text-center my-5">
                     <h2>
                         Fill Form
@@ -37,7 +37,7 @@ function LpoForms() {
                   <Col>
                     <Form.Group className="mt-4">
                       <Form.Label> Phone Number</Form.Label>
-                      <Form.Control type="number" placeholder="Phone Number" />
+                      <Form.Control type="" placeholder="phone number" />
                     </Form.Group>
                   </Col>
                 </Row>
@@ -45,13 +45,14 @@ function LpoForms() {
                   <Form.Label>Message</Form.Label>
                   <Form.Control
                     as="textarea"
-                    rows={10}
+                    rows={8}
                     placeholder="Enter your message here"
                   />
                 </Form.Group>
                 <div className="text-center">
                   <button
-                    className="btn btn-primary btn-white rounded-pill px-5 py-3 mt-5"
+                    className="btn rounded-pill px-5 py-3 mt-5"
+                    style={{ background: "#ffffff ", color: "#23A323 " }}
                     to=""
                   >
                     Submit
@@ -62,6 +63,7 @@ function LpoForms() {
           </div>
         </div>
       </div>
+     
     </section>
   );
 }

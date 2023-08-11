@@ -69,6 +69,9 @@ import BlogTurn from './pages/blogTurn';
 import BlogUnlock from './pages/blogUnlock';
 import Shop from './pages/Shop';
 import LpoFinancing from './pages/lpoFinancing';
+import BusinessloanForm from './pages/businessloanForm';
+import MicrolendingForm from './pages/microlendingForm';
+
 
 
 
@@ -141,6 +144,8 @@ root.render(
       <Route path="/blog/turn-savings" element={<BlogTurn/>}></Route>
       <Route path="/shop" element={<Shop/>}></Route>
       <Route path="/lpofinancing" element={<LpoFinancing/>}></Route>
+      <Route path="/businessloan-form" element={<BusinessloanForm/>}></Route>
+      <Route path="/microlending-form" element={<MicrolendingForm/>}></Route>
      
     </Routes>
   </BrowserRouter>

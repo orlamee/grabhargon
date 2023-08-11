@@ -6,7 +6,7 @@ function Benefits() {
     <section className="befits"  >
       <div className="container">
         <div className="row  justify-content-center">
-          <div className="col-sm-10  text-center">
+          <div className="col-sm-9  text-center">
             <h2 className="my-5">
               Unravel the benefits of a <br></br>
 
@@ -24,7 +24,7 @@ function Benefits() {
 
           </div>
           <div className="row justify-content-center mt-5">
-            <div className="col-sm-10 text-center">
+            <div className="col-sm-9 text-center">
               <img
                 src={market}
                 alt="marketplace "
