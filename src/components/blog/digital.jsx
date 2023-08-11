@@ -31,11 +31,10 @@ function Digital() {
             <div className="row">
               <div className="col-md-12">
                 <div className="my-5">
-                <img src={tip} alt="" className="img-fluid mt-4 " />{" "}
+                  <img src={tip} alt="" className="img-fluid mt-4 " />{" "}
                   <h2 className="mt-5">
                     Digital Investment Platforms in Nigeria{" "}
                   </h2>
-                
                 </div>
                 <div className="d-flex justify-content-start align-content-start">
                   <div className="">
@@ -70,7 +69,7 @@ function Digital() {
                 <div className="row justify-content-center">
                   <div className="col-md-12">
                     <div className="text-center my-3">
-                    <img src={topic} alt="" className="img-fluid mt-4 " />{" "}
+                      <img src={topic} alt="" className="img-fluid mt-4 " />{" "}
                     </div>
                   </div>
                 </div>
@@ -248,11 +247,11 @@ function Digital() {
 
                     <h4 className="my-4">1. Hargon</h4>
                     <img
-                          src={hargonbox}
-                          alt="new-article"
-                          className="img-fluid "
-                        />
-                   
+                      src={hargonbox}
+                      alt="new-article"
+                      className="img-fluid "
+                    />
+
                     <h6 className="my-3">
                       Hargon is a lending, savings, and investment platform that
                       allows you to manage your financial resources to make the
@@ -273,10 +272,10 @@ function Digital() {
                     </h6>
                     <h4 className="my-4">2. Cowrywise</h4>
                     <img
-                          src={cowrybox}
-                          alt="new-article"
-                          className="img-fluid "
-                        />
+                      src={cowrybox}
+                      alt="new-article"
+                      className="img-fluid "
+                    />
 
                     <h6 className="my-3">
                       Cowrywise is a cutting-edge investment platform catering
@@ -292,12 +291,7 @@ function Digital() {
                       habits.
                     </h6>
                     <h4 className="my-5">3. Wealth.ng</h4>
-                    <img
-                          src={webox}
-                          alt="new-article"
-                          className="img-fluid "
-                        />
-
+                    <img src={webox} alt="new-article" className="img-fluid " />
 
                     <h6 className="my-3">
                       Wealth.ng connects investors in Nigeria with a variety of
@@ -312,10 +306,10 @@ function Digital() {
                     </h6>
                     <h4 className="my-4">4. Afrinvestor</h4>
                     <img
-                          src={afribox}
-                          alt="new-article"
-                          className="img-fluid "
-                        />
+                      src={afribox}
+                      alt="new-article"
+                      className="img-fluid "
+                    />
 
                     <h6 className="my-3">
                       Afrinvestor allows people to invest in mutual funds,
@@ -330,10 +324,10 @@ function Digital() {
                     </h6>
                     <h4 className="my-4">5. PiggyVest</h4>
                     <img
-                          src={pigbox}
-                          alt="new-article"
-                          className="img-fluid "
-                        />
+                      src={pigbox}
+                      alt="new-article"
+                      className="img-fluid "
+                    />
 
                     <h6 className="my-3">
                       PiggyVest is one of the most popular investment and
@@ -351,10 +345,10 @@ function Digital() {
                     </h6>
                     <h4 className="my-4">6. Risevest</h4>
                     <img
-                          src={risebox}
-                          alt="new-article"
-                          className="img-fluid "
-                        />
+                      src={risebox}
+                      alt="new-article"
+                      className="img-fluid "
+                    />
 
                     <h6 className="my-3">
                       Risevest is an investment platform enabling Nigerians to
@@ -513,25 +507,24 @@ function Digital() {
                         </div>
                       </div>
                       <div className="d-flex flex-row mt-4">
-                      <img
-                        src={bnyimg}
-                        alt="new-article"
-                        className="img-fluid me-3"
-                      />
+                        <img
+                          src={bnyimg}
+                          alt="new-article"
+                          className="img-fluid me-3"
+                        />
 
-                      <div>
-                        <Link to="/blog/lending-apps" >
-                        
-                        <h6 className="mb-4">
-                        The Best Loan Apps in Nigeria
-                        </h6>
-                        </Link>
-                       
-                        <p className="">
-                          <span className="blog-date"> May 6, 2023</span>
-                        </p>
+                        <div>
+                          <Link to="/blog/lending-apps">
+                            <h6 className="mb-4">
+                              The Best Loan Apps in Nigeria
+                            </h6>
+                          </Link>
+
+                          <p className="">
+                            <span className="blog-date"> May 6, 2023</span>
+                          </p>
+                        </div>
                       </div>
-                    </div>
 
                       <div className="d-flex flex-row mt-4">
                         <img
@@ -541,9 +534,9 @@ function Digital() {
                         />
 
                         <div>
-                        <Link to="/-score">
-                      <h6 className="my-3"> Credit Score in Nigeria</h6>
-                    </Link>
+                          <Link to="/-score">
+                            <h6 className="my-3"> Credit Score in Nigeria</h6>
+                          </Link>
 
                           <span className="blog-date"> May 6, 2023</span>
                         </div>
@@ -557,9 +550,12 @@ function Digital() {
                         />
 
                         <div className="">
-                        <Link to="/blog/student-loans">
-                      <h6 className="my-3"> Student Loan Options in Nigeria</h6>
-                    </Link>
+                          <Link to="/blog/student-loans">
+                            <h6 className="my-3">
+                              {" "}
+                              Student Loan Options in Nigeria
+                            </h6>
+                          </Link>
 
                           <span className="blog-date"> May 6, 2023</span>
                         </div>
@@ -572,10 +568,12 @@ function Digital() {
                         />
 
                         <div className="">
-                        <Link to="/blog/investment">
-                      <h6 className="my-3"> Diversification of Investment</h6>
-                    </Link>
-
+                          <Link to="/blog/investment">
+                            <h6 className="my-3">
+                              {" "}
+                              Diversification of Investment
+                            </h6>
+                          </Link>
 
                           <span className="blog-date"> May 6, 2023</span>
                         </div>
