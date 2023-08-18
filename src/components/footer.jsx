@@ -62,10 +62,10 @@ export default function Footer () {
                   <h5>Landing Pages </h5>
                   <ul className="list-unstyled links">
                     <li><Link to="/microlending-form">Microlending</Link></li>
-                    <li><Link to="/"> Mortage</Link></li>
+                    <li><Link to="/mortgageform"> Mortage</Link></li>
                     <li><Link to="/lpofinancing">LPO</Link></li>
                     <li><Link to="/businessloan-form">Business Loan</Link></li>
-                    <li><Link to="/">POF</Link></li>
+                    <li><Link to="/pof-form">POF</Link></li>
                     
                  </ul>
                 </div>

@@ -4244,11 +4244,13 @@ font-family: 'syne-bold';
  
  
 } 
+
 .busloan {
  background: #FFFFFF;
  padding: 30px 20px;
 
 }
+
 .busloan p {
   font-family: 'syne-reg';
   font-weight: 400;
@@ -4296,8 +4298,8 @@ font-family: 'syne-bold';
   background-image: url(./assets/greenlpo.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding:  40px 20px;
-  min-height: 1000px !important;
+  padding:  30px 20px;
+  min-height: 890px !important;
   border-radius: 15px;
   background-position: center;
 }
@@ -4314,7 +4316,7 @@ font-family: 'syne-bold';
 }
 
 .lpoforms .form-control {
-  padding: 15px 20px;
+  padding: 20px 25px;
   border-radius: 3px;
   background: transparent;
   border: 1px solid white;
@@ -4344,3 +4346,116 @@ font-family: 'syne-bold';
   color: white;
 }
 
+
+.dream {
+  background-image: url(./assets/moreback.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 887px;
+  padding:  40px 20px;
+  background-position: center;
+ 
+ }
+ 
+ .dream p {
+   font-family: 'syne-reg';
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 22.68px;
+ }
+
+ 
+@media (max-width: 767.98px){
+  .dream {
+    background-image: none!important;
+    height: auto;
+  }
+}
+
+  
+.pyday {
+ background: #FFFFFF;
+ padding: 100px 20px;
+
+}
+
+.pyday h2  {
+  font-family: 'syne-bold';
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 78px;
+}
+
+ 
+.pyloan {
+  background-image: url(./assets/midng.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+ }
+ 
+
+ .pyloan p,
+ .pyday p {
+  font-family: 'syne-reg';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #000;
+ }
+
+ 
+.somore {
+  background: #FFFFFF;
+  padding: 100px 20px;
+ }
+
+
+ .studies {
+  background-image: url(./assets/interback.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 612px;
+  padding: 50px 40px;
+ 
+ }
+
+ .studies p {
+  font-family: 'syne-reg';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+
+ }
+
+ .worry {
+  padding: 100px 20px;
+  background: #FFFFFF;
+
+ }
+
+.worry p,
+.focused p {
+  font-family: 'syne-reg';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  
+}
+.focused {
+  padding: 100px 20px;
+  background: #FFFFFF;
+}
+
+
+
+@media (max-width: 767.98px){
+  .pyday h2 {
+    font-size: 58px;
+    
+   
+  }
+}

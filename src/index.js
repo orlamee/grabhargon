@@ -71,6 +71,10 @@ import Shop from './pages/Shop';
 import LpoFinancing from './pages/lpoFinancing';
 import BusinessloanForm from './pages/businessloanForm';
 import MicrolendingForm from './pages/microlendingForm';
+import PofForm from './pages/pofForm';
+import MortageForm from './pages/mortageForm';
+import PayDay from './pages/payDay';
+import Student from './pages/Student';
 
 
 
@@ -146,6 +150,10 @@ root.render(
       <Route path="/lpofinancing" element={<LpoFinancing/>}></Route>
       <Route path="/businessloan-form" element={<BusinessloanForm/>}></Route>
       <Route path="/microlending-form" element={<MicrolendingForm/>}></Route>
+      <Route path="/pof-form" element={<PofForm/>}></Route>
+      <Route path="/mortgageform" element={<MortageForm/>}></Route>
+      <Route path="/payday" element={<PayDay/>}></Route>
+      <Route path="/student" element={<Student/>}></Route>
      
     </Routes>
   </BrowserRouter>

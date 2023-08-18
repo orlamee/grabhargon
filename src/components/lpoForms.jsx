@@ -6,7 +6,7 @@ import Row from "react-bootstrap/Row";
 function LpoForms() {
   return (
     <section>
-      <div className="lpoforms mt-9">
+      <div className="lpoforms mt-4">
         <div className="col">
           <div className="row  justify-content-center mt-5 lpofrm">
             <div className="col-sm-9">
@@ -19,8 +19,16 @@ function LpoForms() {
                 <Row>
                   <Col>
                     <Form.Group className="mt-4">
-                      <Form.Label>Full Name</Form.Label>
-                      <Form.Control type="text" placeholder="Full Name" />
+                      <Form.Label>First  Name</Form.Label>
+                      <Form.Control type="text" placeholder="Enter first name" />
+                    </Form.Group>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <Form.Group className="mt-4">
+                      <Form.Label>Last Name</Form.Label>
+                      <Form.Control type="text" placeholder="Enter last name" />
                     </Form.Group>
                   </Col>
                 </Row>
@@ -28,8 +36,8 @@ function LpoForms() {
                 <Row>
                   <Col>
                     <Form.Group className="mt-4">
-                      <Form.Label>Email address</Form.Label>
-                      <Form.Control placeholder="Email Address" />
+                      <Form.Label>Email</Form.Label>
+                      <Form.Control placeholder="Enter email address" />
                     </Form.Group>
                   </Col>
                 </Row>
@@ -37,21 +45,14 @@ function LpoForms() {
                   <Col>
                     <Form.Group className="mt-4">
                       <Form.Label> Phone Number</Form.Label>
-                      <Form.Control type="" placeholder="phone number" />
+                      <Form.Control type="" placeholder=" Enter phone number" />
                     </Form.Group>
                   </Col>
                 </Row>
-                <Form.Group className="mt-4">
-                  <Form.Label>Message</Form.Label>
-                  <Form.Control
-                    as="textarea"
-                    rows={8}
-                    placeholder="Enter your message here"
-                  />
-                </Form.Group>
-                <div className="text-center">
+                
+                <div className="text-center mt-3">
                   <button
-                    className="btn rounded-pill px-5 py-3 mt-5"
+                    className="btn  rounded-pill px-5 py-3 mt-5"
                     style={{ background: "#ffffff ", color: "#23A323 " }}
                     to=""
                   >
