@@ -9,12 +9,9 @@ import guide from "../../assets/stockframe.png";
 import credit from "../../assets/scoreframe.png";
 import woh from "../../assets/peng8.png";
 import deb from "../../assets/peng9.png";
-import peg from "../../assets/page1.svg";
-import lock from "../../assets/unlock frame.png";
-import into from "../../assets/turnframe.png";
-import fact from "../../assets/myhtsframe.png";
 import { Link } from "react-router-dom";
-// import { Icon } from "@iconify/react";
+import { Icon } from "@iconify/react";
+
 
 function BlogContent() {
   return (
@@ -307,7 +304,7 @@ function BlogContent() {
                     </div>
                   </div>
                 </div>
-                <div className="row  justify-content-center mt-5">
+                <div className="row  justify-content-center my-5">
                   <div className="col-md-4 mb-3">
                     <img
                       src={guide}
@@ -361,8 +358,6 @@ function BlogContent() {
                       <h3 className="my-3"> Student Loan Options in Nigeria</h3>
                     </Link>
 
-                    
-
                     <div className="">
                       <button
                         className="btn next-blog  rounded-pill "
@@ -397,7 +392,6 @@ function BlogContent() {
                     <Link to="/blog/creditscore">
                       <h3 className="my-3"> Credit Score in Nigeria</h3>
                     </Link>
-                   
 
                     <div className="">
                       <button
@@ -417,137 +411,29 @@ function BlogContent() {
                     </div>
                   </div>
                 </div>
-                <div className="row  justify-content-center my-5">
-                  <div className="col-md-4 mb-3">
-                    <img
-                      src={lock}
-                      alt="testimonial"
-                      className="img-fluid w-100 mb-3"
-                    />
-                    <p>
-                      <span>
-                        {" "}
-                        Tochukwu Tabansi
-                        <span className="mx-3"> 2 hours ago</span>{" "}
-                      </span>{" "}
-                    </p>
-                    <Link to="/blog/unlocking-financial">
-                      <h3 className="my-3"> Unlocking Financial Success in Nigeria
-</h3>
-                    </Link>
-
-                    <div className="col-sm">
-                      <button
-                        className="btn next-blog  rounded-pill "
-                        type="button"
-                      >
-                        {" "}
-                        Finance{" "}
-                      </button>
-                      <button
-                        className="btn next-blog rounded-pill mx-3"
-                        type="button"
-                      >
-                        {" "}
-                       Investment
-                      </button>
-                    </div>
-                  </div>
-
-                  <div className="col-md-4 mb-3">
-                    <img
-                      src={into}
-                      alt="testimonial"
-                      className="img-fluid w-100 mb-3"
-                    />
-                    <p>
-                      <span>
-                        {" "}
-                        Tochukwu Tabansi{" "}
-                        <span className="mx-3"> 2 hours ago</span>{" "}
-                      </span>{" "}
-                    </p>
-
-                    <Link to="/blog/turn-savings">
-                      <h3 className="my-3"> Turn Savings Into An Investment</h3>
-                    </Link>
-
-                    
-
-                    <div className="">
-                      <button
-                        className="btn next-blog  rounded-pill "
-                        type="button"
-                      >
-                        {" "}
-                        Savings
-                      </button>
-                      <button
-                        className="btn next-blog rounded-pill mx-3"
-                        type="button"
-                      >
-                        {" "}
-                       Investment
-                      </button>
-                    </div>
-                  </div>
-                  <div className="col-md-4 mb-3">
-                    <img
-                      src={fact}
-                      alt="testimonial"
-                      className="img-fluid w-100 mb-3"
-                    />
-                    <p>
-                      <span>
-                        {" "}
-                        Tochukwu Tabansi
-                        <span className="mx-3"> 2 hours ago</span>{" "}
-                      </span>{" "}
-                    </p>
-
-                    <Link to="/blog/creditmyths">
-                      <h3 className="my-3"> Credit Myths in Nigeria Exposed</h3>
-                    </Link>
-                   
-
-                    <div className="">
-                      <button
-                        className="btn next-blog  rounded-pill "
-                        type="button"
-                      >
-                        {" "}
-                        Term Loan 
-                      </button>
-                      <button
-                        className="btn next-blog rounded-pill mx-3"
-                        type="button"
-                      >
-                        {" "}
-                        Finance{" "}
-                      </button>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
 
             <div className="d-flex  align-content-start justify-content-end ">
               <p className="mx-3">
                 {" "}
-                {/* <Icon icon="ic:baseline-arrow-back" className="mx-1" /> Previous */}
+                <Icon icon="ic:baseline-arrow-back" className="mx-1" /> Previous
               </p>
 
-              <img
+              {/* <img
                 src={peg}
                 alt="page"
                 className="img-fluid"
                 style={{ marginTop: "-5px" }}
-              />
-
+              /> */}
+              <Link to="/blog">
               <p className="mx-3">
                 {" "}
-                {/* Next <Icon icon="teenyicons:arrow-right-solid" /> */}
+                Next <Icon icon="teenyicons:arrow-right-solid" />
               </p>
+              </Link>
+             
             </div>
           </div>
         </div>

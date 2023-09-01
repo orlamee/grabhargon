@@ -16,6 +16,7 @@ export default function Register () {
               <button
                 className="btn btn-primary btn-main rounded-pill px-5 py-3 mt-4"
                 href="#!"
+                
               >
                 Sell on Hargon’s Marketplace
               </button>

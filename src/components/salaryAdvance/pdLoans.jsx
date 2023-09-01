@@ -1,21 +1,26 @@
-import payday from "../../assets/title.svg";
-import loans from "../../assets/loa.svg";
+
+import loans from "../../assets/salfull.png";
 
 
 
 export default function PDLoans () {
   return (
-    <section className='pd-loan'>
+    <section className='pyday pb-0'>
       <div className='container'>
-        <div className="row justify-content-between">
-          <div className="col-sm-4 mb-3" style={{marginTop: "100px"}}>
-            <img src={payday} alt="payday loans" className="img-fluid" />
-            <h6 className="mt-4" style={{color: "#228B22"}}>Short on cash? Why not explore payday</h6>
-            <h6 className="mt-5">Our payday loans offer a convenient way to tackle your immediate cash needs with minimal requirements and fast approval.</h6>
+        <div className=" row justify-content-center ">
+          <div className="col-sm-9  text-center mb-4">
+            <h2 className="mb-5">
+            Salary
+            <span style={{color: "#23A323"}}>  Loans </span>
+             
+            </h2>
+            <p className="mt-2 w-50 m-auto"> 
+            Ensure your employees are happy and motivated by meeting your financial obligations to them through our easy-to-use and flexible credit platform.
+            </p>
           </div>
-          <div className="col-sm-6 mb-3">
+          
             <img src={loans} alt="payday" className="img-fluid w-100" />
-          </div>
+          
         </div>
       </div>
     </section>

@@ -75,7 +75,12 @@ import PofForm from './pages/pofForm';
 import MortageForm from './pages/mortageForm';
 import PayDay from './pages/payDay';
 import Student from './pages/Student';
-import ScrollToTop from './scrollToTop';
+import Blog from './pages/Blog';
+import BlogDebt from './pages/blogDebt';
+import BlogGuide from './pages/blogGuide';
+import BlogPopular from './pages/blogPopular';
+import BlogExplore from './pages/blogExplore';
+
 
 
 
@@ -85,7 +90,7 @@ import ScrollToTop from './scrollToTop';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <ScrollToTop/>
+    
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/about-us" element={<Aboutus/>}></Route>
@@ -102,7 +107,7 @@ root.render(
       <Route path="/business/salary" element={<SalaryLoan/>}></Route>
       <Route path="/business/micro-lending" element={<MicroLending/>}></Route>
       <Route path="/business/credit-card" element={<CreditCard/>}></Route>
-      <Route path="/personal/student" element={<EducationalLoan/>}></Route>
+      <Route path="/personal/student" element={<Student/>}></Route>
       <Route path="/personal/salary-advance" element={<SalaryAdvance/>}></Route>
       <Route path="/personal/market-place" element={<MarketPlace/>}></Route>
       <Route path="/personal/savings" element={<FixedDepo/>}></Route>
@@ -157,6 +162,11 @@ root.render(
       <Route path="/mortgageform" element={<MortageForm/>}></Route>
       <Route path="/payday" element={<PayDay/>}></Route>
       <Route path="/student" element={<Student/>}></Route>
+      <Route path="/blog" element={<Blog/>}></Route>
+      <Route path="/blog/guides" element={<BlogGuide/>}></Route>
+      <Route path="/blog/popular-loan" element={<BlogPopular/>}></Route>
+      <Route path="/blog/steps" element={<BlogDebt/>}></Route>
+      <Route path="/blog/explore" element={<BlogExplore/>}></Route>
      
     </Routes>
   </BrowserRouter>

@@ -7,22 +7,24 @@ import Row from "react-bootstrap/Row";
 function ComplainBox() {
   return (
     <section className="complain" id="">
-      <div className="container">
+     <div className="container">
         <div className="row justify-content-center">
           <div className="col-sm-6 text-center">
-            <h1 className="mt-5"> Did not find an answer to your complaints? </h1>
-            <p className="mt-3">
+           <h5>
+           Did not find an aswer to your complaints? 
+           </h5>
+            <h6 className="mt-4">
               Please take a moment to fill out the form below, and our support
               team will be in touch with more information on the product.
-            </p>
+            </h6>
           </div>
         </div>
-        <div className="row mt-9 justify-content-center">
+        <div className="row mt-5 justify-content-center black-info">
           <div className="col-sm-3 text-center">
-            <ul className="nav nav-pill nav-fill" id="myTab" role="tablist">
+            <ul className="nav nav-tabs nav-fill" id="myTab" role="tablist">
               <li className="nav-item" role="presentation">
                 <button
-                  className="nav-link active "
+                  className="nav-link active"
                   id="home-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#home-tab-pane"
@@ -36,7 +38,7 @@ function ComplainBox() {
               </li>
               <li className="nav-item" role="presentation">
                 <button
-                  className="nav-link "
+                  className="nav-link"
                   id="profile-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#profile-tab-pane"
@@ -71,39 +73,38 @@ function ComplainBox() {
                       <Col>
                         <Form.Group className="mb-3">
                           <Form.Label></Form.Label>
-                          <Form.Control type="text"  placeholder="Last Name"/>
+                          <Form.Control type="text" placeholder="Last Name" />
                         </Form.Group>
                       </Col>
                     </Row>
-                    <Row className="mt-2">
+                    <Row className="mt-4">
                       <Col>
                         <Form.Group className="mb-3">
                           <Form.Label></Form.Label>
-                          <Form.Control  
-                        
-                        placeholder="Email Address"/>
+                          <Form.Control type="tel"  placeholder="Mobile Number" />
                         </Form.Group>
                       </Col>
                       <Col>
                         <Form.Group className="mb-3">
                           <Form.Label></Form.Label>
-                          <Form.Control 
-                        placeholder="Company Name " />
+                          <Form.Control type="email"   placeholder="Email Address"/>
                         </Form.Group>
                       </Col>
                     </Row>
-                    <Form.Group className="my-3">
+                    <Form.Group className="my-4">
                       <Form.Label></Form.Label>
                       <Form.Control
                         as="textarea"
-                        rows={15}
-                        placeholder="Type your Complaints"
+                        rows={10}
+                        placeholder="Type your complaints"
                       />
                     </Form.Group>
                     <div className="text-center">
                       <button
-                        className="btn btn-primary btn-success rounded-pill px-5 py-3 mt-5"
+                        className="btn rounded-pill px-5 py-3 mt-5"
+                        style={{ background: "#23A323 ", color:"#ffffff"}}
                         to=""
+                      
                       >
                         Submit
                       </button>
@@ -112,11 +113,8 @@ function ComplainBox() {
                 </div>
               </div>
             </div>
-           
-          </div>
-          <div className="tab-content" id="myTabContent">
             <div
-              className="tab-pane"
+              className="tab-pane fade"
               id="profile-tab-pane"
               role="tabpanel"
               aria-labelledby="profile-tab"
@@ -124,7 +122,7 @@ function ComplainBox() {
             >
               <div className="row mt-5 justify-content-center">
                 <div className="col-sm-10">
-                  <Form>
+                <Form>
                     <Row>
                       <Col>
                         <Form.Group className="mb-3">
@@ -135,39 +133,38 @@ function ComplainBox() {
                       <Col>
                         <Form.Group className="mb-3">
                           <Form.Label></Form.Label>
-                          <Form.Control type="text"  placeholder="Last Name"/>
+                          <Form.Control type="text" placeholder="Last Name" />
                         </Form.Group>
                       </Col>
                     </Row>
-                    <Row className="mt-2">
+                    <Row className="mt-4">
                       <Col>
                         <Form.Group className="mb-3">
                           <Form.Label></Form.Label>
-                          <Form.Control  
-                        
-                        placeholder="Email Address"/>
+                          <Form.Control type="tel"  placeholder="Mobile Number" />
                         </Form.Group>
                       </Col>
                       <Col>
                         <Form.Group className="mb-3">
                           <Form.Label></Form.Label>
-                          <Form.Control 
-                        placeholder="Company Name " />
+                          <Form.Control type="email"   placeholder="Email Address"/>
                         </Form.Group>
                       </Col>
                     </Row>
-                    <Form.Group className="my-3">
+                    <Form.Group className="my-4">
                       <Form.Label></Form.Label>
                       <Form.Control
                         as="textarea"
-                        rows={15}
-                        placeholder="Type your Complaints"
+                        rows={10}
+                        placeholder="Type your complaints"
                       />
                     </Form.Group>
                     <div className="text-center">
                       <button
-                        className="btn btn-primary btn-success rounded-pill px-5 py-3 mt-5"
+                        className="btn rounded-pill px-5 py-3 mt-5"
+                        style={{ background: "#23A323 ", color:"#ffffff"}}
                         to=""
+                      
                       >
                         Submit
                       </button>
@@ -176,7 +173,6 @@ function ComplainBox() {
                 </div>
               </div>
             </div>
-           
           </div>
         </div>
       </div>

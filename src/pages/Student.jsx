@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from "../components/navbar";
+import EduHeader from "../components/educationalLoan/eduHeader";
 import Footer from "../components/footer";
 import Credit from '../components/studentpage/credit';
 import Worryfree from '../components/studentpage/worryfree';
@@ -10,7 +10,7 @@ import SemiFooter from "../components/personalPage/semiFooter";
 function Student() {
   return (
     <div>
-    <Header/>
+    <EduHeader/>
     <Studentheader/>
     <Focus/>
     <Credit/>

@@ -1,27 +1,31 @@
+import banner from "../../assets/activeuse.png";
+import nin from "../../assets/gobtn.svg";
 
-import banner from "../../assets/personals.svg";
-import loan from "../../assets/personalloan.svg";
-import why from "../../assets/whystop.svg";
-import users from "../../assets/profiles.svg";
-
-
-export default function Banner () {
+export default function Banner() {
   return (
-    <section className='personalbg'>
+    <section className="personalbk">
       <div className="container">
         <div className="row">
           <div className="col-sm-6 mb-3">
-            <img src={loan} alt="Why stop when you can do so much?" className="img-fluid" />
-            <img src={why} alt="title" className="img-fluid mt-4 mb-4" />
-            <p className="w-75">Embrace the many opportunities Hargon's marketplace offers and experience the freedom of making impactful financial decisions.</p>
-            <img src={users} alt="profile" className="img-fluid mt-4" />
+            <h2 className="mt-4 mb-4">
+              Empowering your{" "}
+              <span style={{ color: "#228B22" }}> Financial Dreams!</span>{" "}
+              Anywhere, Anytime.
+            </h2>
+            <p className="w-75">
+              {" "}
+              At Hargon, we're dedicated to being more than just a lending
+              platform, Whether you're looking to turn your dreams into reality,
+              manage unexpected expenses, or simply make smart investments,
+              we're here to make it happen.
+            </p>
+            <img src={nin} alt="get started" className="img-fluid mt-4" />
           </div>
           <div className="col-sm-6">
-            <img src={banner} alt="banner" className="img-fluid w-100 " />
+            <img src={banner} alt="banner" className="img-fluid w-100" />
           </div>
         </div>
       </div>
     </section>
-    
-  )
+  );
 }

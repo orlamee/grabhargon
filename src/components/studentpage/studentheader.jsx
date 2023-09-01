@@ -5,9 +5,9 @@ function Studentheader() {
   return (
     <section className="pyday">
       <div className="container">
-        <div className="row justify-content-between">
-          <div className="col-sm-6 mb-4 mt-4">
-            <h2>
+        <div className="row">
+          <div className="col-sm-6 mt-3">
+            <h2  className="mb-4">
               Seize the{" "}
               <span style={{ color: "#23A323" }}> opporunity, </span> invest  in
               your future

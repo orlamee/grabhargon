@@ -1,10 +1,9 @@
 import EduHeader from "../components/educationalLoan/eduHeader";
 import Footer from "../components/footer";
-import BuyNow from "../components/mPlace/buyNow";
-import HargonCredit from "../components/mPlace/hargonCredit";
-import Invest from "../components/mPlace/investor";
-import MPHero from "../components/mPlace/mHero";
-import Vendor from "../components/mPlace/vendor";
+import MarkHero from "../components/markPlace/markHero";
+import Buynow from "../components/markPlace/buynow";
+import Everything from "../components/markPlace/everything";
+import More from "../components/markPlace/more";
 import SemiFooter from "../components/personalPage/semiFooter";
 import { Description, Title } from "react-head-meta";
 
@@ -19,11 +18,10 @@ function MarketPlace() {
         />
       </div>
       <EduHeader />
-      <MPHero />
-      <BuyNow />
-      <Vendor />
-      <Invest />
-      <HargonCredit />
+      <MarkHero />
+      <Buynow />
+      <Everything />
+      <More />
       <SemiFooter />
       <Footer />
     </div>

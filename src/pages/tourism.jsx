@@ -1,11 +1,11 @@
 import EduHeader from "../components/educationalLoan/eduHeader";
 import Footer from "../components/footer";
 import SemiFooter from "../components/personalPage/semiFooter";
-import DreamVac from "../components/tourism/dreamVac";
+import Unleash from "../components/tourismB/unleash";
+import Planfor from "../components/tourismB/planfor";
+import Creditfor from "../components/tourismB/creditfor";
 import TicketRefund from "../components/tourism/ticketRefund";
-import TourHero from "../components/tourism/tourHero";
-import TourLoan from "../components/tourism/tourismLoan";
-import Travel from "../components/tourism/travel";
+import Discovering from "../components/tourismB/discovering";
 import { Description, Title } from "react-head-meta";
 
 
@@ -23,11 +23,11 @@ function Tourism () {
         />
       </div>
       <EduHeader/>
-      <TourHero/>
-      <TourLoan/>
-      <DreamVac/>
-      <Travel/>
+      <Unleash/>
+      <Discovering/>
+      <Planfor/>
       <TicketRefund/>
+      <Creditfor/>
       <SemiFooter/>
       <Footer/>
     </div>

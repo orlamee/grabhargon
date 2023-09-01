@@ -1,22 +1,34 @@
-import emerge from "../../assets/emerge.svg";
+import emerge from "../../assets/roll-left.svg";
 import pe from "../../assets/pe.svg";
 
 
 
 export default function PE () {
   return (
-    <section className='emerge pb-0'>
+    <section className='pyday'>
       <div className='container'>
-        <div className="row justify-content-center">
-          <div className="col-sm-6 text-center">
-            <img src={pe} alt="personal emergency" className="img-fluid" />
+        <div className="row justify-content-between">
+          <div className="col-sm-4 mt-9">
+          
+            <h2 className="mt-9 mb-3">
+            Salary
+            <span style={{color: "#23A323"}}>  Payroll </span>
+            
+            </h2>
+            <p className="mt-4">
+            Simplify Your Salary Invoicing Process
+            </p>
+            <p className="mt-4">
+            Eliminate errors and boost productivity with our user-friendly platform, which is designed to make salary invoicing easier for businesses of all sizes. Concentrate on what is most important, like expanding your business – while we handle the complexity of payroll payment
+            </p>
           </div>
-        </div>
-        <div className="row justify-content-center mt-5">
-          <div className="col-sm-9 text-center">
+          <div className="col-sm-7">
             <img src={emerge} alt="personal emergency" className="img-fluid w-100" />
           </div>
         </div>
+        
+         
+        
       </div>
     </section>
     

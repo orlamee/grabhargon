@@ -1,19 +1,21 @@
-import cred from "../../assets/creditsol.svg";
-import right from "../../assets/right.svg";
+import cred from "../../assets/sal-left.png";
+import right from "../../assets/salright.svg";
+import bunt from "../../assets/salmbtn.png";
 
 
 
 export default function SalaryHero () {
   return (
-    <section className='sal-hero'>
+    <section className='pyday '>
       <div className='container'>
-        <div className="row">
-          <div className="col-sm-6 mb-3 mt-5">
-            <img src={cred} alt="We have just the right solutions for you" className="img-fluid mb-4" />
-            <p className="text-white">Get the cash you need when you need it. Our easy and streamlined loan against your salary offers immediate financial relief until the next paycheck arrives.</p>
+        <div className="row justify-content-between">
+          <div className="col-sm-5 mb-3 mt-5">
+            <img src={cred} alt="guarantee your employees get paid" className="img-fluid " />
+            <img src={bunt} alt="start using salary advance now" className="img-fluid mt-5" />
+            
           </div>
           <div className="col-sm-6">
-            <img src={right} alt="Credible credit solutions" className="img-fluid w-100" />
+            <img src={right} alt="Credible credit solutions" className="img-fluid" />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import box from "../../assets/facilities.svg";
 
 function Credit() {
   return (
-    <section className="worry" >
+    <section className="worry pb-0" >
       <div className="container studies">
         <div className=" row justify-content-center my-4">
           <div className="col-sm-8 text-center">

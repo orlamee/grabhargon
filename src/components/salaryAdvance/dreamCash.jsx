@@ -1,34 +1,27 @@
-import cash from "../../assets/cash.svg";
-import zero from "../../assets/zero.svg";
-import ex from "../../assets/ex.svg";
+import cash from "../../assets/advi.svg";
+import zero from "../../assets/samright.png";
+
 
 
 
 export default function Dreams () {
   return (
-    <section className='dyc bg-white'>
+    <section className='pyday pb-0'>
       <div className='container'>
-        <div className="first-step">
-          <div className="row justify-content-end">
-            <div className="col-sm-4">
-              <img src={cash} alt="cash" className="img-fluid" />
-            </div>
+        <div className="row justify-content-between">
+          <div className="col-sm-6 mb-3">
+            <img src={cash} alt="We have just the right solutions for you" className="img-fluid w-100" />
+            
+            
           </div>
-          <div className="row mt-4">
-            <div className="col-sm-6">
-              <h2 className="mb-4">Salary Advance</h2>
-              <p>Need money urgently? Access a portion of your salary from your company using through our platform, making the process faster and more flexible.</p>
-            </div>
-          </div>
-        </div>
-        <div className="second-step pb-0">
-          <div className="row justify-content-between">
-            <div className="col-sm-4">
-              <img src={zero} alt="cash" className="img-fluid w-100" style={{marginTop: "-240px"}} />
-            </div>
-            <div className="col-sm-8">
-              <img src={ex} alt="cash" className="img-fluid w-100" style={{marginTop: "-491px"}} />
-            </div>
+          <div className="col-sm-5 mt-5">
+            <img src={zero} alt="Credible credit solutions" className="img-fluid" />
+            <p className="mt-4">
+            Give your employees the financial boost they need
+            </p>
+            <p className="mt-4">
+            Provide salary advance options for your employees through our secure, user-friendly, and flexible platforms. 
+            </p>
           </div>
         </div>
       </div>
