@@ -9,7 +9,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Personal from './pages/personal';
 import Business from './pages/business';
-import EducationalLoan from './pages/educationalLoan';
+// import EducationalLoan from './pages/educationalLoan';
 import SalaryAdvance from './pages/salary';
 import MarketPlace from './pages/marketPlace';
 import FixedDepo from './pages/fixedDeposit';
