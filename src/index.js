@@ -75,6 +75,8 @@ import PofForm from './pages/pofForm';
 import MortageForm from './pages/mortageForm';
 import PayDay from './pages/payDay';
 import Student from './pages/Student';
+import ScrollToTop from './scrollToTop';
+
 
 
 
@@ -83,6 +85,7 @@ import Student from './pages/Student';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+    <ScrollToTop/>
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/about-us" element={<Aboutus/>}></Route>
