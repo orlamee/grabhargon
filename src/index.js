@@ -80,6 +80,7 @@ import BlogDebt from './pages/blogDebt';
 import BlogGuide from './pages/blogGuide';
 import BlogPopular from './pages/blogPopular';
 import BlogExplore from './pages/blogExplore';
+import ScrollToTop from './scrollToTop';
 
 
 
@@ -90,7 +91,7 @@ import BlogExplore from './pages/blogExplore';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    
+    <ScrollToTop/>
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/about-us" element={<Aboutus/>}></Route>

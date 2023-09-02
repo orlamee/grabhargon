@@ -1,5 +1,4 @@
 import emerge from "../../assets/roll-left.svg";
-import pe from "../../assets/pe.svg";
 
 
 
