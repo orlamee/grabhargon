@@ -73,7 +73,7 @@ import BusinessloanForm from './pages/businessloanForm';
 import MicrolendingForm from './pages/microlendingForm';
 import PofForm from './pages/pofForm';
 import MortageForm from './pages/mortageForm';
-import PayDay from './pages/payDay';
+import Payday from './pages/payDay';
 import Student from './pages/Student';
 import Blog from './pages/Blog';
 import BlogDebt from './pages/blogDebt';
@@ -102,6 +102,7 @@ root.render(
       <Route path="/credit-builder" element={<CreditBuilder/>}></Route>
       <Route path="/business" element={<Business/>}></Route>
       <Route path="/business/agency" element={<LoanAgency/>}></Route>
+      <Route path="/business/salary-advance" element={<SalaryAdvance/>}></Route>
       <Route path="/business/merchant" element={<Merchant/>}></Route>
       <Route path="/business/business" element={<BusinessLoan/>}></Route>
       <Route path="/business/savings" element={<SavingBusiness/>}></Route>
@@ -109,7 +110,7 @@ root.render(
       <Route path="/business/micro-lending" element={<MicroLending/>}></Route>
       <Route path="/business/credit-card" element={<CreditCard/>}></Route>
       <Route path="/personal/student" element={<Student/>}></Route>
-      <Route path="/personal/salary-advance" element={<SalaryAdvance/>}></Route>
+      <Route path="/personal/pay-day" element={<Payday/>}></Route>
       <Route path="/personal/market-place" element={<MarketPlace/>}></Route>
       <Route path="/personal/savings" element={<FixedDepo/>}></Route>
       <Route path="/personal/quickcredit" element={<QuickCredit/>}></Route>
@@ -161,7 +162,6 @@ root.render(
       <Route path="/microlending-form" element={<MicrolendingForm/>}></Route>
       <Route path="/pof-form" element={<PofForm/>}></Route>
       <Route path="/mortgageform" element={<MortageForm/>}></Route>
-      <Route path="/payday" element={<PayDay/>}></Route>
       <Route path="/student" element={<Student/>}></Route>
       <Route path="/blog" element={<Blog/>}></Route>
       <Route path="/blog/guides" element={<BlogGuide/>}></Route>

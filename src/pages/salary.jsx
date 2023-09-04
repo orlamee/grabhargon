@@ -14,7 +14,7 @@ function SalaryAdvance () {
   return (
     <div>
       <div>
-        <Title title=" Payday loans  " />
+        <Title title=" Salary Advance  " />
         <Description
           description="Urgent situations require urgent attention. Get a salary advance and meet up with your financial responsibilities.
  "

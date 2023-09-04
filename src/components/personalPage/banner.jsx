@@ -1,6 +1,7 @@
 import banner from "../../assets/activeuse.png";
 import nin from "../../assets/gobtn.svg";
 
+
 export default function Banner() {
   return (
     <section className="personalbk">

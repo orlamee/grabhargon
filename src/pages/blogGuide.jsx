@@ -5,10 +5,11 @@ import Replies from '../components/replies';
 import SemiFooter from '../components/personalPage/semiFooter';
 import Footer from "../components/footer";
 
+
 function BlogGuide() {
   return (
     <div>
-     <EduHeader />
+    <EduHeader />
      <GuideContent />
      <Replies />
      <SemiFooter />

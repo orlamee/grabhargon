@@ -4622,3 +4622,14 @@ font-family: 'syne-bold';
   line-height: 83px;
 }
 
+.advance{
+  background-color: #fff;
+  padding : 70px 40px ;
+}
+
+.advance p{
+  font-family: 'syne-reg';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}

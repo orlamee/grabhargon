@@ -14,8 +14,12 @@ import mini from "../../assets/mirco.png";
 import facebook from "../../assets/Facebook logo.png";
 import linkedin from "../../assets/linkedin logo.png";
 import twitter from "../../assets/twitter logo.png";
-// import { Icon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
+
+
+
+
 
 function PopularContent() {
   return (
@@ -395,7 +399,7 @@ function PopularContent() {
                 <div className="flex-row">
                   <button className="btn nxt-blog  mx-1">
                     {" "}
-                    {/* <Icon icon="bx:link" className="mx-1" /> Copy Link */}
+                    <Icon icon="bx:link" className="mx-1" /> Copy Link
                   </button>{" "}
                   <a href="https://www.facebook.com">
                     <img

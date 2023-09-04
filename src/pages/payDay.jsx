@@ -9,7 +9,7 @@ import SemiFooter from "../components/personalPage/semiFooter";
 
 
 
-function PayDay() {
+function Payday() {
   return (
     <div>
       <Header/>
@@ -23,4 +23,4 @@ function PayDay() {
   );
 }
 
-export default PayDay;
+export default Payday;
