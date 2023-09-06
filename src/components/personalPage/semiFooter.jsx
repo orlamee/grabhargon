@@ -12,7 +12,7 @@ export default function SemiFooter () {
               <img src={join} alt="join hargon" className="img-fluid" />
               <h6 className="text-white mt-4">Sign up for free and take control of your finances.</h6>
               <Link
-                to=""
+                to="/grabhargon"
                 className="btn btn-primary bg-white btn-main rounded-pill px-5 py-3 mt-5"
                 href="#!"
                 style={{color: "#228B22"}}
