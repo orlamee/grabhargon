@@ -25,7 +25,7 @@ function DropDownSolution() {
           </Link>
           <Link to="/personal/pay-day" className="d-flex flex-row mb-4">
             <img src={sa} alt="Pay Day" className="img-fluid me-3" />
-            <h6 className="mt-2">PayDay</h6>
+            <h6 className="mt-2">Pay day</h6>
           </Link>
           <Link to="/personal/auto" className="d-flex flex-row mb-4">
             <img src={al} alt="Auto loan" className="img-fluid me-3" />
