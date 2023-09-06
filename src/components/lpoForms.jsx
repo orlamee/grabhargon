@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { ToastContainer, toast } from "react-toastify"; 
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
@@ -15,7 +15,7 @@ function LpoForms() {
   });
 
   const [isLoading, setIsLoading] = useState(false);
-  const [isSuccess, setIsSuccess] = useState(false); 
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -147,7 +147,7 @@ function LpoForms() {
           </div>
         </div>
       </div>
-      <ToastContainer position="top-right" /> 
+      <ToastContainer position="top-right" />
     </section>
   );
 }
