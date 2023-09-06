@@ -21,8 +21,7 @@ function LpoForms() {
     event.preventDefault();
     setIsLoading(true);
 
-    const apiUrl =
-      "https://hargon-admin-be.onrender.com/api/v1/hargon/admin/loan/application";
+    const apiUrl = "https://hargon-admin-be.onrender.com/api/v1/hargon/admin/loan/application";
 
     axios
       .post(apiUrl, formData)
