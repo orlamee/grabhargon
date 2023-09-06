@@ -1,4 +1,3 @@
-import { Fade } from "react-awesome-reveal";
 import capital from "../../assets/fuel.png";
 
 
@@ -14,10 +13,8 @@ export default function CapitalHero () {
         </div>
         <div className="row mt-5 justify-content-between">
           <div className="col-sm-4 mb-3">
-            <Fade cascade>
-              <p className="text-white">Looking for a partner that will help you unlock the potential of your business?</p>
-              <p className="mt-5 text-white">Welcome to Hargon, your reliable loan partner. Our loans are flexible, competitive, rich with favourable terms and tailored to ensure your business succeeds.</p>
-            </Fade>
+            <p className="text-white">Looking for a partner that will help you unlock the potential of your business?</p>
+            <p className="mt-5 text-white">Welcome to Hargon, your reliable loan partner. Our loans are flexible, competitive, rich with favourable terms and tailored to ensure your business succeeds.</p>
           </div>
           <div className="col-sm-7">
             <img src={capital} alt="capital loans" className="img-fluid w-100" />

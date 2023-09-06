@@ -1,4 +1,3 @@
-import { Fade } from "react-awesome-reveal";
 import map from "../../assets/mapphone.png";
 
 
@@ -14,10 +13,8 @@ export default function BusinessExpansion () {
         </div>
         <div className="row justify-content-center mt-5">
           <div className="col-sm-5 mb-3 text-center">
-            <Fade cascade>
-              <p className="mb-3 text-black">Stop planning, time to act</p>
-              <p className="text-black">Don’t let low cash flow hold you back, expand the potentials of your business with flexible and tailored loans from Hargon.</p>
-            </Fade>
+            <p className="mb-3 text-black">Stop planning, time to act</p>
+            <p className="text-black">Don’t let low cash flow hold you back, expand the potentials of your business with flexible and tailored loans from Hargon.</p>
           </div>
         </div>
         <div className="row justify-content-center mt-5">

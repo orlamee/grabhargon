@@ -1,5 +1,4 @@
 import React from "react";
-import { Slide } from "react-awesome-reveal";
 import maldives from "../../assets/tourladies.svg";
 
 function Unleash() {
@@ -27,20 +26,19 @@ function Unleash() {
         </div>
         <div className="row justify-content-center mt-9">
           <div className="col-sm-8 text-center">
-               <Slide cascade>
-               <h2 className="mb-4">
+            <h2 className="mb-4">
               {" "}
-              Discovering  <span style={{ color: "#23A323" }}>
+              Discovering <span style={{ color: "#23A323" }}>
                 {" "}
                 the world
               </span>{" "}
               through
               <span style={{ color: "#ffbd00" }}> credit </span> with
             </h2>
-            </Slide>
-           
             <p className="mt-4 w-50 m-auto">
-            With Hargon's credit, your travel plans just got easier. You can unlock the thrills of unforgettable experiences through convenient credit.
+              With Hargon's credit, your travel plans just got easier. You can
+              unlock the thrills of unforgettable experiences through convenient
+              credit.
             </p>
           </div>
         </div>

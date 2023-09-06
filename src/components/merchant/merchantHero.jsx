@@ -1,5 +1,4 @@
 import merchant from "../../assets/merchtitle.svg";
-import { Fade } from "react-awesome-reveal";
 import side from "../../assets/merchright.svg";
 
 
@@ -14,14 +13,12 @@ export default function MerchantHero() {
               alt="more customers and infinte possiblilities for your business"
               className="img-fluid w-100"
             />
-            <Fade cascade>
-              <button
-                className="btn btn-primary btn-main rounded-pill px-5 py-3 mt-4"
-                href="#!"
-              >
-                Sell on Hargon’s Marketplace
-              </button>
-            </Fade>
+            <button
+              className="btn btn-primary btn-main rounded-pill px-5 py-3 mt-4"
+              href="#!"
+            >
+              Sell on Hargon’s Marketplace
+            </button>
           </div>
           <div className="col-sm-6">
             <img src={side} alt="banner" className="img-fluid" />
