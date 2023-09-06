@@ -160,7 +160,7 @@ root.render(
       <Route path="/lpofinancing" element={<LpoFinancing/>}></Route>
       <Route path="/businessloan-form" element={<BusinessloanForm/>}></Route>
       <Route path="/microlending-form" element={<MicrolendingForm/>}></Route>
-      <Route path="/pof-form" element={<PofForm/>}></Route>
+      <Route path="/student-loan" element={<PofForm/>}></Route>
       <Route path="/mortgageform" element={<MortageForm/>}></Route>
       <Route path="/student" element={<Student/>}></Route>
       <Route path="/blog" element={<Blog/>}></Route>
