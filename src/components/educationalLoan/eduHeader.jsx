@@ -8,7 +8,6 @@ import DropDownSolution from '../personalPage/dropdownSolution';
 import DropDownCompany from '../dropdownCompany';
 
 
-
 function EduHeader () {
   return (
     <Navbar bg="white" expand="lg" className='py-3 header sticky-top'>
