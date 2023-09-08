@@ -158,10 +158,10 @@ root.render(
       <Route path="/blog/turn-savings" element={<BlogTurn/>}></Route>
       <Route path="/shop" element={<Shop/>}></Route>
       <Route path="/lpofinancing" element={<LpoFinancing/>}></Route>
-      <Route path="/businessloan-form" element={<BusinessloanForm/>}></Route>
-      <Route path="/microlending-form" element={<MicrolendingForm/>}></Route>
+      <Route path="/business-loan" element={<BusinessloanForm/>}></Route>
+      <Route path="/micro-lending" element={<MicrolendingForm/>}></Route>
       <Route path="/student-loan" element={<PofForm/>}></Route>
-      <Route path="/mortgageform" element={<MortageForm/>}></Route>
+      <Route path="/mortgage" element={<MortageForm/>}></Route>
       <Route path="/student" element={<Student/>}></Route>
       <Route path="/blog" element={<Blog/>}></Route>
       <Route path="/blog/guides" element={<BlogGuide/>}></Route>
