@@ -1,6 +1,6 @@
 import React from "react";
 import pic from "../../assets/boy.png";
-import tip from "../../assets/pills.png";
+import tip from "../../assets/blog-pills.png";
 import non from "../../assets/boximg.png";
 import topic from "../../assets/mildheader.png";
 import dig from "../../assets/digit-box.png";

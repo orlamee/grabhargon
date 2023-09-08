@@ -11,7 +11,7 @@ import non from "../../assets/boximg.png";
 import pic from "../../assets/boy.png";
 import dig from "../../assets/digit-box.png";
 import box from "../../assets/loanbox.png";
-import tip from "../../assets/pills.png";
+import tip from "../../assets/blog-pills.png";
 import facebook from "../../assets/Facebook logo.png";
 import linkedin from "../../assets/linkedin logo.png";
 import twitter from "../../assets/twitter logo.png";

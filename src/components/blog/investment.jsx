@@ -2,7 +2,7 @@ import React from "react";
 import facebook from "../../assets/Facebook logo.png";
 import linkedin from "../../assets/linkedin logo.png";
 import twitter from "../../assets/twitter logo.png";
-import tip from "../../assets/pills.png";
+import tip from "../../assets/blog-pills.png";
 import dig from "../../assets/digit-box.png";
 import schoolimg from "../../assets/schbox.png";
 import debit from "../../assets/scorebox.png";

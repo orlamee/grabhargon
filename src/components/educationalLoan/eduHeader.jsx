@@ -6,9 +6,11 @@ import globe from "../../assets/globe.svg";
 import { Link } from 'react-router-dom';
 import DropDownSolution from '../personalPage/dropdownSolution';
 import DropDownCompany from '../dropdownCompany';
+import { Button } from 'react-bootstrap';
 
 
 function EduHeader () {
+  
   return (
     <Navbar bg="white" expand="lg" className='py-3 header sticky-top'>
       <Container>
@@ -46,13 +48,13 @@ function EduHeader () {
           </Nav>
           <Nav className="ms-auto">
             <Nav.Link href="/"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>
-            <Nav.Link>
-              <button
+            <Nav.Link  >
+              <Button
                 className="btn btn-primary btn-main rounded-pill px-5 py-3"
-                href="#!"
+                href="/grabhargon"
               >
                 Get Started
-              </button>
+              </Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
