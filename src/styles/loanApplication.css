@@ -1,0 +1,57 @@
+.loan_application {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #228b22;
+  background-image: url("../assets/hhero.png");
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+.loan_application .logo_container {
+  padding-top: 100px;
+}
+.loan_application .logo_container .logo_main {
+  width: 155px;
+  height: 40px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+}
+
+.content div {
+  max-width: 550px;
+  padding: 0px 16px;
+}
+.content .title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content .subtitle {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #c8f3c5;
+  margin-bottom: 40px;
+}
+.content .start_btn {
+  width: 100%;
+  padding: 23px 0;
+  display: inline-block;
+  border-radius: 10000px;
+  background: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #041004;
+}
