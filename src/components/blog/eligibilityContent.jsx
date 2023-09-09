@@ -2,7 +2,7 @@ import React from "react";
 import topic from "../../assets/loaneli.png";
 import pic from "../../assets/boy.png";
 import savemid from "../../assets/loaneli2.png";
-import tip from "../../assets/pills.png";
+import tip from "../../assets/blog-pills.png";
 import bogimg from "../../assets/student.png";
 import box from "../../assets/loanbox.png";
 import side from "../../assets/savebox.png";

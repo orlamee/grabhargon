@@ -3,13 +3,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../assets/hargon-color.svg";
 import globe from "../assets/flag.svg";
-import { Link } from 'react-router-dom';
+import{ Link } from 'react-router-dom';
 import DropDownSolution from './personalPage/dropdownSolution';
 import DropDownCompany from './dropdownCompany';
+import { Button } from 'react-bootstrap';
 
 
 
 function PersonalHeader () {
+
   return (
     <Navbar expand="lg" className='py-3 header pheader sticky-top'>
       <Container>
@@ -47,12 +49,14 @@ function PersonalHeader () {
           <Nav className="ms-auto">
             <Nav.Link href="/"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>
             <Nav.Link>
-              <a
+            <Button
+                 
                 className="btn btn-primary btn-main rounded-pill px-5 py-3"
-                href="#!"
+                href="/grabhargon"
+                
               >
                 Get Started
-              </a>
+              </Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

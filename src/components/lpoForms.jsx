@@ -1,62 +1,51 @@
-import React, { useState } from "react";
+import React from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
+import { useFormik } from "formik";
+import validationSchema from "../validations/loanForm";
 
 function LpoForms() {
-  const [formData, setFormData] = useState({
-    first_name: "",
-    last_name: "",
-    phone: "",
-    email: "",
+  const formik = useFormik({
+    initialValues: {
+      first_name: "",
+      last_name: "",
+      phone: "",
+      email: "",
+    },
+    validationSchema,
+    onSubmit: (values) => {
+      handleSubmit(values);
+    },
   });
 
-  const [isLoading, setIsLoading] = useState(false);
-  const [isSuccess, setIsSuccess] = useState(false);
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    setIsLoading(true);
-
+  const handleSubmit = (formData) => {
     const apiUrl = "https://hargon-admin-be.onrender.com/api/v1/hargon/admin/loan/application";
-
+    formik.setSubmitting(true);
     axios
       .post(apiUrl, formData)
       .then((response) => {
         console.log("API Response:", response.data);
-        setIsLoading(false);
-        setIsSuccess(true);
-
-        setFormData({
-          first_name: "",
-          last_name: "",
-          phone: "",
-          email: "",
-        });
-
-        toast.success("Submission successful. Kindly Check your email!");
+        formik.resetForm();
+        formik.setSubmitting(false);
+        toast.success("Submission successful. Kindly check your email!");
       })
       .catch((error) => {
         console.error("API Error:", error);
-        setIsLoading(false);
+        formik.setSubmitting(false);
       });
-  };
-
-  const handleInputChange = (event) => {
-    const { name, value } = event.target;
-    setFormData({ ...formData, [name]: value });
   };
 
   return (
     <section>
       <div className="lpoforms mt-4">
-        <div className="col">
-          <div className="row  justify-content-center mt-5 lpofrm">
+        <div className="">
+          <div className="row justify-content-center mt-5 lpofrm">
             <div className="col-sm-9">
-              <Form onSubmit={handleSubmit}>
+              <Form onSubmit={formik.handleSubmit}>
                 <div className="text-center my-5">
                   <h2>Fill Form</h2>
                 </div>
@@ -66,11 +55,18 @@ function LpoForms() {
                       <Form.Label>First Name</Form.Label>
                       <Form.Control
                         type="text"
-                        placeholder="Enter first name"
                         name="first_name"
-                        value={formData.first_name}
-                        onChange={handleInputChange}
+                        placeholder="Enter first name"
+                        value={formik.values.first_name}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
+                        isInvalid={
+                          formik.touched.first_name && formik.errors.first_name
+                        }
                       />
+                      <Form.Control.Feedback type="invalid">
+                        {formik.errors.first_name}
+                      </Form.Control.Feedback>
                     </Form.Group>
                   </Col>
                 </Row>
@@ -80,26 +76,37 @@ function LpoForms() {
                       <Form.Label>Last Name</Form.Label>
                       <Form.Control
                         type="text"
-                        placeholder="Enter last name"
                         name="last_name"
-                        value={formData.last_name}
-                        onChange={handleInputChange}
+                        placeholder="Enter last name"
+                        value={formik.values.last_name}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
+                        isInvalid={
+                          formik.touched.last_name && formik.errors.last_name
+                        }
                       />
+                      <Form.Control.Feedback type="invalid">
+                        {formik.errors.last_name}
+                      </Form.Control.Feedback>
                     </Form.Group>
                   </Col>
                 </Row>
-
                 <Row>
                   <Col>
                     <Form.Group className="mt-4">
                       <Form.Label>Phone Number</Form.Label>
                       <Form.Control
                         type="tel"
-                        placeholder="Enter phone number"
                         name="phone"
-                        value={formData.phone}
-                        onChange={handleInputChange}
+                        placeholder="Enter phone number"
+                        value={formik.values.phone}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
+                        isInvalid={formik.touched.phone && formik.errors.phone}
                       />
+                      <Form.Control.Feedback type="invalid">
+                        {formik.errors.phone}
+                      </Form.Control.Feedback>
                     </Form.Group>
                   </Col>
                 </Row>
@@ -109,17 +116,21 @@ function LpoForms() {
                       <Form.Label>Email</Form.Label>
                       <Form.Control
                         type="email"
-                        placeholder="Enter email address"
                         name="email"
-                        value={formData.email}
-                        onChange={handleInputChange}
+                        placeholder="Enter email address"
+                        value={formik.values.email}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
+                        isInvalid={formik.touched.email && formik.errors.email}
                       />
+                      <Form.Control.Feedback type="invalid">
+                        {formik.errors.email}
+                      </Form.Control.Feedback>
                     </Form.Group>
                   </Col>
                 </Row>
-
                 <div className="text-center mt-3">
-                  {isLoading ? (
+                  {formik.isSubmitting ? (
                     <button
                       className="btn rounded-pill px-5 py-3 mt-5"
                       style={{
@@ -127,6 +138,7 @@ function LpoForms() {
                         color: "#23A323",
                         cursor: "not-allowed",
                       }}
+                      type="submit"
                       disabled
                     >
                       Submitting

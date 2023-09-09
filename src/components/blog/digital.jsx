@@ -8,7 +8,7 @@ import debit from "../../assets/scorebox.png";
 import stockimg from "../../assets/stockbox.png";
 import side from "../../assets/savebox.png";
 import mini from "../../assets/mirco.png";
-import tip from "../../assets/pills.png";
+import tip from "../../assets/blog-pills.png";
 import topic from "../../assets/digithead.png";
 import risebox from "../../assets/Rise.png";
 import bnyimg from "../../assets/apy.png";
