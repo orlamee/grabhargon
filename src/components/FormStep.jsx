@@ -20,7 +20,7 @@ function FormStep() {
     setActive((current) => (current < 4 ? current + 1 : current));
   const prevStep = () =>
     setActive((current) => (current > 1 ? current - 1 : current));
-  const [file, setFile] = useState(null); //eslint-disable-line
+  const [file, setFile] = useState(null);
   const handleChange = (file) => {
     console.log(file);
     setFile(file);
@@ -641,6 +641,7 @@ function FormStep() {
               onClick={() => {
                 props.onHide();
                 setSuccess(true);
+                console.log({ file });
               }}
             >
               Submit Form
