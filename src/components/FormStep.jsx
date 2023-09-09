@@ -20,7 +20,7 @@ function FormStep() {
     setActive((current) => (current < 4 ? current + 1 : current));
   const prevStep = () =>
     setActive((current) => (current > 1 ? current - 1 : current));
-  const [file, setFile] = useState(null);
+  const [file, setFile] = useState(null); //eslint-disable-line
   const handleChange = (file) => {
     console.log(file);
     setFile(file);
@@ -41,6 +41,7 @@ function FormStep() {
                     type="text"
                     placeholder="Enter First Name"
                     className="myinput"
+                    required
                   />
                 </div>
               </Col>
@@ -53,6 +54,7 @@ function FormStep() {
                     type="text"
                     placeholder="Enter Last Name"
                     className="myinput"
+                    required
                   />
                 </div>
               </Col>
@@ -67,6 +69,7 @@ function FormStep() {
                     type="email"
                     placeholder="Enter Email Address"
                     className="myinput"
+                    required
                   />
                 </div>
               </Col>
@@ -79,6 +82,7 @@ function FormStep() {
                     type="text"
                     placeholder="Enter Phone Number"
                     className="myinput"
+                    required
                   />
                 </div>
               </Col>
