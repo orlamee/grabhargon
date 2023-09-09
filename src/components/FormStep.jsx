@@ -599,6 +599,7 @@ function FormStep() {
                 types={fileTypes}
                 label="Drop your Utility Bill here or browse"
               />
+              <span>{file && file.name}</span>
             </div>
             <div className="s-input mb-5">
               <label className="mylabel">Signature</label>
