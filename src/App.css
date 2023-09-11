@@ -4418,10 +4418,8 @@ font-family: 'syne-bold';
   line-height: 24px;
 }
 
-.form-control::placeholder {
+.lpoforms .form-control::placeholder {
   font-family: "syne-reg";
-  opacity: 0.5;
-  padding-top: 10px;
   color: white;
 }
 
