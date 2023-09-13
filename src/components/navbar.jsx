@@ -44,7 +44,7 @@ function Header () {
             <Nav.Link href="/"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>
             <Nav.Link>
               <Button
-                className="btn btn-primary btn-main rounded-pill px-5 py-3"
+                className="btn btn-main rounded-pill px-5 py-3"
                 onClick={() => navigate("/grabhargon")}
               >
                 Get Started

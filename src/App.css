@@ -70,15 +70,16 @@ a {
 }
 
 .btn-main,
-.btn-main:hover {
-  background: #228B22;
-  border: #228B22;
+.btn-main:hover,
+.btn-main:active {
+  background-color: #228B22!important;
+  border: #228B22 !important;
 }
 
 .btn-footer,
 .btn-footer:hover{
-  background: transparent;
-  border: 1px solid #fff;
+  background: transparent !important;
+  border: 1px solid #fff !important;
 }
 
 .header .nav-link {
@@ -3795,6 +3796,11 @@ a {
   text-transform: capitalize;
   padding: 15px;
 }
+/* 
+.fandk {
+  padding: 100px 20px;
+  background: white;
+} */
 
 
 
@@ -3879,6 +3885,45 @@ a {
 .comp .accordion-button::after {
   background-image: url("./assets/plussign.png") !important;
 }
+
+
+.comq {
+  padding: 50px 20px;
+}
+
+.comq .accordion-button {
+  margin-bottom: 0px;
+  font-family: "syne-reg";
+  font-size: 14px;
+  line-height: 24px;
+  color: #1e2c31;
+  background-color: #f9fafb;
+}
+
+.comq .accordion-body {
+  font-family: "syne-reg";
+  font-size: 14px;
+  line-height: 24px;
+  padding: 30px 20px;
+  color: rgb(57, 66, 57);
+  background-color: #7b787814;
+}
+
+.comq .accordion-button::after {
+  background-image: url("./assets/plussign.png") !important;
+}
+
+.comq .nav-link {
+  color:  black;  
+ }
+
+ 
+ .comq .nav-link:hover ,
+ .comq .nav-link.active {
+   color:
+   #228b22; 
+ }
+ 
 
 .accordion-item:not(:first-of-type) {
   border-top: 0;

@@ -1,6 +1,6 @@
 import React from 'react'
 import pic from "../../assets/boy.png";
-import tip from "../../assets/blog-pills.png";
+import tip from "../../assets/pillls.svg";
 import non from "../../assets/boximg.png";
 import topic from "../../assets/debheader.png";
 import active from "../../assets/deb1.png";
@@ -32,7 +32,7 @@ function DebtContent() {
             <div className="row">
               <div className="col-md-12">
                 <div className="my-5">
-                  <img src={tip} alt="" className="img-fluid mt-4 " />{" "}
+                  <img src={tip} alt="" className="img-fluid mt-4  w-25" />{" "}
                   <h2 className="mt-3">
                     {" "}
                     8 steps to get out of debt

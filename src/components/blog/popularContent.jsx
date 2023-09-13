@@ -1,6 +1,6 @@
 import React from "react";
 import pic from "../../assets/boy.png";
-import tip from "../../assets/blog-pills.png";
+import tip from "../../assets/pillls.svg";
 import non from "../../assets/boximg.png";
 import topic from "../../assets/mildheader.png";
 import dig from "../../assets/digit-box.png";
@@ -30,7 +30,7 @@ function PopularContent() {
             <div className="row">
               <div className="col-md-12">
                 <div className="my-5">
-                  <img src={tip} alt="" className="img-fluid mt-4 " />{" "}
+                  <img src={tip} alt="" className="img-fluid mt-4 w-25 " />{" "}
                   <h2 className="mt-3">
                     {" "}
                     Popular Loan Terms and Their Meaning

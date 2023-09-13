@@ -1,9 +1,46 @@
 import { Accordion } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Nav from "react-bootstrap/Nav";
+import Row from "react-bootstrap/Row";
+import Tab from "react-bootstrap/Tab";
 
 function Faq() {
   return (
-    <section className="comp">
-      <div className="container">
+    <section className="comq">
+      <div className="row justify-content-center">
+        <div className="col-md-12">
+         
+        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+        <Row className="mb-3 justify-content-center">
+        <Col sm={6} className="my-3">
+            <Nav variant="" className="d-flex text-center justify-content-between">
+              <Nav.Item className="my-4">
+                <Nav.Link eventKey="first"> General Terms </Nav.Link>
+              </Nav.Item>
+              <Nav.Item className="my-4">
+                <Nav.Link eventKey="second"> Loans  </Nav.Link>
+              </Nav.Item>
+              <Nav.Item className="my-4">
+                <Nav.Link eventKey="third"> Bills Payment </Nav.Link>
+              </Nav.Item>
+              <Nav.Item className="my-4">
+                <Nav.Link eventKey="fourth"> Investment </Nav.Link>
+              </Nav.Item>
+              <Nav.Item className="my-4">
+                <Nav.Link eventKey="fifth"> Loan Friends </Nav.Link>
+              </Nav.Item>
+
+            </Nav>
+          </Col>
+        
+
+        
+        </Row>
+        <Row className="justify-content-center">
+        <Col sm={10} className="my-3">
+            <Tab.Content>
+              <Tab.Pane eventKey="first">
+                <div className="container">
         <div className="row  justify-content-center">
           <div className="col-md-10">
             <Accordion>
@@ -184,10 +221,384 @@ function Faq() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-          
           </div>
         </div>
+      </div> 
+              </Tab.Pane>
+              <Tab.Pane eventKey="second">
+
+                <div className="container">
+        <div className="row  justify-content-center">
+          <div className="col-md-10">
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>How do I apply for a loan?</Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate aut sunt, similique magni hic quia reprehenderit
+                  nesciunt consectetur rerum fuga laudantium totam ut incidunt
+                  amet? Inventore expedita ipsum quibusdam beatae!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>
+                  What are the eligibility criteria for obtaining a loan on
+                  Hargon?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Perferendis vero placeat nesciunt cupiditate, quaerat ab
+                  facere. Eos sint rem incidunt quidem vitae, voluptates tempora
+                  veritatis cupiditate cumque nam nostrum eum?
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>
+                  {" "}
+                  Are all Stackivy products accessible to me?{" "}
+                </Accordion.Header>
+                <Accordion.Body>
+                  Yes! We strive to make all our products accessible to
+                  individuals and businesses alike. Our goal is to provide
+                  financial solutions catering to a wide range of users, from
+                  individuals seeking personal financial management tools to
+                  enterprises needing business financing. At Stackivy, we
+                  believe in inclusivity and accessibility for everyone.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="4">
+                <Accordion.Header>
+                  What is the interest rate on credit?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repellendus, recusandae. Atque itaque laborum deserunt quia,
+                  similique natus eaque vitae voluptate voluptatum sapiente
+                  optio nostrum commodi unde voluptates neque officiis earum.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="5">
+                <Accordion.Header>
+                  What is the repayment period for loans?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Cupiditate, dolore repudiandae sapiente eum nemo optio
+                  exercitationem recusandae obcaecati cum mollitia blanditiis
+                  minima quos ea veritatis nulla provident animi? Earum,
+                  pariatur!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="6">
+                <Accordion.Header>
+                  Do I need collateral to secure a loan?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Animi laudantium labore magnam mollitia eaque consectetur
+                  officiis, inventore molestias iste explicabo fugiat repellat
+                  quia? Blanditiis asperiores eveniet eum obcaecati nemo omnis.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="7">
+                <Accordion.Header>
+                  Can I use the loan for any purpose?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                  repudiandae voluptatibus nobis accusamus quos atque,
+                  cupiditate rerum perferendis culpa magnam illo obcaecati
+                  nesciunt deserunt maxime deleniti voluptas earum, repellendus
+                  eaque!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="8">
+                <Accordion.Header>
+                  Are there any hidden fees or charges associated with the loan?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Molestiae optio nulla omnis consequuntur assumenda, explicabo
+                  laboriosam nostrum dignissimos est, nesciunt architecto
+                  incidunt sint error aperiam nam ratione modi! Necessitatibus,
+                  placeat?
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="9">
+                <Accordion.Header>
+                  {" "}
+                  What happens if I miss a loan repayment?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Pariatur perferendis laudantium deserunt nulla commodi
+                  voluptatibus non culpa doloremque, labore rem autem voluptate
+                  consequuntur, rerum nobis optio cum minima ab similique!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="10">
+                <Accordion.Header>
+                  {" "}
+                  Can I pay off my loan early without any penalties?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+                  facere dignissimos quam odio nobis facilis odit commodi
+                  explicabo? Error quidem aut porro quos ab facilis quas
+                  perspiciatis asperiores adipisci consequuntur.
+                </Accordion.Body>
+              </Accordion.Item>
+
+             
+             
+             
+            
+            </Accordion>
+          </div>
+        </div>
+      </div> 
+              </Tab.Pane>
+              <Tab.Pane eventKey="third">
+
+                <div className="container">
+        <div className="row  justify-content-center">
+          <div className="col-md-10">
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>How do I apply for a loan?</Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate aut sunt, similique magni hic quia reprehenderit
+                  nesciunt consectetur rerum fuga laudantium totam ut incidunt
+                  amet? Inventore expedita ipsum quibusdam beatae!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>
+                  What are the eligibility criteria for obtaining a loan on
+                  Hargon?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Perferendis vero placeat nesciunt cupiditate, quaerat ab
+                  facere. Eos sint rem incidunt quidem vitae, voluptates tempora
+                  veritatis cupiditate cumque nam nostrum eum?
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>
+                  {" "}
+                  Are all Stackivy products accessible to me?{" "}
+                </Accordion.Header>
+                <Accordion.Body>
+                  Yes! We strive to make all our products accessible to
+                  individuals and businesses alike. Our goal is to provide
+                  financial solutions catering to a wide range of users, from
+                  individuals seeking personal financial management tools to
+                  enterprises needing business financing. At Stackivy, we
+                  believe in inclusivity and accessibility for everyone.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="4">
+                <Accordion.Header>
+                  What is the interest rate on credit?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repellendus, recusandae. Atque itaque laborum deserunt quia,
+                  similique natus eaque vitae voluptate voluptatum sapiente
+                  optio nostrum commodi unde voluptates neque officiis earum.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="5">
+                <Accordion.Header>
+                  What is the repayment period for loans?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Cupiditate, dolore repudiandae sapiente eum nemo optio
+                  exercitationem recusandae obcaecati cum mollitia blanditiis
+                  minima quos ea veritatis nulla provident animi? Earum,
+                  pariatur!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="6">
+                <Accordion.Header>
+                  Do I need collateral to secure a loan?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Animi laudantium labore magnam mollitia eaque consectetur
+                  officiis, inventore molestias iste explicabo fugiat repellat
+                  quia? Blanditiis asperiores eveniet eum obcaecati nemo omnis.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="7">
+                <Accordion.Header>
+                  Can I use the loan for any purpose?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                  repudiandae voluptatibus nobis accusamus quos atque,
+                  cupiditate rerum perferendis culpa magnam illo obcaecati
+                  nesciunt deserunt maxime deleniti voluptas earum, repellendus
+                  eaque!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="8">
+                <Accordion.Header>
+                  Are there any hidden fees or charges associated with the loan?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Molestiae optio nulla omnis consequuntur assumenda, explicabo
+                  laboriosam nostrum dignissimos est, nesciunt architecto
+                  incidunt sint error aperiam nam ratione modi! Necessitatibus,
+                  placeat?
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="9">
+                <Accordion.Header>
+                  {" "}
+                  What happens if I miss a loan repayment?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Pariatur perferendis laudantium deserunt nulla commodi
+                  voluptatibus non culpa doloremque, labore rem autem voluptate
+                  consequuntur, rerum nobis optio cum minima ab similique!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="10">
+                <Accordion.Header>
+                  {" "}
+                  Can I pay off my loan early without any penalties?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+                  facere dignissimos quam odio nobis facilis odit commodi
+                  explicabo? Error quidem aut porro quos ab facilis quas
+                  perspiciatis asperiores adipisci consequuntur.
+                </Accordion.Body>
+              </Accordion.Item>
+             
+             
+             
+            
+            </Accordion>
+          </div>
+        </div>
+      </div> 
+              </Tab.Pane>
+              <Tab.Pane eventKey="fourth">
+                <div className="container">
+        <div className="row  justify-content-center">
+          <div className="col-md-10">
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>How do I apply for a loan?</Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate aut sunt, similique magni hic quia reprehenderit
+                  nesciunt consectetur rerum fuga laudantium totam ut incidunt
+                  amet? Inventore expedita ipsum quibusdam beatae!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>
+                  What are the eligibility criteria for obtaining a loan on
+                  Hargon?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Perferendis vero placeat nesciunt cupiditate, quaerat ab
+                  facere. Eos sint rem incidunt quidem vitae, voluptates tempora
+                  veritatis cupiditate cumque nam nostrum eum?
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>
+                  {" "}
+                  Are all Stackivy products accessible to me?{" "}
+                </Accordion.Header>
+                <Accordion.Body>
+                  Yes! We strive to make all our products accessible to
+                  individuals and businesses alike. Our goal is to provide
+                  financial solutions catering to a wide range of users, from
+                  individuals seeking personal financial management tools to
+                  enterprises needing business financing. At Stackivy, we
+                  believe in inclusivity and accessibility for everyone.
+                </Accordion.Body>
+              </Accordion.Item>
+             
+             
+             
+            
+            </Accordion>
+          </div>
+        </div>
+      </div> 
+              </Tab.Pane>
+              <Tab.Pane eventKey="fifth">
+                <div className="container">
+        <div className="row  justify-content-center">
+          <div className="col-md-10">
+            <Accordion>
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>How do I apply for a loan?</Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate aut sunt, similique magni hic quia reprehenderit
+                  nesciunt consectetur rerum fuga laudantium totam ut incidunt
+                  amet? Inventore expedita ipsum quibusdam beatae!
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>
+                  What are the eligibility criteria for obtaining a loan on
+                  Hargon?
+                </Accordion.Header>
+                <Accordion.Body>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Perferendis vero placeat nesciunt cupiditate, quaerat ab
+                  facere. Eos sint rem incidunt quidem vitae, voluptates tempora
+                  veritatis cupiditate cumque nam nostrum eum?
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>
+                  {" "}
+                  Are all Stackivy products accessible to me?{" "}
+                </Accordion.Header>
+                <Accordion.Body>
+                  Yes! We strive to make all our products accessible to
+                  individuals and businesses alike. Our goal is to provide
+                  financial solutions catering to a wide range of users, from
+                  individuals seeking personal financial management tools to
+                  enterprises needing business financing. At Stackivy, we
+                  believe in inclusivity and accessibility for everyone.
+                </Accordion.Body>
+              </Accordion.Item>
+             
+             
+             
+            
+            </Accordion>
+          </div>
+        </div>
+      </div> 
+              </Tab.Pane>
+              
+              
+            </Tab.Content>
+          </Col>
+        </Row>
+        
+      </Tab.Container>
+        </div>
       </div>
+    
+      
     </section>
   );
 }
