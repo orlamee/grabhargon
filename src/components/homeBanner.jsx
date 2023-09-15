@@ -1,50 +1,30 @@
-import easy from "../assets/easy.svg";
-import heroimg from "../assets/hero.png";
-import appstore from "../assets/appstore.svg";
-import trans from "../assets/trans.svg";
-import agent from "../assets/lagent.svg";
-import client from "../assets/c.svg";
-import { Link } from "react-router-dom";
-import CountUp from 'react-countup';
+import Lottie from "lottie-react";
+import appstore from "../assets/applestore.svg";
+import playstore from "../assets/playstore.svg";
+import heroani from "../assets/heroanim.json"
 
-
-
-export default function HomeBanner () {
+export default function HomeBanner() {
   return (
-    <section className='herobg'>
-      <div className='container'>
+    <section className="herobg">
+      <div className="container">
         <div className="row">
-          <div className="col-sm-5 mb-3 mt-9">
-            <img src={easy} alt="Easy & Affordable. Lending solutions you can trust." className="img-fluid" />
-            <p className="text-white w-75 my-5">Experience the power of a seamless lending platform where your needs are made a priority</p>
-            <Link><img src={appstore} alt="hargon" className="img-fluid" /></Link>
+          <div className="col-sm-6 mb-3">
+            <h2 className="desktop">Easy and Affordable <span className="tagcredit">Credit</span>solutions you can trust.</h2>
+            <h2 className="mobile">Easy and Affordable <span className="tagcredit">Credit</span><br/>solutions you can trust.</h2>
+            {/* <img src={easy} alt="Easy and Affordable credit solutions you can trust" className="img-fluid" /> */}
+            <p className="my-5 w-75 text-black">Experience the power of a seamless credit platform where your needs are made a priority</p>
+            <div className="d-flex flex-row">
+              <img src={appstore} alt="download on apple" className="img-fluid me-4" width="30%" />
+              <img src={playstore} alt="download on apple" className="img-fluid" width="30%" />
+            </div>
           </div>
-          <div className="col-sm-7">
-            <img src={heroimg} alt="hargon" className="img-fluid w-100" />
-          </div>
-        </div>
-        <div className="row d-phone">
-          <div className="col-sm-4 trak">
-            <div className="card-hero">
-              <div className="row justify-content-center">
-                <div className="col-md-4 trac-hero text-center mb-3">
-                  <h3 className="text-white"><span style={{fontSize: "14px" , lineHeight: "14px"}}>₦</span> <CountUp end={3} delay={3} duration="20" suffix="B+"/></h3>
-                  <img src={trans} alt="trans" className="img-fluid mt-2" />
-                </div>
-                <div className="col-md-4 trac-hero text-center mb-3">
-                  <h3 className="text-white"><CountUp end={1000} delay={3} duration="20" suffix="+"/></h3>
-                  <img src={client} alt="trans" className="img-fluid mt-2" />
-                </div>
-                <div className="col-md-4 text-center mb-3">
-                  <h3 className="text-white"><CountUp end={56} delay={3} duration="20" suffix="+"/></h3>
-                  <img src={agent} alt="trans" className="img-fluid mt-2" />
-                </div>
-              </div>
+          <div className="col-sm-6 lottie">
+            <div className="w-100">
+              <Lottie animationData={heroani} loop={true} />
             </div>
           </div>
         </div>
       </div>
     </section>
-    
-  )
+  );
 }

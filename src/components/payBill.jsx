@@ -1,5 +1,5 @@
 
-import phone from "../assets/phne.png";
+import phone from "../assets/phne.svg";
 
 export default function PayBill() {
   return (
@@ -7,8 +7,8 @@ export default function PayBill() {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-sm-5">
-            <h6>Fast Payments</h6>
-            <h2>Pay your bills with no hidden charges</h2>
+            <h6>HOUSE OF BILLS</h6>
+            <h2>Pay your bills with no <span style={{color: "#23A323"}}>hidden charges</span></h2>
           </div>
           <div className="col-sm-5 mt-5">
             <h4 className="w-75">Send money, shop, and pay bills with credit on Hargon. You never have to worry about hidden charges anymore.</h4>
