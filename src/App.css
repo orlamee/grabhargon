@@ -305,8 +305,9 @@ a {
 
 .testimony-card {
   border: 8px solid #E5E7EB;
-  padding: 50px;
+  padding: 70px 50px;
   border-radius: 20px;
+  margin-top: -121px;
 }
 
 .testimony-card h5 {
@@ -317,8 +318,7 @@ a {
 }
 
 .testimony-img {
-  margin-top: -128px;
-  margin-bottom: 60px;
+  margin-bottom: 79px;
 }
 
 .action {

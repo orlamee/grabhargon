@@ -24,15 +24,15 @@ export default function WhyChoose () {
           <div className="col-sm-5 mt-3">
             <div className="card-hero">
               <div className="row justify-content-center">
-                <div className="col-md-4 trac-hero text-center mb-3">
+                <div className="col trac-hero text-center mb-3">
                   <img src={trans} alt="trans" className="img-fluid mb-3" />
                   <h3 className=""><span style={{fontSize: "14px" , lineHeight: "14px"}}>₦</span> <CountUp end={3} delay={3} duration="20" suffix="B+"/></h3>
                 </div>
-                <div className="col-md-4 trac-hero text-center mb-3">
+                <div className="col trac-hero text-center mb-3">
                   <img src={client} alt="trans" className="img-fluid mb-3" />
                   <h3 className=""><CountUp end={1000} delay={3} duration="20" suffix="+"/></h3>
                 </div>
-                <div className="col-md-4 text-center mb-3">
+                <div className="col text-center mb-3">
                   <img src={agent} alt="trans" className="img-fluid mb-3" />
                   <h3 className=""><CountUp end={56} delay={3} duration="20" suffix="+"/></h3>
                 </div>

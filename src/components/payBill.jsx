@@ -1,5 +1,7 @@
 
-import phone from "../assets/phne.svg";
+import Lottie from "lottie-react";
+import phone from "../assets/phne.json"
+
 
 export default function PayBill() {
   return (
@@ -15,8 +17,13 @@ export default function PayBill() {
           </div>
         </div>
         <div className="row justify-content-center mt-5">
-          <div className="col-sm-8 text-center">
+          {/* <div className="col-sm-8 text-center">
             <img src={phone} alt="phone" className="img-fluid w-100" />
+          </div> */}
+          <div className="col-sm-8 text-center">
+            <div className="w-100">
+              <Lottie animationData={phone} loop={true} />
+            </div>
           </div>
         </div>
       </div>
