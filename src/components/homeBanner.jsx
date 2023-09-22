@@ -11,7 +11,6 @@ export default function HomeBanner() {
           <div className="col-sm-6 mb-3">
             <h2 className="desktop">Easy and Affordable <span className="tagcredit">Credit</span>solutions you can trust.</h2>
             <h2 className="mobile">Easy and Affordable <span className="tagcredit">Credit</span><br/>solutions you can trust.</h2>
-            {/* <img src={easy} alt="Easy and Affordable credit solutions you can trust" className="img-fluid" /> */}
             <p className="my-5 w-75 text-black">Experience the power of a seamless credit platform where your needs are made a priority</p>
             <div className="d-flex flex-row">
               <img src={appstore} alt="download on apple" className="img-fluid me-4" width="30%" />
