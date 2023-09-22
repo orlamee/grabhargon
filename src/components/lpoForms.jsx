@@ -23,7 +23,8 @@ function LpoForms() {
   });
 
   const handleSubmit = (formData) => {
-    const apiUrl = "https://hargon-admin-be.onrender.com/api/v1/hargon/admin/loan/application";
+    const apiUrl =
+      "https://hargon-admin-be.onrender.com/api/v1/hargon/admin/loan/application";
     formik.setSubmitting(true);
     axios
       .post(apiUrl, formData)
