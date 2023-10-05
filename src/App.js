@@ -1,5 +1,3 @@
-import BringYour from "./components/bringYour";
-import CashB from "./components/cashB";
 import Clients from "./components/clients";
 import CreditGalore from "./components/creditGalore";
 import Footer from "./components/footer";
@@ -18,9 +16,7 @@ function App () {
       <Header/>
       <HomeBanner/>
       <WhyChoose/>
-      <BringYour/>
       <HowHargon/>
-      <CashB/>
       <Testimony/>
       <PayBill/>
       <CreditGalore/>

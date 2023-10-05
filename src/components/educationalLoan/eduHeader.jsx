@@ -3,15 +3,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from "../../assets/logo.svg";
 import globe from "../../assets/globe.svg";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import DropDownSolution from '../personalPage/dropdownSolution';
 import DropDownCompany from '../dropdownCompany';
 import { Button } from 'react-bootstrap';
 
 
 function EduHeader () {
-  
-  return (
+  const navigate = useNavigate();
+   return (
     <Navbar bg="white" expand="lg" className='py-3 header sticky-top'>
       <Container>
         <Navbar.Brand href="/"><img src={logo} alt="stackivy" className='img-fluid' /></Navbar.Brand>
@@ -49,9 +49,9 @@ function EduHeader () {
           <Nav className="ms-auto">
             <Nav.Link href="/"><img src={globe} alt="stackivy" className='img-fluid globe' /></Nav.Link>
             <Nav.Link  >
-              <Button
-                className="btn btn-primary btn-main rounded-pill px-5 py-3"
-                href="/grabhargon"
+            <Button
+                className="btn btn-main rounded-pill px-5 py-3"
+                onClick={() => navigate("/grabhargon")}
               >
                 Get Started
               </Button>

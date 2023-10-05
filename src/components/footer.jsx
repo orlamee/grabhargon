@@ -18,7 +18,7 @@ export default function Footer () {
               <p className="text-white w-75">Fuel your dreams, sustain, and grow your business with reliable lending solutions.</p>
               <Link
                 to="/grabhargon"
-                className="btn btn-primary btn-footer rounded-pill px-5 py-2 mt-3"
+                className="btn  btn-footer rounded-pill px-5 py-2 mt-3"
                 href=""
               >
                 Get Started

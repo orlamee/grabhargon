@@ -61,7 +61,7 @@ function ComplainContent() {
                 The loan application processing time on Hargon may vary based on factors like the loan type, documentation, and verification process. Generally, under 48 hours, Hargon aims to provide quick and efficient loan approvals, but exact timelines will depend on individual cases.
                 </Accordion.Body>
               </Accordion.Item>
-              <Accordion.Item eventKey="6" className="mb-3">
+              {/* <Accordion.Item eventKey="6" className="mb-3">
                 <Accordion.Header>
                   {" "}
                   Can I make investments in Hargon?
@@ -70,7 +70,7 @@ function ComplainContent() {
                 Yes, Hargon offers investment opportunities to users. You can explore various investment options like our fixed deposits, savings plans, and other investment products.
 
                 </Accordion.Body>
-              </Accordion.Item>
+              </Accordion.Item> */}
               <Accordion.Item eventKey="7" className="mb-3">
                 <Accordion.Header>
                   {" "}
@@ -113,12 +113,12 @@ function ComplainContent() {
               </Accordion.Item>
               <Accordion.Item eventKey="11" className="mb-3">
                 <Accordion.Header>
-                What is KodeX?
+                What is KodHeX?
                  
                 </Accordion.Header>
                 <Accordion.Body>
                
-                This unique username ensures a seamless and personalized experience for users, allowing them to access their accounts, manage transactions, and engage with various features on the Hargon app. Additionally, KodeX may be used for user-specific promotions, rewards, and other personalized offers, making users feel valued and recognized within the Hargon community.
+                This unique username ensures a seamless and personalized experience for users, allowing them to access their accounts, manage transactions, and engage with various features on the Hargon app. Additionally, KodHeX may be used for user-specific promotions, rewards, and other personalized offers, making users feel valued and recognized within the Hargon community.
 
                 </Accordion.Body>
               </Accordion.Item>
