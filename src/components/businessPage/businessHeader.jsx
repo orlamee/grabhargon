@@ -6,10 +6,8 @@ import globe from "../../assets/globe.svg";
 import { Link } from "react-router-dom";
 import DropDownFeatures from "./dropDownFeatures";
 import DropDownCompany from "../dropdownCompany";
-import { useNavigate } from "react-router-dom";
 
 function BusinessHeader() {
-  const navigate = useNavigate();
   return (
     <Navbar bg="white" expand="lg" className="py-3 header sticky-top">
       <Container>
