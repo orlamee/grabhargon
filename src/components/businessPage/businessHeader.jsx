@@ -63,12 +63,11 @@ function BusinessHeader() {
               <img src={globe} alt="stackivy" className="img-fluid globe" />
             </Nav.Link>
 
-            <a
-              href="https://business.hargon.africa/sign-in"
-              className="btn btn-primary btn-main bg-black text-white rounded-pill px-5 py-3"
-            >
-              Sign in
-            </a>
+            <Nav.Link href="https://business.hargon.africa/sign-in">
+              <button className="btn btn-primary btn-main bg-black text-white rounded-pill px-5 py-3">
+                Sign in
+              </button>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
