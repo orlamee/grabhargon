@@ -8,8 +8,6 @@ import saving from "../../assets/s.svg";
 import cc from "../../assets/cc.svg";
 import s from "../../assets/lpo.svg";
 
-
-
 function DropDownFeatures() {
   return (
     <div className="dropdown-menu solution-menu sol-menu">
@@ -31,6 +29,12 @@ function DropDownFeatures() {
             <img src={gl} alt="Group loan" className="img-fluid me-3" />
             <h6 className="mt-2">Business</h6>
           </Link>
+          <Link to="/" className="d-flex flex-row mb-4">
+            <img src={gl} alt="partnership" className="img-fluid me-3" />
+            <h6 className="mt-2">Partnership</h6>
+          </Link>
+
+          {/* <Nav.Link href="/auction">Auction</Nav.Link> */}
         </div>
         <div className="col-sm-6">
           <Link to="/business/merchant" className="d-flex flex-row mb-4">
@@ -49,10 +53,14 @@ function DropDownFeatures() {
             <img src={saving} alt="Savings" className="img-fluid me-3" />
             <h6 className="mt-2">Savings</h6>
           </Link>
+          <Link to="/auction" className="d-flex flex-row mb-4">
+            <img src={gl} alt="auction" className="img-fluid me-3" />
+            <h6 className="mt-2">Auction</h6>
+          </Link>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default DropDownFeatures;
