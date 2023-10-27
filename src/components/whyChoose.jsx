@@ -122,7 +122,7 @@ export default function WhyChoose() {
           <div
             className={`${
               elementScrollThrough < 1500
-                ? "row justify-content-between"
+                ? "row justify-content-between fadein"
                 : "hide"
             }`}
           >
@@ -146,7 +146,7 @@ export default function WhyChoose() {
           <div
             className={`${
               elementScrollThrough >= 1500 && elementScrollThrough < 3000
-                ? "row justify-content-between"
+                ? "row justify-content-between fadein"
                 : "hide"
             }`}
           >
@@ -170,7 +170,7 @@ export default function WhyChoose() {
           <div
             className={`${
               elementScrollThrough >= 3000 && elementScrollThrough < 4500
-                ? "row justify-content-between"
+                ? "row justify-content-between fadein"
                 : "hide"
             }`}
           >
@@ -193,7 +193,7 @@ export default function WhyChoose() {
           <div
             className={`${
               elementScrollThrough >= 4500 && elementScrollThrough < 6000
-                ? "row justify-content-between"
+                ? "row justify-content-between fadein"
                 : "hide"
             }`}
           >
@@ -217,7 +217,7 @@ export default function WhyChoose() {
           <div
             className={`${
               elementScrollThrough >= 6000 && elementScrollThrough < 7500
-                ? "row justify-content-between"
+                ? "row justify-content-between fadein"
                 : "hide"
             }`}
           >
@@ -241,7 +241,7 @@ export default function WhyChoose() {
           <div
             className={`${
               elementScrollThrough >= 7500
-                ? "row justify-content-between"
+                ? "row justify-content-between fadein"
                 : "hide"
             }`}
           >

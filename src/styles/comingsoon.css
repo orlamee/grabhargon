@@ -1,0 +1,6 @@
+.auction {
+  color: black;
+}
+.auction:hover {
+  color: #23a323;
+}
