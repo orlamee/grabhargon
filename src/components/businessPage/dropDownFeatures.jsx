@@ -29,10 +29,6 @@ function DropDownFeatures() {
             <img src={gl} alt="Group loan" className="img-fluid me-3" />
             <h6 className="mt-2">Business</h6>
           </Link>
-          <Link to="/" className="d-flex flex-row mb-4">
-            <img src={gl} alt="partnership" className="img-fluid me-3" />
-            <h6 className="mt-2">Partnership</h6>
-          </Link>
 
           {/* <Nav.Link href="/auction">Auction</Nav.Link> */}
         </div>
@@ -52,10 +48,6 @@ function DropDownFeatures() {
           <Link to="/business/savings" className="d-flex flex-row mb-4">
             <img src={saving} alt="Savings" className="img-fluid me-3" />
             <h6 className="mt-2">Savings</h6>
-          </Link>
-          <Link to="/auction" className="d-flex flex-row mb-4">
-            <img src={gl} alt="auction" className="img-fluid me-3" />
-            <h6 className="mt-2">Auction</h6>
           </Link>
         </div>
       </div>

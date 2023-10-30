@@ -63,14 +63,10 @@ export default function Footer() {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/wallet">
-                        Wallet <span className="f-cs">Coming Soon</span>
-                      </Link>
+                      <Link to="/wallet">Wallet</Link>
                     </li>
                     <li>
-                      <Link to="/personal/bills">
-                        Bills <span className="f-cs">Coming Soon</span>
-                      </Link>
+                      <Link to="/personal/bills">Bills</Link>
                     </li>
                     <li>
                       <Link to="/credit-builder">

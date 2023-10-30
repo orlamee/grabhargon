@@ -7,6 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import DropDownSolution from "../personalPage/dropdownSolution";
 import DropDownCompany from "../dropdownCompany";
 import { Button } from "react-bootstrap";
+import ComingSoonDropDown from "../ComingSoonDropDown";
 
 function EduHeader() {
   const navigate = useNavigate();
@@ -39,9 +40,22 @@ function EduHeader() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Coming Soon
+                Solution
               </Link>
               <DropDownSolution />
+            </li>
+
+            <li className="nav-item dropdown">
+              <Link
+                className="nav-link dropdown-toggle"
+                to="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Coming Soon
+              </Link>
+              <ComingSoonDropDown />
             </li>
 
             {/* <Nav.Link href="/">Partnership <span className='p-cs'>Coming Soon</span></Nav.Link>

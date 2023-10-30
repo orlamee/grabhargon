@@ -41,10 +41,6 @@ function DropDownSolution() {
             <img src={p} alt="Pawn" className="img-fluid me-3" />
             <h6 className="mt-2">Pawn</h6>
           </Link>
-          <Link to="/" className="d-flex flex-row mb-4">
-            <img src={p} alt="Pawn" className="img-fluid me-3" />
-            <h6 className="mt-2">Partnership</h6>
-          </Link>
         </div>
         <div className="col-sm-6">
           <Link to="/personal/bills" className="d-flex flex-row mb-4">
@@ -70,10 +66,6 @@ function DropDownSolution() {
           <Link to="/personal/credit-card" className="d-flex flex-row mb-4">
             <img src={cc} alt="Credit" className="img-fluid me-3" />
             <h6 className="mt-2">Credit card</h6>
-          </Link>
-          <Link to="/auction" className="d-flex flex-row mb-4">
-            <img src={cc} alt="Credit" className="img-fluid me-3" />
-            <h6 className="mt-2">Auction</h6>
           </Link>
         </div>
       </div>

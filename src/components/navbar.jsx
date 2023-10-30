@@ -31,7 +31,9 @@ function Header() {
             </li>
           </Nav>
           <Nav className="mx-auto">
-            <Nav.Link href="/shop">Shop</Nav.Link>
+            <Nav.Link href="/shop">
+              Shop <span className="p-cs">Beta</span>
+            </Nav.Link>
             {/* <Nav.Link href="/" className="pe-none">
               Partnership <span className="p-cs">Coming Soon</span>
             </Nav.Link> */}
