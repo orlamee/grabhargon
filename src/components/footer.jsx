@@ -83,7 +83,7 @@ export default function Footer () {
                   </ul>
                   <h5>Contact</h5>
                   <ul className="list-unstyled links">
-                    <li><a href="mailto:support@hargon.africa">Support@hargon.africa</a></li>
+                    <li><a href=":support@hargon.africa">Support@hargon.africa</a></li>
                     <li><Link>+234  813  029  2726</Link></li>
                   </ul>
                   <div className="d-flex flex-row">

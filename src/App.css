@@ -148,7 +148,7 @@ a {
 }
 
 .whychoose {
-  padding: 100px 20px;
+  padding: 100px 20px 0px 20px;
 }
 
 .whychoose h2 {
@@ -1680,7 +1680,7 @@ a {
     #228b22 4.78%,
     #f2994a 97.92%
   ) !important;
-  -webkit-background-clip: text !important;
+  -webkit-background-clip: text !;
   font-size: 60px;
   line-height: 65px;
   font-weight: 500;
@@ -2523,17 +2523,38 @@ a {
   font-weight: 400;
 }
 
-.creditgalore {
-  background-image: url(./assets/creditgalore.svg);
+
+.ultmate {
+  background-image: url(./assets/ultimateback.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 190px 20px;
+  background-position: center;
+  padding: 100px 20px;
+  height: 715px;
 }
 
-.creditgalore p {
-  font-size: 14px;
-  line-height: 19px;
-  font-weight: 400;
+
+.creditgalore {
+  background:#fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.creditgalore h2 {
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 102px;
+  font-family: syne-bold;
+}
+
+
+.creditgalore p,
+.ultmate p {
+  font-family: syne-reg ;
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 500;
 }
 
 @media (min-width: 992px) {
@@ -4683,4 +4704,55 @@ a {
   line-height: 59px;
   font-weight: 700;
   font-family: "syne-bold";
+}
+
+.upfront h6 {
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: "syne-reg";
+}
+
+.upfront p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: "syne-reg";
+  color: #9CA3AF;
+  ;
+}
+
+.max {
+  transition: transform 0.50s
+}
+
+.max:hover {
+  transform: scale(1.3);
+}
+
+.swiper {
+ height: 600px;
+}
+
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #F3F4F6 !important;
+  border-radius: 50px!important;
+}
+
+.change-photos .change-photo:nth-of-type(2) {
+  display: none;
+}
+
+
+.change-photos:hover .change-photo:nth-of-type(1) {
+  display: none;
+}
+
+.change-photos:hover .change-photo:nth-of-type(2) {
+  display: block;
+}
+
+.change-photos:hover {
+  cursor: pointer;
 }

@@ -1,7 +1,7 @@
 
 import hargon from "../assets/hargons.svg";
-import hob from "../assets/hob.svg";
-import grit from "../assets/yellowgrit.svg";
+// import hob from "../assets/hob.svg";
+// import grit from "../assets/yellowgrit.svg";
 
 export default function HowHargon() {
   return (
@@ -19,7 +19,7 @@ export default function HowHargon() {
           </div>
         </div>
       </div>
-      <div className="container mt-5">
+      {/* <div className="container mt-5">
         <div className="row justify-content-between">
           <div className="col-sm-5 mb-3">
             <div className="cash-back pb-0">
@@ -36,7 +36,7 @@ export default function HowHargon() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
