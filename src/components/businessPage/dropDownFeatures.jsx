@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import sa from "../../assets/sa.svg";
-import al from "../../assets/la.svg";
+import al from "../../assets/la.svg"; //eslint-disable-line
 import gl from "../../assets/bl.svg";
 import fd from "../../assets/ms.svg"; //eslint-disable-line
 import ma from "../../assets/ml.svg";

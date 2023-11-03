@@ -8,7 +8,7 @@ import sl from "../../assets/sl.svg";
 import fd from "../../assets/bills.svg";
 import ma from "../../assets/ma.svg"; //eslint-disable-line
 import m from "../../assets/m.svg"; //eslint-disable-line
-import t from "../../assets/t.svg";
+import t from "../../assets/t.svg"; //eslint-disable-line
 import cc from "../../assets/cc.svg"; //eslint-disable-line
 import s from "../../assets/s.svg";
 
