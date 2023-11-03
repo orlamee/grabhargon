@@ -6,6 +6,7 @@ import globe from "../../assets/globe.svg";
 import { Link } from "react-router-dom";
 import DropDownFeatures from "./dropDownFeatures";
 import DropDownCompany from "../dropdownCompany";
+import ComingSoonDropDown from "../ComingSoonDropDown";
 
 function BusinessHeader() {
   return (
@@ -41,10 +42,22 @@ function BusinessHeader() {
               </Link>
               <DropDownFeatures />
             </li>
-            <Nav.Link href="/">
+            <li className="nav-item dropdown">
+              <Link
+                className="nav-link dropdown-toggle"
+                to="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Coming Soon
+              </Link>
+              <ComingSoonDropDown />
+            </li>
+            {/* <Nav.Link href="/">
               Partnership <span className="p-cs bg-black">Coming Soon</span>
-            </Nav.Link>
-            <Nav.Link href="/auction">Auction</Nav.Link>
+            </Nav.Link> */}
+            {/* <Nav.Link href="/auction">Auction</Nav.Link> */}
             <li className="nav-item dropdown">
               <Link
                 className="nav-link dropdown-toggle"
