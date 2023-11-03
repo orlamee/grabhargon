@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import sa from "../../assets/sa.svg";
 import al from "../../assets/la.svg";
 import gl from "../../assets/bl.svg";
-import fd from "../../assets/ms.svg";
+import fd from "../../assets/ms.svg"; //eslint-disable-line
 import ma from "../../assets/ml.svg";
 import saving from "../../assets/s.svg";
-import cc from "../../assets/cc.svg";
+import cc from "../../assets/cc.svg"; //eslint-disable-line
 import s from "../../assets/lpo.svg";
 
 function DropDownFeatures() {

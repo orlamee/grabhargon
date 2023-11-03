@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import qc from "../../assets/qc.svg";
 import sa from "../../assets/sa.svg";
-import al from "../../assets/al.svg";
-import gl from "../../assets/gl.svg";
-import p from "../../assets/p.svg";
+import al from "../../assets/al.svg"; //eslint-disable-line
+import gl from "../../assets/gl.svg"; //eslint-disable-line
+import p from "../../assets/p.svg"; //eslint-disable-line
 import sl from "../../assets/sl.svg";
 import fd from "../../assets/bills.svg";
-import ma from "../../assets/ma.svg";
-import m from "../../assets/m.svg";
+import ma from "../../assets/ma.svg"; //eslint-disable-line
+import m from "../../assets/m.svg"; //eslint-disable-line
 import t from "../../assets/t.svg";
-import cc from "../../assets/cc.svg";
+import cc from "../../assets/cc.svg"; //eslint-disable-line
 import s from "../../assets/s.svg";
 
 function DropDownSolution() {
