@@ -16,7 +16,6 @@ export default function Clients() {
           <div className="col-sm-12 text-center">
             <h2>Our Trusted Clients</h2>
             <div className="row mt-5">
-              
               <div className="col-sm-3 change-photos">
                 <div className="change-photo">
                   <img src={lodo} alt="roady" />
@@ -35,10 +34,10 @@ export default function Clients() {
               </div>
               <div className="col-sm-3 change-photos">
                 <div className="change-photo">
-                  <img src={damn} alt="studyinsight" />
+                  <img src={dam} alt="studyinsight" />
                 </div>
                 <div className="change-photo">
-                  <img src={dam} alt="studyinsight" />
+                  <img src={damn} alt="studyinsight" />
                 </div>
               </div>
               <div className="col-sm-3 change-photos">
