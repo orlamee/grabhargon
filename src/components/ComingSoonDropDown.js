@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/comingsoon.css";
+import p from "../../src/assets/partnership.svg";
+import a from "../../src/assets/auction.svg";
 
 function ComingSoonDropDown() {
   return (
@@ -8,12 +10,11 @@ function ComingSoonDropDown() {
       <div className="row">
         <div className="col-sm-12">
           <li className="d-flex flex-row mb-4">
-            {/* <img src={cc} alt="About" className="img-fluid me-3" /> */}
+            <img src={p} alt="About" className="img-fluid me-3" />
             <h6 className="mt-2">Partnership</h6>
           </li>
           <Link to="/auction" className="d-flex flex-row mb-4 auction">
-            {/* <img src={al} alt="Career" className="img-fluid me-3" /> */}
-            {/* <h6 className="mt-2">Auction</h6> */}
+            <img src={a} alt="Career" className="img-fluid me-3" />
 
             <h6 className="mt-2">Auction</h6>
           </Link>

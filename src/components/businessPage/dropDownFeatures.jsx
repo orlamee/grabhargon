@@ -13,10 +13,10 @@ function DropDownFeatures() {
     <div className="dropdown-menu solution-menu sol-menu">
       <div className="row">
         <div className="col-sm-6">
-          <Link to="/business/credit-card" className="d-flex flex-row mb-4">
+          {/* <Link to="/business/credit-card" className="d-flex flex-row mb-4">
             <img src={cc} alt="Credit" className="img-fluid me-3" />
             <h6 className="mt-2">Credit card</h6>
-          </Link>
+          </Link> */}
           <Link to="/business/agency" className="d-flex flex-row mb-4">
             <img src={al} alt="Auto loan" className="img-fluid me-3" />
             <h6 className="mt-2">Agency</h6>
@@ -33,10 +33,10 @@ function DropDownFeatures() {
           {/* <Nav.Link href="/auction">Auction</Nav.Link> */}
         </div>
         <div className="col-sm-6">
-          <Link to="/business/merchant" className="d-flex flex-row mb-4">
+          {/* <Link to="/business/merchant" className="d-flex flex-row mb-4">
             <img src={fd} alt="Fixed" className="img-fluid me-3" />
             <h6 className="mt-2">Merchant store</h6>
-          </Link>
+          </Link> */}
           <Link to="/business/lpo" className="d-flex flex-row mb-4">
             <img src={s} alt="LPO Financing" className="img-fluid me-3" />
             <h6 className="mt-2">LPO Financing</h6>
