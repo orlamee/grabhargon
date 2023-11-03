@@ -1,12 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-// import drop from "../assets/num.svg";
-// import mp from "../assets/mp.svg";
-// import card from "../assets/lend.svg";
-// import secure from "../assets/daily.svg";
-// import qbl from "../assets/qbl.svg";
 import wch from "../assets/wch.svg";
-// import sc from "../assets/sc.svg";
-// import cre from "../assets/cre.svg";
 import trans from "../assets/trans.svg";
 import agent from "../assets/lagent.svg";
 import client from "../assets/c.svg";
@@ -23,7 +16,6 @@ import fifth from "../assets/fifth.png";
 import fifthsmall from "../assets/fifthsmall.png";
 import sixth from "../assets/sixth.png";
 import sixthsmall from "../assets/sixth small.png";
-
 
 import "../styles/whychoose.css";
 import { motion, useScroll } from "framer-motion";
@@ -79,7 +71,7 @@ export default function WhyChoose() {
 
   return (
     <section className="main-container" ref={containerRef} id="main-container">
-      <div className="content-wrapper">
+      <div className="content-wrapper padding">
         <div className="container ">
           <div className="tracker-container">
             <motion.div
@@ -263,123 +255,6 @@ export default function WhyChoose() {
             </div>
           </div>
         </div>
-        
-        {/* <div className="row justify-content-between mt-4">
-          <div className="col-sm-6">
-            <div className="mt-5">
-              <div className="row justify-content-between">
-                <div className="col-md-5 ms-5 mt-9">
-                  <img src={nin} alt="savings" className="img-fluid mb-2" />
-                  <div className="upfront">
-                    <h6 className="py-3">Upfront Interest</h6>
-                    <p className=" w-50">
-                      Make your money work for you. Enjoy upfront interests on
-                      all your long term savings or fixed deposits on Hargon.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-5">
-                  <img src={step11} alt="savings" className="img-fluid" />
-                </div>
-              </div>
-            </SwiperSlide>
-           
-           
-
-            <SwiperSlide>
-              <div className="row justify-content-between">
-                <div className="col-md-5 mt-9 ms-5" >
-                  <img src={none} alt="savings" className="img-fluid mb-2" />
-                  <div className="upfront">
-                    <h6 className="py-3">House of Bills</h6>
-                    <p className="w-50">
-                      Take care of all your bills in one place. Never miss
-                      another bill payment.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-5">
-                  <img src={step12} alt="savings" className="img-fluid" />
-                </div>
-              </div>
-            </SwiperSlide>
-
-             <SwiperSlide>
-            <div className="row justify-content-between">
-              <div className="col-md-5 mt-9 ms-5">
-                <img src={numb} alt="savings" className="img-fluid pb-2" />
-                <div className="upfront">
-                  <h6 className="py-3">Cashback Payment</h6>
-                  <p className="w-50">
-                    Refer your contacts to Hargon for their credit solutions and
-                    earn amazing rewards from the platform.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-5">
-                <img src={step13} alt="savings" className="img-fluid" />
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="row justify-content-between">
-              <div className="col-md-5 mt-9 ms-5 ">
-                <img src={dem} alt="savings" className="img-fluid pb-2" />
-                <div className="upfront">
-                  <h6 className="py-3">Lend through Hargon</h6>
-                  <p className="w-50">
-                    Lend and earn to family, friends, and colleagues using the
-                    Hargon platform.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-5">
-                <img src={step14} alt="savings" className="img-fluid" />
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide className="mb-5">
-            <div className="row justify-content-between">
-              <div className="col-md-5 mt-9 ms-5">
-                <img src={use} alt="savings" className="img-fluid pb-2" />
-                <div className="upfront">
-                  <h6 className="py-3">Quick Loans</h6>
-                  <p className="w-50">
-                    Access quick loans and solutions for your business needs at
-                    very low interests
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-5">
-                <img src={step15} alt="savings" className="img-fluid" />
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="row justify-content-between">
-              <div className="col-md-5 mt-9 ms-5 ">
-                <img src={ref} alt="savings" className="img-fluid pb-2" />
-                <div className="upfront">
-                  <h6 className="py-3">Daily interest on Savings</h6>
-                  <p className="w-50">
-                    You can earn passively by accumulating daily interests on
-                    every savings account you have on Hargon
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-5">
-                <img src={step16} alt="savings" className="img-fluid" />
-              </div>
-            </div>
-          </SwiperSlide> 
-          </div>
-          <div className="col-sm-5 mt-5">
-            <img src={mp} alt="drop" className="img-fluid w-100" />
-          </div>
-        </div> */}
       </div>
     </section>
   );
