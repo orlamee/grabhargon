@@ -1,6 +1,6 @@
 import Lottie from "lottie-react";
 import appstore from "../assets/applestore.svg";
-import playstore from "../assets/playstore.svg";
+import playstore from "../assets/PLAYapp.svg";
 import heroani from "../assets/heroanim.json"
 
 export default function HomeBanner() {

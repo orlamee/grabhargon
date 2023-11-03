@@ -2,6 +2,7 @@ import Clients from "./components/clients";
 import CreditGalore from "./components/creditGalore";
 import Footer from "./components/footer";
 import HomeBanner from "./components/homeBanner";
+import Ultimate from "./components/ultimate";
 import HowHargon from "./components/howHargon";
 import Investor from "./components/investor";
 import Header from "./components/navbar";
@@ -15,11 +16,12 @@ function App () {
     <div>
       <Header/>
       <HomeBanner/>
+      <CreditGalore/>
+      <PayBill/>
+      <Ultimate />
       <WhyChoose/>
       <HowHargon/>
       <Testimony/>
-      <PayBill/>
-      <CreditGalore/>
       <Investor/>
       <Clients/>
       <Footer/>
