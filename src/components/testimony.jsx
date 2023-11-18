@@ -1,13 +1,15 @@
 
-import whatusers from "../assets/whatusers.svg";
-import props from "../assets/test.svg";
-import arrow from "../assets/arrow.svg";
-import q from "../assets/q.svg";
-import author from "../assets/authir.svg";
+import hc from "../assets/happy-customers.svg";
+import stars from "../assets/stars.svg";
+import loangranted from "../assets/loangranted.svg";
+import author from "../assets/samuel.svg";
+import quote from "../assets/quotee.svg";
+import discover from "../assets/diiscover.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import {Autoplay, Pagination } from "swiper";
+
 
 export default function Testimony() {
   return (
@@ -15,82 +17,168 @@ export default function Testimony() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-sm-6 text-center">
-            <img src={whatusers} alt="What Our Users Say" className="img-fluid" />
+            <h2>What Our <span style={{color: "#23A323"}}>Users Say</span></h2>
+            <h5 className="mt-3">Here is what our users are saying about their experience on Hargon</h5>
           </div>
         </div>
-        <div className="row mt-9 justify-content-between">
-          <div className="col-sm-6 mb-3">
-            <Swiper
-              slidesPerView={1}
-              spaceBetween={30}
-              autoplay={{
-                delay: 1500,
-                disableOnInteraction: false,
-              }}
-              modules={[Autoplay, Pagination]}
-              className="mySwiper"
-            >
-              <SwiperSlide>
-                <div className="test-card">
-                  <div className="row justify-content-center">
-                    <div className="col-sm-6">
-                      <div className="text-center">
-                        <img src={q} alt="q" className="img-fluid mb-3"/>
-                        <h6>“One thing I love about this app is that there are so many options! It’s an adventure. I’ll just know I’ll love using it”</h6>
-                        <div className="d-flex flex-row mt-3 justify-content-center">
-                          <img src={author} alt="author" className="img-fluid" />
-                          <div className="ms-3 autho mt-4">
-                            <h5>Olamilekan</h5>
-                            <p>Entrepreneur</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="test-card">
-                  <div className="row justify-content-center">
-                    <div className="col-sm-6">
-                      <div className="text-center">
-                        <img src={q} alt="q" className="img-fluid mb-3"/>
-                        <h6>“I just got a loan, wow. It feels weird how fast it is, but I got the loan. Cheers to financial freedom.”</h6>
-                        <div className="d-flex flex-row mt-3 justify-content-center">
-                          <img src={author} alt="author" className="img-fluid" />
-                          <div className="ms-3 autho mt-4">
-                            <h5>Hannah Kadiri</h5>
-                            <p>Entrepreneur</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              {/* <SwiperSlide>
-                <div className="test-card">
-                  <div className="row justify-content-center">
-                    <div className="col-sm-6">
-                      <div className="text-center">
-                        <img src={q} alt="q" className="img-fluid mb-3"/>
-                        <h6>“Hargon has transformed my finances through quick and accessible loans”</h6>
-                        <img src={author} alt="author" className="img-fluid mt-3" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide> */}
-            </Swiper>
-            <div className="text-center mt-5">
-              <img src={arrow} alt="arrow" className="img-fluid action" />
+        <div className="row justify-content-center mt-5">
+          <div className="col-sm-3 mb-3">
+            <div className="testimony-tag">
+              <div className="d-flex flex-row justify-content-center">
+                <div><img src={hc} alt="happy customer" className="img-fluid"/></div>
+                <div className="mx-4 mt-2"><h6>Happy Customers</h6></div>
+                <div><img src={stars} alt="happy customer" className="img-fluid"/></div>
+              </div>
             </div>
           </div>
-          <div className="col-sm-6">
-            <img src={props} alt="testimonial" className="img-fluid w-100" />
+          <div className="col-sm-3 mb-3">
+            <div className="testimony-tag">
+              <div className="d-flex flex-row justify-content-center">
+                <div><img src={loangranted} alt="happy customer" className="img-fluid"/></div>
+                <div className="mx-4 mt-2"><h6>Loan Granted</h6></div>
+                <div><span className="tag-rate">+5.20%</span></div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-3 mb-3">
+            <div className="testimony-tag justify-content-center">
+              <div className="d-flex flex-row">
+                <div><img src={discover} alt="happy customer" className="img-fluid"/></div>
+                <div className="ms-3 mt-2"><h6>Hear from Our Satisfied Customers</h6></div>
+              </div>
+            </div>
           </div>
         </div>
-       
+        <div className="desktop" style={{marginTop: "140px"}}>
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={20}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="text-center">
+                <img src={author} alt="author" className="img-fluid testimony-img" />
+              </div>
+              <div className="testimony-card text-center">
+                <div><img src={quote} alt="quote" className="img-fluid" /></div>
+                <h5 className="my-5">“Hargon has helped me expand my restaurant business through quick and low interests loans”</h5>
+                <div className="autho">
+                  <h5>Sam</h5>
+                  <p>Chef</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="text-center">
+                <img src={author} alt="author" className="img-fluid testimony-img" />
+              </div>
+              <div className="testimony-card text-center">
+                <div><img src={quote} alt="quote" className="img-fluid" /></div>
+                <h5 className="my-5">“I was able to launch my business with Hargon. It gave me the capital needed to woo my first client.”</h5>
+                <div className="autho">
+                  <h5 style={{color: "#FFBD00"}}>Ken Attah</h5>
+                  <p>Merchant</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="text-center">
+                <img src={author} alt="author" className="img-fluid testimony-img" />
+              </div>
+              <div className="testimony-card text-center">
+                <div><img src={quote} alt="quote" className="img-fluid" /></div>
+                <h5 className="my-5">“Selling on Hargon has been great for I and my business. I have more reach and more capable customers”</h5>
+                <div className="autho">
+                  <h5 style={{color: "#F37A00"}}>Sarah Thompson</h5>
+                  <p>Entreprenuer</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="text-center">
+                <img src={author} alt="author" className="img-fluid testimony-img" />
+              </div>
+              <div className="testimony-card text-center">
+                <div><img src={quote} alt="quote" className="img-fluid" /></div>
+                <h5 className="my-5">“Hargon has helped me expand my restaurant business through quick and low interests loans”</h5>
+                <div className="autho">
+                  <h5>Sam</h5>
+                  <p>Chef</p>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+        <div className="mobile" style={{marginTop: "140px"}}>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={20}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay, Pagination]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <div className="text-center">
+                <img src={author} alt="author" className="img-fluid testimony-img" />
+              </div>
+              <div className="testimony-card text-center">
+                <div><img src={quote} alt="quote" className="img-fluid" /></div>
+                <h5 className="my-5">“Hargon has helped me expand my restaurant business through quick and low interests loans”</h5>
+                <div className="autho">
+                  <h5>Sam</h5>
+                  <p>Chef</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="text-center">
+                <img src={author} alt="author" className="img-fluid testimony-img" />
+              </div>
+              <div className="testimony-card text-center">
+                <div><img src={quote} alt="quote" className="img-fluid" /></div>
+                <h5 className="my-5">“I was able to launch my business with Hargon. It gave me the capital needed to woo my first client.”</h5>
+                <div className="autho">
+                  <h5 style={{color: "#FFBD00"}}>Ken Attah</h5>
+                  <p>Merchant</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="text-center">
+                <img src={author} alt="author" className="img-fluid testimony-img" />
+              </div>
+              <div className="testimony-card text-center">
+                <div><img src={quote} alt="quote" className="img-fluid" /></div>
+                <h5 className="my-5">“Selling on Hargon has been great for I and my business. I have more reach and more capable customers”</h5>
+                <div className="autho">
+                  <h5 style={{color: "#F37A00"}}>Sarah Thompson</h5>
+                  <p>Entreprenuer</p>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="text-center">
+                <img src={author} alt="author" className="img-fluid testimony-img" />
+              </div>
+              <div className="testimony-card text-center">
+                <div><img src={quote} alt="quote" className="img-fluid" /></div>
+                <h5 className="my-5">“Hargon has helped me expand my restaurant business through quick and low interests loans”</h5>
+                <div className="autho">
+                  <h5>Sam</h5>
+                  <p>Chef</p>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </div>
     </section>
   )

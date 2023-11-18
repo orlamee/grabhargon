@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { BiUser } from "react-icons/bi";
 import left from "../assets/arrow-left.png";
 import right from "../assets/arrow-right.png";
@@ -13,6 +13,10 @@ import mc from "../assets/mc.png";
 function FormStep() {
   const fileTypes = ["DOC", "DOCX", "PDF"];
   const [active, setActive] = useState(1);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [active]);
+
   const [mostActiveI, setMostActiveI] = useState("");
   const [success, setSuccess] = useState("");
   const [showShare, setShowShare] = useState(false);

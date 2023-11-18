@@ -2,7 +2,7 @@ import React from "react";
 import facebook from "../../assets/Facebook logo.png";
 import linkedin from "../../assets/linkedin logo.png";
 import twitter from "../../assets/twitter logo.png";
-import tip from "../../assets/blog-pills.png";
+import tip from "../../assets/pillls.svg";
 import dig from "../../assets/digit-box.png";
 import debit from "../../assets/scorebox.png";
 import stockimg from "../../assets/stockbox.png";
@@ -16,8 +16,10 @@ import pic from "../../assets/boy.png";
 import topic from "../../assets/schheader.png";
 import criteria from "../../assets/sch1.png";
 import  steps from "../../assets/sch2.png";
-
+import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
+
+
 
 function StudentLoan() {
   return (
@@ -28,7 +30,7 @@ function StudentLoan() {
             <div className="row">
               <div className="col-md-12">
                 <div className="my-5">
-                  <img src={tip} alt="" className="img-fluid mt-4 " />{" "}
+                  <img src={tip} alt="" className="img-fluid mt-4 w-25 " />{" "}
                   <h2 className="mt-5">
                     Student Loan Options in Nigeria - A Guide
                   </h2>
@@ -420,7 +422,7 @@ function StudentLoan() {
                 <div className="flex-row">
                   <button className="btn nxt-blog  mx-1">
                     {" "}
-                    {/* <Icon icon="bx:link" className="mx-1" /> Copy Link */}
+                    <Icon icon="bx:link" className="mx-1" /> Copy Link
                   </button>{" "}
                   <a href="https://www.facebook.com">
                     <img

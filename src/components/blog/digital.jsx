@@ -8,7 +8,7 @@ import debit from "../../assets/scorebox.png";
 import stockimg from "../../assets/stockbox.png";
 import side from "../../assets/savebox.png";
 import mini from "../../assets/mirco.png";
-import tip from "../../assets/blog-pills.png";
+import tip from "../../assets/pillls.svg";
 import topic from "../../assets/digithead.png";
 import risebox from "../../assets/Rise.png";
 import bnyimg from "../../assets/apy.png";
@@ -20,6 +20,7 @@ import hargonbox from "../../assets/hargonmoney.png";
 import loanimg from "../../assets/maximize.png";
 import non from "../../assets/boximg.png";
 import box from "../../assets/loanbox.png";
+import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
 function Digital() {
@@ -31,7 +32,10 @@ function Digital() {
             <div className="row">
               <div className="col-md-12">
                 <div className="my-5">
-                  <img src={tip} alt="" className="img-fluid mt-4 " />{" "}
+                  <Link to="/blogs">
+                  <img src={tip} alt="" className="img-fluid mt-4 w-25 " />{" "}
+                  </Link>
+                  
                   <h2 className="mt-5">
                     Digital Investment Platforms in Nigeria{" "}
                   </h2>
@@ -604,7 +608,7 @@ function Digital() {
                 <div className="flex-row">
                   <button className="btn nxt-blog  mx-1">
                     {" "}
-                    {/* <Icon icon="bx:link" className="mx-1" /> Copy Link */}
+                    <Icon icon="bx:link" className="mx-1" /> Copy Link
                   </button>{" "}
                   <a href="https://www.facebook.com">
                     <img

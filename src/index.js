@@ -83,6 +83,7 @@ import BlogExplore from "./pages/blogExplore";
 import ScrollToTop from "./scrollToTop";
 import LoanApplication from "./pages/LoanApplication";
 import LoanStart from "./pages/LoanStart";
+import SingleApplication from "./pages/singleApplication";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -134,6 +135,10 @@ root.render(
       <Route path="/business/lpo" element={<LPO />}></Route>
       <Route path="/career" element={<Careers />}></Route>
       <Route path="/career/apply" element={<Apply />}></Route>
+      <Route
+        path="/career/apply/job/:id"
+        element={<SingleApplication />}
+      ></Route>
       <Route path="/404" element={<Error />}></Route>
       <Route path="*" element={<Navigate to="/404" replace />}></Route>
       <Route path="/terms-conditons" element={<TermsCond />}></Route>

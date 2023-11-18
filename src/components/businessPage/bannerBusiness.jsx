@@ -1,4 +1,4 @@
-import banner from "../../assets/annual.png";
+import banner from "../../assets/static.png";
 import why from "../../assets/growth.svg";
 import nin from "../../assets/gobtn.svg";
 

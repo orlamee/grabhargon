@@ -1,45 +1,95 @@
-import clients from "../assets/partners.svg";
-import join from "../assets/join.svg";
-import { Link } from "react-router-dom";
+import phone from "../assets/dashboardview.svg";
+import damn from "../assets/sail1.svg";
+import dam from "../assets/sail2.svg";
+import yep from "../assets/insight1.svg";
+import lodo from "../assets/vernylogo.svg";
+import lod from "../assets/vernde.svg";
+import logi from "../assets/roady11.svg";
+import log from "../assets/roady1.svg";
+import yelp from "../assets/insight.svg";
 
-
-export default function Clients () {
+export default function Clients() {
   return (
-    <section className='clients'>
-      <div className='container'>
+    <section className="clients">
+      <div className="container">
         <div className="row justify-content-center">
-          <div className="col-sm-8 text-center">
+          <div className="col-sm-12 text-center">
             <h2>Our Trusted Clients</h2>
-            <h6 className="mt-4">Know about our clients worldwide</h6>
-            <img src={clients} alt="clients" className="img-fluid w-100 mt-9" />
+            <div className="row mt-5">
+              <div className="col-sm-3 change-photos">
+                <div className="change-photo">
+                  <img src={lodo} alt="roady" />
+                </div>
+                <div className="change-photo">
+                  <img src={lod} alt="studyinsight" />
+                </div>
+              </div>
+              <div className="col-sm-3 change-photos">
+                <div className="change-photo">
+                  <img src={logi} alt="verny" />
+                </div>
+                <div className="change-photo">
+                  <img src={log} alt="studyinsight" />
+                </div>
+              </div>
+              <div className="col-sm-3 change-photos">
+                <div className="change-photo">
+                  <img src={dam} alt="studyinsight" />
+                </div>
+                <div className="change-photo">
+                  <img src={damn} alt="studyinsight" />
+                </div>
+              </div>
+              <div className="col-sm-3 change-photos">
+                <div className="change-photo">
+                  <img src={yep} alt="leapsail" />
+                </div>
+                <div className="change-photo">
+                  <img src={yelp} alt="leapsail" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="join">
-          <div className="row justify-content-center">
-            <div className="col-sm-6 text-center">
-              <img src={join} alt="join hargon" className="img-fluid" />
-              <h6 className="text-white mt-4">Sign up for free and take control of your finances.</h6>
-              <Link
-                to=""
-                className="btn btn-primary bg-white btn-main rounded-pill px-5 py-3 mt-5"
-                href="#!"
-                style={{color: "#228B22"}}
-              >
-                Get Started
-              </Link>
+
+        <div className="row justify-content-center">
+          <div className="col-sm-10">
+            <div className="join pb-0">
+              <div className="row">
+                <div className="col-sm-7">
+                  <h2 className="text-white">
+                    Join Hargon today & experience a world of financial
+                    <br />
+                    possibilities.{" "}
+                  </h2>
+                  <h6 className="my-4">
+                    Sign up for free and take control of your finances.
+                  </h6>
+                  <button className="btn-get">Get Started</button>
+                </div>
+                <div className="col-sm-5 mt-4">
+                  <img
+                    src={phone}
+                    alt="join hargon"
+                    className="img-fluid w-100"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <hr />
         <div className="mt-9">
-          <p>Hargon is a fully licensed digital lending platform. Hargon offers innovative financial solutions including investments and credit services. Our credit solution allows businesses and individuals to buy anything and pay for it in installments across online and offline Merchants by providing them with instant access to credit at the point of checkout.</p>
-          {/* <div>
-            <p>Merchants Onboarding</p>
-            <p>Once a Merchant partners with Hargon to accept and use our services, Hargon will onboard the Merchant on its platform by having the Merchant register or by registering the Merchant on a dedicated platform.  Hargon may list the Merchant’s business on the Hargon mobile application and/or website (“Marketplace”), such that  Hargon’s users or the Merchant’s patrons are able to pay for goods and services using credit advanced by Hargon</p>
-          </div> */}
+          <p>
+            Hargon is a fully licensed digital lending platform. Hargon offers
+            innovative financial solutions including investments and credit
+            services. Our credit solution allows businesses and individuals to
+            buy anything and pay for it in installments across online and
+            offline Merchants by providing them with instant access to credit at
+            the point of checkout.
+          </p>
         </div>
       </div>
     </section>
-    
-  )
+  );
 }

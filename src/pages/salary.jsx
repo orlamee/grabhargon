@@ -14,9 +14,10 @@ function SalaryAdvance () {
   return (
     <div>
       <div>
-        <Title title=" Salary Advance  " />
+        <Title title=" Salary advance financing solutions for businesses  " />
         <Description
-          description="Urgent situations require urgent attention. Get a salary advance and meet up with your financial responsibilities.
+          description=" 
+          Your staff did their job, paying them doesn't have to be difficult. Explore our salary advance financing solutions for your business
  "
         />
       </div>

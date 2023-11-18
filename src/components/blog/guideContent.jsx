@@ -1,6 +1,6 @@
 import React from "react";
 import pic from "../../assets/boy.png";
-import tip from "../../assets/blog-pills.png";
+import tip from "../../assets/pillls.svg";
 import non from "../../assets/boximg.png";
 import topic from "../../assets/guidemid.png";
 import dig from "../../assets/digit-box.png";
@@ -30,8 +30,8 @@ function GuideContent() {
             <div className="row">
               <div className="col-md-12">
                 <div className="my-5">
-                  <img src={tip} alt="" className="img-fluid mt-4 " />{" "}
-                  <h2 className="mt-3"> Guide for Startups</h2>
+                  <img src={tip} alt="" className="img-fluid mt-4 w-25" />{" "}
+                  <h2 className="mt-3"> Hargon's Guide for Startups</h2>
                 </div>
                 <div className="d-flex justify-content-start align-content-start">
                   <div className="">
@@ -420,10 +420,13 @@ function GuideContent() {
             <div className="text-center my-5">
               <div className="social-icon">
                 <div className="flex-row">
-                  <button className="btn nxt-blog  mx-1">
+                  
+                  <button   className="btn nxt-blog  mx-1">
                     {" "}
                     <Icon icon="bx:link" className="mx-1" /> Copy Link
                   </button>{" "}
+                  
+                 
                   <a href="https://www.facebook.com">
                     <img
                       src={facebook}

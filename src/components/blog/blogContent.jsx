@@ -63,7 +63,7 @@ function BlogContent() {
                       type="button"
                     >
                       {" "}
-                      Personal Loans
+                      Personal Loan
                     </button>
                     <button
                       className="btn next-blog  rounded-pill mx-2 "
